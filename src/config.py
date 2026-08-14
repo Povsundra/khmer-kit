@@ -47,3 +47,16 @@ FAISS_PATH = INDEX_DIR / "faiss.index"
 DOCSTORE_PATH = INDEX_DIR / "docstore.json"
 BM25_PATH = INDEX_DIR / "bm25_corpus.json"
 MANIFEST_PATH = INDEX_DIR / "manifest.json"
+
+
+def openrouter_api_key() -> str:
+    return _secret("OPENROUTER_API_KEY")
+
+
+def openrouter_model() -> str:
+    return _secret("OPENROUTER_MODEL", "google/gemini-2.0-flash-001")
+
+
+# Kept for local scripts; Cloud should call the functions above (secrets load late).
+OPENROUTER_API_KEY = openrouter_api_key()
+OPENROUTER_MODEL = openrouter_model()

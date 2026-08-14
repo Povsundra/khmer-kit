@@ -53,7 +53,7 @@ def get_embedder(model_name: str = EMBEDDING_MODEL, *, local_files_only: bool = 
         return _CACHE[model_name]
     try:
         embedder = Embedder(model_name, local_files_only=True)
-    except OSError:
+    except Exception:
         embedder = Embedder(model_name, local_files_only=False)
     _CACHE[model_name] = embedder
     return embedder

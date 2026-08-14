@@ -33,6 +33,27 @@ inject_theme()
 init_session_state()
 
 
+def _apply_streamlit_secrets() -> None:
+    """Copy Cloud secrets into env so retrieval/LLM see the key after reboot."""
+    try:
+        for key, value in st.secrets.items():
+            if isinstance(value, str) and value and not os.getenv(key):
+                os.environ[key] = value
+    except Exception:
+        pass
+
+
+@st.cache_resource(show_spinner="Loading cookbook search model (first visit can take a few minutes)…")
+def _warmup_search() -> bool:
+    from src.config import EMBEDDING_MODEL
+    from src.core.embed import get_embedder
+    from src.core.retrieve import _get_index_bundle
+
+    _get_index_bundle()
+    get_embedder(EMBEDDING_MODEL)
+    return True
+
+
 def _lang_param() -> QueryLanguage | None:
     return st.session_state.ui_lang  # "en" or "kh"
 
@@ -157,9 +178,12 @@ def render_suggestion_chips(category: str, slug: str | None) -> None:
 
 
 def main() -> None:
+    _apply_streamlit_secrets()
     if not FAISS_PATH.is_file():
         st.error("Recipe index not found. Run: `python scripts/build_index.py`")
         st.stop()
+
+    _warmup_search()
 
     category = render_sidebar()
     tab = render_top_bar(category)
@@ -169,16 +193,16 @@ def main() -> None:
     if tab == "Chat":
         render_chat_history(lang)
         render_suggestion_chips(category, slug)
-        query = st.chat_input("Ask about a recipe or technique…")
-        if query:
-            run_ask(query, _lang_param())
-            st.rerun()
-
     elif tab == "Browse":
         render_browse_tab(category, lang)
-
     elif tab == "Recipe":
         render_recipe_tab(category, slug, lang)
+
+    query = st.chat_input("Ask about a recipe or technique…")
+    if query:
+        st.session_state.active_tab = "Chat"
+        run_ask(query, _lang_param())
+        st.rerun()
 
 
 if __name__ == "__main__":
