@@ -9,7 +9,7 @@ import streamlit as st
 
 from src.core.engine import AnswerResult
 from src.core.language import QueryLanguage
-from src.interfaces.web.recipe_card import load_dish_json, render_recipe_preview_html
+from src.interfaces.web.recipe_card import load_dish_json, render_recipe_preview
 
 
 def _esc(text: str) -> str:
@@ -108,11 +108,20 @@ def render_chat_history(lang: QueryLanguage) -> None:
                 if slug and cat and not slug.startswith("_parent"):
                     dish = load_dish_json(cat, slug)
                     if dish:
-                        st.markdown(
-                            render_recipe_preview_html(dish, lang),
-                            unsafe_allow_html=True,
-                        )
+                        render_recipe_preview(dish, lang)
             i += 1
+
+
+def last_focus_slug() -> str | None:
+    """Sidebar selection, else the last assistant reply that named a real dish."""
+    slug = st.session_state.get("selected_slug")
+    if slug and not str(slug).startswith("_parent"):
+        return str(slug)
+    for msg in reversed(st.session_state.get("messages") or []):
+        s = msg.get("slug")
+        if msg.get("role") == "assistant" and s and not str(s).startswith("_parent"):
+            return str(s)
+    return None
 
 
 def run_ask(query: str, lang: QueryLanguage | None) -> None:
@@ -120,7 +129,11 @@ def run_ask(query: str, lang: QueryLanguage | None) -> None:
 
     try:
         with st.spinner("Searching the cookbook…"):
-            result = answer_query(query.strip(), lang=lang)
+            result = answer_query(
+                query.strip(),
+                lang=lang,
+                focus_slug=last_focus_slug(),
+            )
     except Exception as exc:
         st.error(
             "Could not answer this question. On first Cloud boot the embedding "

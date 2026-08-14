@@ -107,6 +107,9 @@ _PATTERNS: dict[QueryIntent, list[re.Pattern[str]]] = {
             r"steps for",
             r"tell me how to",
             r"របៀបធ្វើ",
+            r"របៀបចៀន",
+            r"របៀបដាំ",
+            r"វិធីធ្វើ",
         ]
     ],
     "technique": [

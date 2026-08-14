@@ -23,31 +23,50 @@ def dishes_for_category(category: str) -> list[dict[str, Any]]:
 
 
 @st.cache_data(show_spinner=False)
-def load_dish_json(category: str, slug: str) -> dict[str, Any] | None:
+def _load_dish_json_cached(category: str, slug: str, file_mtime: float) -> dict[str, Any] | None:
     path = PROCESSED / category / f"{slug}.json"
     if not path.is_file():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _esc(text: str) -> str:
-    return html.escape(text)
+def load_dish_json(category: str, slug: str) -> dict[str, Any] | None:
+    path = PROCESSED / category / f"{slug}.json"
+    if not path.is_file():
+        return None
+    mtime = path.stat().st_mtime
+    return _load_dish_json_cached(category, slug, mtime)
 
 
-def render_recipe_preview_html(dish: dict[str, Any], lang: QueryLanguage) -> str:
+def clear_dish_json_cache() -> None:
+    _load_dish_json_cached.clear()
+
+
+def render_recipe_preview(dish: dict[str, Any], lang: QueryLanguage) -> None:
+    """Compact retrieved-recipe preview under chat answers."""
     name_en = dish.get("dish_name_en", "")
     name_kh = dish.get("dish_name_kh", "")
     n_ing = len(dish.get("ingredients", []))
     n_steps = len(dish.get("steps", []))
     title = name_kh if lang == "kh" else name_en.split("(")[0].strip()
     subtitle = f"{n_ing} ingredients · {n_steps} steps"
-    return f"""
-    <div class="card-preview">
-        <div class="card-preview-label">Retrieved recipe</div>
-        <div class="recipe-title khmer">{_esc(title)}</div>
-        <div style="color: var(--muted); font-size: 0.85rem;">{_esc(subtitle)}</div>
-    </div>
-    """
+    with st.container(border=True):
+        st.caption("Retrieved recipe")
+        if lang == "kh":
+            st.markdown(f'<p class="khmer" style="margin:0;font-weight:600;">{html.escape(title)}</p>', unsafe_allow_html=True)
+        else:
+            st.markdown(f"**{html.escape(title)}**")
+        st.markdown(f'<span style="color:#8B949E;font-size:0.85rem;">{html.escape(subtitle)}</span>', unsafe_allow_html=True)
+
+
+def render_recipe_preview_html(dish: dict[str, Any], lang: QueryLanguage) -> str:
+    """Deprecated: use render_recipe_preview(). Kept for callers that need HTML strings."""
+    name_en = dish.get("dish_name_en", "")
+    name_kh = dish.get("dish_name_kh", "")
+    title = name_kh if lang == "kh" else name_en.split("(")[0].strip()
+    n_ing = len(dish.get("ingredients", []))
+    n_steps = len(dish.get("steps", []))
+    return f"{title} — {n_ing} ingredients · {n_steps} steps"
 
 
 def render_recipe_card(dish: dict[str, Any], lang: QueryLanguage) -> None:
@@ -58,46 +77,38 @@ def render_recipe_card(dish: dict[str, Any], lang: QueryLanguage) -> None:
     needs_safety = any(s.get("requires_safety_review") for s in steps)
 
     if lang == "kh":
-        ing_items = [_esc(i.get("raw_kh", "")) for i in ingredients]
-        step_items = [_esc(s.get("text_kh", "")) for s in steps]
+        ing_items = [i.get("raw_kh", "") for i in ingredients if i.get("raw_kh")]
+        step_items = [s.get("text_kh", "") for s in steps if s.get("text_kh")]
         ing_label = "គ្រឿងផ្សំ"
         steps_label = "របៀបធ្វើ"
         safety_msg = "រូបមន្តនេះមានគ្រឿងឬជំហានដែលត្រូវការប្រុងប្រយ័ត្ន (ឧ. ថ្លើម)។"
     else:
-        ing_items = [_esc(i.get("standardized_en", "")) for i in ingredients]
-        step_items = [_esc(s.get("text_en", "")) for s in steps]
+        ing_items = [i.get("standardized_en", "") for i in ingredients if i.get("standardized_en")]
+        step_items = [s.get("text_en", "") for s in steps if s.get("text_en")]
         ing_label = "Ingredients"
         steps_label = "Steps"
         safety_msg = "This recipe includes ingredients or steps that may need extra care (e.g. liver)."
 
-    ing_html = "".join(f"<li>{item}</li>" for item in ing_items if item)
-    steps_html = "".join(f"<li>{item}</li>" for item in step_items if item)
+    source_type = dish.get("source_type", "published_textbook").replace("_", " ")
+    citation = dish.get("source_citation", "")
 
-    safety_html = ""
-    if needs_safety:
-        safety_html = f'<div class="safety-banner">{_esc(safety_msg)}</div>'
+    with st.container(border=True):
+        st.markdown(f"**{name_en}**")
+        if name_kh:
+            st.markdown(
+                f'<p class="khmer recipe-title-kh" style="margin:0.25rem 0 0.75rem 0;color:#8B949E;">'
+                f"{html.escape(name_kh)}</p>",
+                unsafe_allow_html=True,
+            )
+        if needs_safety:
+            st.warning(safety_msg)
 
-    source_type = _esc(dish.get("source_type", "published_textbook").replace("_", " "))
-    citation = _esc(dish.get("source_citation", ""))
+        col1, col2 = st.columns(2)
+        with col1:
+            st.markdown(f"**{ing_label}**")
+            st.markdown("\n".join(f"- {item}" for item in ing_items))
+        with col2:
+            st.markdown(f"**{steps_label}**")
+            st.markdown("\n".join(f"{i}. {text}" for i, text in enumerate(step_items, start=1)))
 
-    st.markdown(
-        f"""
-        <div class="card">
-            <div class="recipe-title">{_esc(name_en)}</div>
-            <div class="recipe-title khmer recipe-title-kh">{_esc(name_kh)}</div>
-            {safety_html}
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
-                <div class="recipe-col">
-                    <h4>{ing_label}</h4>
-                    <ul>{ing_html}</ul>
-                </div>
-                <div class="recipe-col">
-                    <h4>{steps_label}</h4>
-                    <ol>{steps_html}</ol>
-                </div>
-            </div>
-            <div class="source-footer">Source: {source_type} · {citation}</div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+        st.caption(f"Source: {source_type} · {citation}")

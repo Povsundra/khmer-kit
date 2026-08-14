@@ -26,6 +26,9 @@ _PREFIX_RE = re.compile(
     r"i want to (?:eat|make|cook)|what(?:'s| is) in)\s+",
     re.I,
 )
+_KH_PREFIX_RE = re.compile(
+    r"^(?:របៀបចៀន|របៀបធ្វើ|របៀបដាំ|វិធីធ្វើ)\s*",
+)
 
 
 @dataclass
@@ -90,6 +93,7 @@ def extract_requested_dish_phrase(query: str) -> str | None:
     """Strip intent prefixes to get the dish name the user asked for."""
     text = query.strip()
     text = _PREFIX_RE.sub("", text).strip()
+    text = _KH_PREFIX_RE.sub("", text).strip()
     # Drop trailing context clauses
     for sep in (" but ", " what should", " what do", " at the market", " without "):
         idx = text.lower().find(sep)
@@ -158,6 +162,16 @@ def _match_ingredient(query_norm: str) -> str | None:
     return None
 
 
+def dish_by_slug(slug: str | None) -> dict[str, Any] | None:
+    """Return a checklist dish, or None for missing / parent slugs."""
+    if not slug or slug.startswith("_parent"):
+        return None
+    for dish in _load_registry():
+        if dish["slug"] == slug:
+            return dish
+    return None
+
+
 def _apply_dish(
     entities: Entities,
     dish: dict[str, Any],
@@ -179,7 +193,8 @@ def _apply_dish(
     if method == "exact":
         entities.signals.append(f"dish:{dish['slug']}:{match_len}")
     else:
-        entities.signals.append(f"dish_{method}:{dish['slug']}:{score:.0f}")
+        score_part = f"{score:.0f}" if score is not None else "0"
+        entities.signals.append(f"dish_{method}:{dish['slug']}:{score_part}")
 
 
 def _resolve_fuzzy(entities: Entities, phrase: str) -> bool:

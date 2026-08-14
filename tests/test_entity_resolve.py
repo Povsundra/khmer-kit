@@ -52,6 +52,21 @@ class EntityResolveTests(unittest.TestCase):
         self.assertEqual(entities.slug, "omelette")
         self.assertEqual(entities.match_method, "alias")
 
+    def test_khmer_omelette_query(self) -> None:
+        from src.core.intent import classify_intent
+
+        q = "របៀបចៀនពងមាន់"
+        self.assertEqual(classify_intent(q).intent, "how_to_cook")
+        entities = extract_entities(q)
+        self.assertTrue(entities.dish_known)
+        self.assertEqual(entities.slug, "omelette")
+
+    def test_khmer_omelette_alias_phrase(self) -> None:
+        result = resolve_dish_phrase("ពងទាឬពងមាន់")
+        self.assertIsNotNone(result)
+        assert result is not None
+        self.assertEqual(result.slug, "omelette")
+
 
 if __name__ == "__main__":
     unittest.main()

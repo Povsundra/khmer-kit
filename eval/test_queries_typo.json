@@ -48,5 +48,12 @@
     "query": "how to make omlette",
     "expected_intent": "how_to_cook",
     "must_contain": ["Omelette", "step"]
+  },
+  {
+    "id": "t09",
+    "query": "របៀបចៀនពងមាន់",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["ពង", "របៀបធ្វើ"],
+    "must_not_contain": ["បាយដំណើប"]
   }
 ]

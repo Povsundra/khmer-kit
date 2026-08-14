@@ -35,6 +35,9 @@ init_session_state()
 
 def _apply_streamlit_secrets() -> None:
     """Copy Cloud secrets into env so retrieval/LLM see the key after reboot."""
+    secrets_path = ROOT / ".streamlit" / "secrets.toml"
+    if not secrets_path.is_file():
+        return
     try:
         for key, value in st.secrets.items():
             if isinstance(value, str) and value and not os.getenv(key):

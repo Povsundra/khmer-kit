@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from src.config import RETRIEVAL_MIN_SCORE
+from src.core.context import apply_focus
 from src.core.entities import Entities, extract_entities
 from src.core.format import (
     format_category_browse,
@@ -75,6 +76,19 @@ def _fuzzy_match_hint(text: str, entities: Entities, lang: QueryLanguage) -> str
     return f"{hint}\n\n{text}"
 
 
+def _context_hint(text: str, entities: Entities, lang: QueryLanguage) -> str:
+    if entities.match_method == "focus":
+        dish_label = (entities.dish_name_en or entities.slug or "").split("(")[0].strip()
+        if not dish_label:
+            return text
+        if lang == "kh":
+            hint = f"(និយាយពី {entities.dish_name_kh or dish_label})"
+        else:
+            hint = f"(About {dish_label})"
+        return f"{hint}\n\n{text}"
+    return _fuzzy_match_hint(text, entities, lang)
+
+
 def _resolve_parent_hit(hits: list[dict[str, Any]], entities: Entities) -> dict[str, Any] | None:
     for hit in hits:
         if hit.get("chunk_type") == "parent":
@@ -98,13 +112,27 @@ def _resolve_ingredients_hit(hits: list[dict[str, Any]], entities: Entities) -> 
     return None
 
 
-def answer_query(user_query: str, *, lang: str | None = None) -> AnswerResult:
+def answer_query(
+    user_query: str,
+    *,
+    lang: str | None = None,
+    focus_slug: str | None = None,
+) -> AnswerResult:
     query = user_query.strip()
     response_lang: QueryLanguage = lang if lang in ("en", "kh") else detect_query_language(query)
 
     intent_result = classify_intent(query)
     intent = intent_result.intent
     entities = extract_entities(query)
+    apply_focus(query, intent, entities, focus_slug)
+
+    if (
+        intent == "dish_lookup"
+        and entities.dish_known
+        and entities.slug
+        and not str(entities.slug).startswith("_parent")
+    ):
+        intent = "how_to_cook"
 
     if intent == "out_of_scope":
         return AnswerResult(
@@ -114,10 +142,22 @@ def answer_query(user_query: str, *, lang: str | None = None) -> AnswerResult:
             confidence=intent_result.confidence,
         )
 
-    rewritten = rewrite_query(query, intent, entities)
-    hits = search_for_intent(rewritten, intent, entities, top_k=5)
-    score = _top_score(hits)
-    citations = _citations_from_hits(hits)
+    # Known-dish templates read the docstore by slug; skip embedding search.
+    template_from_slug = (
+        entities.dish_known
+        and intent in ("ingredients", "shopping_list", "how_to_cook")
+        and entities.slug
+        and not str(entities.slug).startswith("_parent")
+    )
+    if template_from_slug:
+        hits: list[dict[str, Any]] = []
+        score = 1.0
+        citations: list[str] = []
+    else:
+        rewritten = rewrite_query(query, intent, entities)
+        hits = search_for_intent(rewritten, intent, entities, top_k=5)
+        score = _top_score(hits)
+        citations = _citations_from_hits(hits)
 
     def _unknown_dish_answer() -> AnswerResult:
         name = entities.requested_name or query
@@ -163,7 +203,7 @@ def answer_query(user_query: str, *, lang: str | None = None) -> AnswerResult:
         if ing_hit:
             fmt = format_shopping_list if intent == "shopping_list" else format_ingredients
             return AnswerResult(
-                text=_fuzzy_match_hint(fmt(ing_hit, response_lang), entities, response_lang),
+                text=_context_hint(fmt(ing_hit, response_lang), entities, response_lang),
                 intent=intent,
                 lang=response_lang,
                 confidence=intent_result.confidence,
@@ -189,7 +229,7 @@ def answer_query(user_query: str, *, lang: str | None = None) -> AnswerResult:
             if text:
                 steps = get_chunks_for_slug(slug, chunk_type="step")
                 return AnswerResult(
-                    text=_fuzzy_match_hint(text, entities, response_lang),
+                    text=_context_hint(text, entities, response_lang),
                     intent=intent,
                     lang=response_lang,
                     confidence=intent_result.confidence,

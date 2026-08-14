@@ -82,7 +82,7 @@ INGREDIENT_GLOSSARY: dict[str, str] = {
     "អង្ករដំណើប": "Glutinous rice",
     "សណ្តែកបាយ": "Soybeans",
     "ស្លឹកឫស្សី": "Pandan leaves",
-    "ពងទាប": "Duck egg",
+    "ពងទា": "Duck egg",
     "ពងមាន់": "Chicken egg",
     "កោះ": "Chicken gizzard",
     "ត្រយូងចេក": "Banana blossom",

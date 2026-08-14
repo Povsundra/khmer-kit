@@ -1,13 +1,13 @@
 {
-  "dish_name_kh": "ពងទាបឬពងមាន់ចៀន (Omelette)",
+  "dish_name_kh": "ពងទាឬពងមាន់ចៀន (Omelette)",
   "dish_name_en": "Omelette (Duck or Chicken Egg)",
   "category": "other",
   "source_type": "published_textbook",
   "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
   "ingredients": [
     {
-      "raw_kh": "ពងទាបឬពងមាន់",
-      "standardized_en": "Chicken"
+      "raw_kh": "ពងទាឬពងមាន់",
+      "standardized_en": "Duck or chicken egg"
     },
     {
       "raw_kh": "ខ្លាញ់",

@@ -31,10 +31,14 @@ def main() -> int:
         choices=("en", "kh"),
         help="Force response language (default: auto-detect from query)",
     )
+    parser.add_argument(
+        "--focus-slug",
+        help="Prior dish slug for follow-ups like 'ingredients of this soup'",
+    )
     args = parser.parse_args()
 
     try:
-        result = answer_query(args.query, lang=args.lang)
+        result = answer_query(args.query, lang=args.lang, focus_slug=args.focus_slug)
     except FileNotFoundError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         print("Run: python scripts/build_index.py", file=sys.stderr)

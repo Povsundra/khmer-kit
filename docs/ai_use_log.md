@@ -19,7 +19,7 @@ Logged as work happened; summarized for D3 (`docs/D3_REPORT.md`).
 | 2026-08-14 | 8 | Streamlit Chat / Browse / Recipe UI | Cursor Grok 4.6 | Warm dark theme; bilingual cards | `python scripts/run_app.py` localhost:8501 |
 | 2026-08-14 | 8 | Header scroll / tab overlay CSS | Cursor Grok 4.6 | Stop Chat/Browse/Recipe sticking to viewport | Visual check after theme change (F14) |
 | 2026-08-14 | 9 | Golden set + `run_eval.py` Hit@k / citation / faithfulness | Cursor Grok 4.6 | 20 queries; lexical faithfulness + optional LLM judge | `eval/results/phase9_eval.md` all gates PASS |
-| 2026-08-14 | 10 | Failure log, D3 report, this log | Cursor Grok 4.6 | ≥10 real failures from CLI probes + eval artifacts | Cross-checked against live `answer_query()` on 2026-08-14 |
+| 2026-08-14 | 7 | Conversational follow-up (`this soup` → last dish) | Cursor Grok 4.6 | `apply_focus()`; no full chat history to LLM | `python -m unittest tests.test_context` |
 
 ## Models in the running system
 
