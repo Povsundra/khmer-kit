@@ -118,8 +118,15 @@ def render_chat_history(lang: QueryLanguage) -> None:
 def run_ask(query: str, lang: QueryLanguage | None) -> None:
     from src.core.engine import answer_query
 
-    with st.spinner("Searching the cookbook…"):
-        result = answer_query(query.strip(), lang=lang)
+    try:
+        with st.spinner("Searching the cookbook…"):
+            result = answer_query(query.strip(), lang=lang)
+    except Exception as exc:
+        st.error(
+            "Could not answer this question. On first Cloud boot the embedding "
+            f"model may still be downloading. Details: {type(exc).__name__}: {exc}"
+        )
+        return
     append_exchange(query.strip(), result)
     if result.chunks_used:
         slug = result.chunks_used[0].get("slug")

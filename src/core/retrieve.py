@@ -35,7 +35,7 @@ def _min_max(scores: np.ndarray) -> np.ndarray:
 def _semantic_scores(query: str, candidate_ids: list[int]) -> dict[int, float]:
     index, chunks, _, manifest = _get_index_bundle()
     model_name = manifest.get("embedding_model", "paraphrase-multilingual-mpnet-base-v2")
-    embedder = get_embedder(model_name, local_files_only=True)
+    embedder = get_embedder(model_name)
     q_vec = embedder.encode([query])
     sem_scores, sem_ids = index.search(q_vec, len(chunks))
     id_set = set(candidate_ids)

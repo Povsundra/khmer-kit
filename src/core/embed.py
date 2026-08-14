@@ -3,17 +3,26 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
-# Avoid TensorFlow/Keras import issues on Windows; sentence-transformers uses PyTorch.
+# Avoid TensorFlow/Keras import issues; sentence-transformers uses PyTorch.
 os.environ.setdefault("TRANSFORMERS_NO_TF", "1")
 os.environ.setdefault("USE_TF", "0")
 os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
+
+_tmp_hf = Path("/tmp/huggingface")
+try:
+    _tmp_hf.mkdir(parents=True, exist_ok=True)
+    os.environ.setdefault("HF_HOME", str(_tmp_hf))
+    os.environ.setdefault("SENTENCE_TRANSFORMERS_HOME", str(_tmp_hf / "sentence_transformers"))
+except OSError:
+    pass
 
 import numpy as np
 
 from src.config import EMBEDDING_MODEL
 
-_CACHE: dict[tuple[str, bool], "Embedder"] = {}
+_CACHE: dict[str, "Embedder"] = {}
 
 
 class Embedder:
@@ -40,7 +49,11 @@ class Embedder:
 
 
 def get_embedder(model_name: str = EMBEDDING_MODEL, *, local_files_only: bool = False) -> Embedder:
-    key = (model_name, local_files_only)
-    if key not in _CACHE:
-        _CACHE[key] = Embedder(model_name, local_files_only=local_files_only)
-    return _CACHE[key]
+    if model_name in _CACHE:
+        return _CACHE[model_name]
+    try:
+        embedder = Embedder(model_name, local_files_only=True)
+    except OSError:
+        embedder = Embedder(model_name, local_files_only=False)
+    _CACHE[model_name] = embedder
+    return embedder
