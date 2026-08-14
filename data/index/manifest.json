@@ -1,0 +1,10 @@
+{
+  "built_at": "2026-08-14T07:00:10.311786+00:00",
+  "embedding_model": "paraphrase-multilingual-mpnet-base-v2",
+  "chunk_count": 72,
+  "step_chunks": 54,
+  "ingredient_chunks": 14,
+  "parent_chunks": 4,
+  "faiss_path": "data\\index\\faiss.index",
+  "docstore_path": "data\\index\\docstore.json"
+}

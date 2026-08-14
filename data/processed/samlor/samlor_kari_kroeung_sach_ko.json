@@ -1,0 +1,132 @@
+{
+  "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+  "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "សាច់គោ",
+      "standardized_en": "Beef"
+    },
+    {
+      "raw_kh": "(យកសាច់សម្រាប់ស្ល)",
+      "standardized_en": "(យកសាច់សម្រាប់ស្ល)"
+    },
+    {
+      "raw_kh": "ឬយកកម្ទេចសាច់តាមចូលចិត្ត",
+      "standardized_en": "ឬយកកម្ទេចសាច់តាមចូលចិត្ត"
+    },
+    {
+      "raw_kh": "ថ្លើម",
+      "standardized_en": "Liver"
+    },
+    {
+      "raw_kh": "បេះដូង",
+      "standardized_en": "Heart"
+    },
+    {
+      "raw_kh": "បន្លែត្រកួន",
+      "standardized_en": "បន្លែត្រកួន"
+    },
+    {
+      "raw_kh": "ឬត្រប់",
+      "standardized_en": "ឬត្រប់"
+    },
+    {
+      "raw_kh": "ឬប៉េងប៉ោះ",
+      "standardized_en": "ឬប៉េងប៉ោះ"
+    },
+    {
+      "raw_kh": "ប្រហុកល្អ",
+      "standardized_en": "Good quality prahok"
+    },
+    {
+      "raw_kh": "ម្ជូរអំពិល",
+      "standardized_en": "Tamarind"
+    },
+    {
+      "raw_kh": "គល់ស្លឹកគ្រៃ",
+      "standardized_en": "Lemongrass seeds"
+    },
+    {
+      "raw_kh": "អំពិលខ្ចីឬក្រសាំង",
+      "standardized_en": "អំពិលខ្ចីឬក្រសាំង"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    },
+    {
+      "raw_kh": "រំដេង",
+      "standardized_en": "Galangal"
+    },
+    {
+      "raw_kh": "សំបកក្រូចសើច",
+      "standardized_en": "Kaffir lime zest"
+    },
+    {
+      "raw_kh": "ស្លឹកកន្ទ្រោបឬ",
+      "standardized_en": "Holy basil leaves"
+    },
+    {
+      "raw_kh": "ស្លឹកក្រូចសើច",
+      "standardized_en": "Kaffir lime leaves"
+    },
+    {
+      "raw_kh": "រមៀត",
+      "standardized_en": "Turmeric"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "សាច់គោ ថ្លើម បេះដូង ហាន់ជាបន្ទះស្តើងល្មម ម្ជូរអំពិលឆ្កឹះ គ្រាប់ត្រាំទឹកឱ្យទន់",
+      "text_en": "Slice the beef, liver, and heart into moderate strips; soak tamarind and lemongrass seeds until soft.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 1: Slice the beef, liver, and heart into moderate strips; soak tamarind and lemongrass seeds until soft."
+    },
+    {
+      "step": 2,
+      "text_kh": "គល់ស្លឹកគ្រៃហាន់ឱ្យល្អិត រំដេង សំបកក្រូចសើច រមៀតហាន់ឱ្យល្អិតទាំងអស់ បុកឱ្យម៉ដ្ឋ",
+      "text_en": "Finely chop lemongrass seeds, galangal, kaffir lime zest, and turmeric; pound until smooth.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 2: Finely chop lemongrass seeds, galangal, kaffir lime zest, and turmeric; pound until smooth."
+    },
+    {
+      "step": 3,
+      "text_kh": "ដាក់សាច់គោ ថ្លើម បេះដូងក្នុងឆ្នាំង ដាក់គ្រឿងបុក ប្រហុកចិញ្ច្រាំ ម្ជូរអំពិល ឬក្រសាំងច្របល់ឱ្យសព្វ ដាក់រម្ងាស់ឱ្យរីងទឹកបន្តិច",
+      "text_en": "Add beef, liver, and heart to the pot with the pounded paste, minced prahok, and tamarind or galangal; simmer briefly.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 3: Add beef, liver, and heart to the pot with the pounded paste, minced prahok, and tamarind or galangal; simmer briefly."
+    },
+    {
+      "step": 4,
+      "text_kh": "ថែមទឹកដាំឱ្យពុះ ស្រង់អំពិលចេញសិន រម្ងាស់ទៅទៀតឱ្យផុយសាច់ បង់បន្លែ រម្ងាស់ឱ្យផុយសាច់ ឆ្អិនបន្លែ",
+      "text_en": "Add more water and bring to a boil; remove tamarind; simmer until meat is tender; add vegetables and cook through.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 4: Add more water and bring to a boil; remove tamarind; simmer until meat is tender; add vegetables and cook through."
+    },
+    {
+      "step": 5,
+      "text_kh": "ចាក់ទឹកត្រី ដាក់អំបិលភ្លក់ឱ្យល្មម បង់ស្លឹកក្រូចសើច ឬស្លឹកកន្ទ្រោប (ត្រូវរោលភ្លើង)",
+      "text_en": "Add fish sauce and salt to taste; finish with kaffir lime leaves or holy basil off the heat.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 5: Add fish sauce and salt to taste; finish with kaffir lime leaves or holy basil off the heat."
+    }
+  ],
+  "common_mistake": ""
+}

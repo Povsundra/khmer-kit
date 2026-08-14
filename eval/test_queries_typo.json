@@ -1,0 +1,52 @@
+[
+  {
+    "id": "t01",
+    "query": "How to make Omelette?",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Omelette", "step"],
+    "must_not_contain": ["don't have", "not in this cookbook"]
+  },
+  {
+    "id": "t02",
+    "query": "How to make Oemlette?",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Omelette", "step"],
+    "must_not_contain": ["don't have"]
+  },
+  {
+    "id": "t03",
+    "query": "ingredients for samlor korko",
+    "expected_intent": "ingredients",
+    "must_contain": ["Samlor Kako", "Palm"]
+  },
+  {
+    "id": "t04",
+    "query": "how to cook samlor machu beef",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Machu", "step"]
+  },
+  {
+    "id": "t05",
+    "query": "how to cook cha sach morn",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["don't have", "Cha Mi Sour"]
+  },
+  {
+    "id": "t06",
+    "query": "how to cook soup",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["don't have"]
+  },
+  {
+    "id": "t07",
+    "query": "ingredients for chek chieng",
+    "expected_intent": "ingredients",
+    "must_contain": ["Chek Chien", "banana"]
+  },
+  {
+    "id": "t08",
+    "query": "how to make omlette",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Omelette", "step"]
+  }
+]

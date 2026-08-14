@@ -1,0 +1,14 @@
+{
+  "category": "samlor",
+  "title_en": "Samlor & Sngor (Khmer Soups)",
+  "title_kh": "សម្ល និង ស្ងោរ",
+  "summary_en": "Khmer soup dishes including samlor (brothy soups with meat, fish, and vegetables) and sngor (lighter broths). In Khmer cookbooks, sngor is grouped with samlor. Techniques cover simmering, seasoning with fish sauce, and adding herbs at the end.",
+  "dishes": [
+    {"slug": "samlor_chap_chhay", "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)"},
+    {"slug": "samlor_kako_phlae_tnoat", "dish_name_en": "Samlor Kako with Young Palm Fruit"},
+    {"slug": "samlor_kari_kroeung_sach_ko", "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)"},
+    {"slug": "samlor_proheur", "dish_name_en": "Samlor Proheur (Sour Fish Soup)"},
+    {"slug": "sngor_chrouk_spay_chrok", "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup"},
+    {"slug": "sngor_prohet_trei_slat", "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage"}
+  ]
+}

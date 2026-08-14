@@ -1,0 +1,11 @@
+{
+  "category": "cha",
+  "title_en": "Cha (Khmer Stir-fries)",
+  "title_kh": "ឆា",
+  "summary_en": "Khmer stir-fried dishes cooked quickly in a wok with oil, garlic, and seasonings. Includes meat, fish, and noodle stir-fries. Key techniques: fry aromatics first, high heat, season with fish sauce and adjust taste at the end.",
+  "dishes": [
+    {"slug": "cha_khtuem_barang", "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)"},
+    {"slug": "kroeung_sach_trei", "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)"},
+    {"slug": "cha_mi_sour", "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)"}
+  ]
+}

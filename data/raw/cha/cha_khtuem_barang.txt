@@ -1,0 +1,14 @@
+# slug: cha_khtuem_barang
+# source_type: published_textbook
+# source_citation: Khmer cookbook (paraphrased), scan collection 2026
+# verified: yes
+# notes: Extracted from PNG — VERIFY all characters
+# scan: data/source_scans/cha/Cha Khtuem Barang.png
+
+ឆាខ្ទឹមបារាំង
+
+គ្រឿងផ្សំ
+ឆ្អឹងជំនីរជ្រូកខ្ចី ខ្ទឹមបារាំង ម្សៅឆា ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ទឹកខ្លះ ។
+
+របៀបធ្វើ
+ឆ្អឹងជំនីរខ្ចីកាត់ដុំៗ ខ្ទឹមបារាំង កាត់បណ្ដោយធំៗ ដាំខ្ទះដាក់ខ្លាញ់ឱ្យក្តៅ ដាក់ឆ្អឹងជំនីរជ្រូកខ្ចីឆាចូល ចាក់ទឹកត្រី ដាក់ខ្ទឹមបារាំង អំបិល ស្ករ ម្សៅស៊ុប ចាក់ទឹកខ្លះបន្តិច លាយម្សៅឆាចាក់ចូលបន្តិច ភ្លក្សមើលឱ្យល្មមតាមចូលចិត្ត ។

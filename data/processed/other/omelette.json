@@ -1,0 +1,48 @@
+{
+  "dish_name_kh": "ពងទាបឬពងមាន់ចៀន (Omelette)",
+  "dish_name_en": "Omelette (Duck or Chicken Egg)",
+  "category": "other",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ពងទាបឬពងមាន់",
+      "standardized_en": "Chicken"
+    },
+    {
+      "raw_kh": "ខ្លាញ់",
+      "standardized_en": "Cooking oil"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ គោះពងមាន់ ដាក់លើខ្ទះ រោយអំបិល ស្ករ",
+      "text_en": "Heat a pan with oil; beat the eggs, pour onto the pan, and sprinkle with salt and sugar.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer other dish Omelette (Duck or Chicken Egg), step 1: Heat a pan with oil; beat the eggs, pour onto the pan, and sprinkle with salt and sugar."
+    },
+    {
+      "step": 2,
+      "text_kh": "ម្រេច ត្រឡប់រួចដួសដាក់ចាន ជាការស្រេច",
+      "text_en": "Add black pepper, flip once cooked, then scoop onto a plate to serve.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer other dish Omelette (Duck or Chicken Egg), step 2: Add black pepper, flip once cooked, then scoop onto a plate to serve."
+    }
+  ],
+  "common_mistake": ""
+}

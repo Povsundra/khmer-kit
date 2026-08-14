@@ -1,0 +1,11 @@
+{
+  "category": "dessert",
+  "title_en": "Khmer Desserts & Sweet Snacks",
+  "title_kh": "បង្អែម",
+  "summary_en": "Traditional Khmer sweet dishes including fried bananas, glutinous rice cakes, and steamed rice parcels. Techniques include frying batters, wrapping in banana leaves, and long steaming times.",
+  "dishes": [
+    {"slug": "bay_damnaeub_mukh_bangkea", "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)"},
+    {"slug": "chek_chien", "dish_name_en": "Chek Chien (Fried Bananas)"},
+    {"slug": "num_ansom_chrouk", "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)"}
+  ]
+}

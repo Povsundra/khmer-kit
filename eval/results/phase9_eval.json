@@ -1,0 +1,679 @@
+{
+  "generated_at": "2026-08-14T09:14:54.027508+00:00",
+  "targets": {
+    "hit_at_1": 70.0,
+    "hit_at_3": 60.0,
+    "faithfulness": 3.5,
+    "citation": 80.0
+  },
+  "summary": {
+    "query_count": 20,
+    "retrieval_n": 18,
+    "hit_at_1": 18,
+    "hit_at_3": 18,
+    "hit_at_1_pct": 100.0,
+    "hit_at_3_pct": 100.0,
+    "citation": 20,
+    "citation_pct": 100.0,
+    "intent": 20,
+    "intent_pct": 100.0,
+    "contains": 20,
+    "contains_pct": 100.0,
+    "faithfulness_avg": 4.64,
+    "faithfulness_llm_used": false,
+    "by_query_type": {
+      "category": {
+        "total": 2,
+        "hit_at_1": 2,
+        "hit_at_3": 2,
+        "retr_n": 2,
+        "citation": 2,
+        "faith_sum": 9.379999999999999,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.69
+      },
+      "ingredients": {
+        "total": 3,
+        "hit_at_1": 3,
+        "hit_at_3": 3,
+        "retr_n": 3,
+        "citation": 3,
+        "faith_sum": 14.02,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.67
+      },
+      "shopping": {
+        "total": 1,
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "retr_n": 1,
+        "citation": 1,
+        "faith_sum": 4.26,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.26
+      },
+      "how_to_cook": {
+        "total": 6,
+        "hit_at_1": 6,
+        "hit_at_3": 6,
+        "retr_n": 6,
+        "citation": 6,
+        "faith_sum": 28.609999999999996,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.77
+      },
+      "technique": {
+        "total": 3,
+        "hit_at_1": 3,
+        "hit_at_3": 3,
+        "retr_n": 3,
+        "citation": 3,
+        "faith_sum": 14.0,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.67
+      },
+      "recommend": {
+        "total": 1,
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "retr_n": 1,
+        "citation": 1,
+        "faith_sum": 4.22,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.22
+      },
+      "substitution": {
+        "total": 1,
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "retr_n": 1,
+        "citation": 1,
+        "faith_sum": 4.35,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 4.35
+      },
+      "out_of_scope": {
+        "total": 1,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "retr_n": 0,
+        "citation": 1,
+        "faith_sum": 5.0,
+        "hit_at_1_pct": 0.0,
+        "hit_at_3_pct": 0.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 5.0
+      },
+      "khmer": {
+        "total": 1,
+        "hit_at_1": 1,
+        "hit_at_3": 1,
+        "retr_n": 1,
+        "citation": 1,
+        "faith_sum": 3.95,
+        "hit_at_1_pct": 100.0,
+        "hit_at_3_pct": 100.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 3.95
+      },
+      "missing_dish": {
+        "total": 1,
+        "hit_at_1": 0,
+        "hit_at_3": 0,
+        "retr_n": 0,
+        "citation": 1,
+        "faith_sum": 5.0,
+        "hit_at_1_pct": 0.0,
+        "hit_at_3_pct": 0.0,
+        "citation_pct": 100.0,
+        "faithfulness_avg": 5.0
+      }
+    },
+    "gates": {
+      "hit_at_1": "PASS",
+      "hit_at_3": "PASS",
+      "faithfulness": "PASS",
+      "citation": "PASS"
+    }
+  },
+  "results": [
+    {
+      "id": "g01",
+      "query": "what soups are in the samlor category?",
+      "query_type": "category",
+      "expected_intent": "category_browse",
+      "predicted_intent": "category_browse",
+      "intent_ok": true,
+      "expected_slug": "_parent_samlor",
+      "retrieved_slugs": [
+        "_parent_samlor",
+        "_parent_other",
+        "samlor_proheur",
+        "samlor_chap_chhay"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.76,
+      "faithfulness_heuristic": 4.76,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Category overview (corpus parent document)",
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Samlor & Sngor (Khmer Soups)  Khmer soup dishes including samlor (brothy soups with meat, fish, and vegetables) and sngor (lighter broths). In Khmer cookbooks, sngor is grouped with samlor. Techniques cover simmering, seasoning with fish sauce, and adding herbs at the end.  Dishe"
+    },
+    {
+      "id": "g02",
+      "query": "ingredients of cha mi sour",
+      "query_type": "ingredients",
+      "expected_intent": "ingredients",
+      "predicted_intent": "ingredients",
+      "intent_ok": true,
+      "expected_slug": "cha_mi_sour",
+      "retrieved_slugs": [
+        "cha_mi_sour",
+        "kroeung_sach_trei"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.69,
+      "faithfulness_heuristic": 4.69,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Ingredients for Cha Mi Sour (Stir-fried Glass Noodles):  - Lean pork - Glass noodles (mi sor) - Dried lily buds - Duck egg - Onion - Black pepper - Salt - Fish sauce - Sugar - Bean sprouts - Wood ear mushrooms - Cooking oil - Garlic - Soup seasoning powder  Source: published text"
+    },
+    {
+      "id": "g03",
+      "query": "I want to eat cha mi sour, what should I buy at the market?",
+      "query_type": "shopping",
+      "expected_intent": "shopping_list",
+      "predicted_intent": "shopping_list",
+      "intent_ok": true,
+      "expected_slug": "cha_mi_sour",
+      "retrieved_slugs": [
+        "cha_mi_sour",
+        "kroeung_sach_trei"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.26,
+      "faithfulness_heuristic": 4.26,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Before you go to the market for Cha Mi Sour (Stir-fried Glass Noodles), buy:  - Lean pork - Glass noodles (mi sor) - Dried lily buds - Duck egg - Onion - Black pepper - Salt - Fish sauce - Sugar - Bean sprouts - Wood ear mushrooms - Cooking oil - Garlic - Soup seasoning powder  S"
+    },
+    {
+      "id": "g04",
+      "query": "how to cook samlor chap chhay",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "samlor_chap_chhay",
+      "retrieved_slugs": [
+        "samlor_chap_chhay"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.86,
+      "faithfulness_heuristic": 4.86,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Samlor Chap Chhay (Mixed Meat and Vegetable Soup):  Step 1: Slice the pork into thin strips. Step 2: Cut the intestines into short rings. Step 3: Slice the liver into thin strips. Step 4: Soak the lily buds and wood ear mushrooms in water; slice the wood ear into thin"
+    },
+    {
+      "id": "g05",
+      "query": "How do I know when the fish is done in samlor proheur?",
+      "query_type": "technique",
+      "expected_intent": "technique",
+      "predicted_intent": "technique",
+      "intent_ok": true,
+      "expected_slug": "samlor_proheur",
+      "retrieved_slugs": [
+        "samlor_proheur",
+        "samlor_kari_kroeung_sach_ko"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.62,
+      "faithfulness_heuristic": 4.62,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Related steps from this cookbook:  - Samlor Proheur (Sour Fish Soup) (step 3): Bring water to a boil; add prahok and a little salt; add the fish and cook through. - Samlor Proheur (Sour Fish Soup) (step 1): Clean the fish and cut into rings; finely chop lemongrass and pound with "
+    },
+    {
+      "id": "g06",
+      "query": "recommend a cha dish today",
+      "query_type": "recommend",
+      "expected_intent": "recommend",
+      "predicted_intent": "recommend",
+      "intent_ok": true,
+      "expected_slug": "_parent_cha",
+      "retrieved_slugs": [
+        "_parent_cha",
+        "_parent_other",
+        "cha_mi_sour"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.22,
+      "faithfulness_heuristic": 4.22,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Category overview (corpus parent document)"
+      ],
+      "answer_preview": "Cha (Khmer Stir-fries) in this cookbook:  1. Cha Khtuem Barang (Stir-fried Onion with Pork Ribs) 2. Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste) 3. Cha Mi Sour (Stir-fried Glass Noodles)  You could try **Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)** — the firs"
+    },
+    {
+      "id": "g07",
+      "query": "I cook cha mi sour but I don't have fish sauce",
+      "query_type": "substitution",
+      "expected_intent": "substitution",
+      "predicted_intent": "substitution",
+      "intent_ok": true,
+      "expected_slug": "cha_mi_sour",
+      "retrieved_slugs": [
+        "cha_mi_sour"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.35,
+      "faithfulness_heuristic": 4.35,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "This cookbook does not specify a substitute for Fish sauce in Cha Mi Sour (Stir-fried Glass Noodles).  The recipe uses Fish sauce here: - (ingredients) - Lean pork - Glass noodles (mi sor) - Dried lily buds - Duck egg - Onion - Black pepper - Salt - Fish sauce - Sugar - Bean spro"
+    },
+    {
+      "id": "g08",
+      "query": "should I stir-fry the meat first before adding water for a soup?",
+      "query_type": "technique",
+      "expected_intent": "technique",
+      "predicted_intent": "technique",
+      "intent_ok": true,
+      "expected_slug": "samlor_chap_chhay",
+      "retrieved_slugs": [
+        "samlor_chap_chhay",
+        "samlor_proheur",
+        "sngor_prohet_trei_slat"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.69,
+      "faithfulness_heuristic": 4.69,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Related steps from this cookbook:  - Samlor Chap Chhay (Mixed Meat and Vegetable Soup) (step 6): Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in "
+    },
+    {
+      "id": "g09",
+      "query": "what is the price of fish sauce at the market?",
+      "query_type": "out_of_scope",
+      "expected_intent": "out_of_scope",
+      "predicted_intent": "out_of_scope",
+      "intent_ok": true,
+      "expected_slug": null,
+      "retrieved_slugs": [
+        "samlor_proheur",
+        "kroeung_sach_trei"
+      ],
+      "score_retrieval": false,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 5.0,
+      "faithfulness_heuristic": 5.0,
+      "faithfulness_llm": null,
+      "faithfulness_note": "refusal_skip_judge",
+      "citations": [],
+      "answer_preview": "Questions about prices, restaurants, or nutrition are outside this system's scope. Ask about cooking techniques or recipes from the 14-dish corpus."
+    },
+    {
+      "id": "g10",
+      "query": "គ្រឿងផ្សំឆាមីសួ",
+      "query_type": "khmer",
+      "expected_intent": "ingredients",
+      "predicted_intent": "ingredients",
+      "intent_ok": true,
+      "expected_slug": "cha_mi_sour",
+      "retrieved_slugs": [
+        "cha_mi_sour",
+        "kroeung_sach_trei"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 3.95,
+      "faithfulness_heuristic": 3.95,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "គ្រឿងផ្សំសម្រាប់ ឆាមីសួ៖  - សាច់សុទ្ធ - មីសួរ - ហៃប៊ី - ពងទាសាប - ខ្ទឹមបារាំង - ម្រេច - អំបិល - ទឹកត្រី - ស្ករ - ពពុះសណ្ដែក - ត្រចៀកកណ្តុរ - ខ្លាញ់ - ខ្ទឹមស - ម្សៅស៊ុប  Source: published textbook"
+    },
+    {
+      "id": "g11",
+      "query": "how to cook cha sach morn",
+      "query_type": "missing_dish",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": null,
+      "retrieved_slugs": [
+        "samlor_proheur",
+        "samlor_kari_kroeung_sach_ko",
+        "sngor_prohet_trei_slat",
+        "samlor_chap_chhay",
+        "cha_khtuem_barang"
+      ],
+      "score_retrieval": false,
+      "hit_at_1": null,
+      "hit_at_3": null,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 5.0,
+      "faithfulness_heuristic": 5.0,
+      "faithfulness_llm": null,
+      "faithfulness_note": "refusal_skip_judge",
+      "citations": [],
+      "answer_preview": "We don't have \"Cha Sach Morn\" in this cookbook collection yet.  Cha (Khmer Stir-fries) you can try from our database: 1. Cha Khtuem Barang (Stir-fried Onion with Pork Ribs) 2. Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste) 3. Cha Mi Sour (Stir-fried Glass Noodles)  Ask "
+    },
+    {
+      "id": "g12",
+      "query": "How to make Omelette?",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "omelette",
+      "retrieved_slugs": [
+        "omelette",
+        "samlor_proheur",
+        "samlor_kari_kroeung_sach_ko"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.59,
+      "faithfulness_heuristic": 4.59,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Omelette (Duck or Chicken Egg):  Step 1: Heat a pan with oil; beat the eggs, pour onto the pan, and sprinkle with salt and sugar. Step 2: Add black pepper, flip once cooked, then scoop onto a plate to serve.  Source: published textbook"
+    },
+    {
+      "id": "g13",
+      "query": "how to cook cha khtuem barang",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "cha_khtuem_barang",
+      "retrieved_slugs": [
+        "cha_khtuem_barang",
+        "kroeung_sach_trei"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.7,
+      "faithfulness_heuristic": 4.7,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Cha Khtuem Barang (Stir-fried Onion with Pork Ribs):  Step 1: Cut the young ribs into pieces; cut the onions into large lengthwise strips. Step 2: Heat a wok with oil, stir-fry the young pork ribs, add fish sauce, then add onion, salt, sugar, and soup powder. Step 3: "
+    },
+    {
+      "id": "g14",
+      "query": "how to cook num ansom chrouk",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "num_ansom_chrouk",
+      "retrieved_slugs": [
+        "num_ansom_chrouk"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.84,
+      "faithfulness_heuristic": 4.84,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Num Ansom Chrouk (Pork Rice Cake):  Step 1: Soak glutinous rice for 3–4 hours; wash soybeans and soak until skins loosen; rinse clean. Step 2: Slice pork into long strips; marinate with salt and pepper; slice lemongrass and mix in; cook soybeans first. Step 3: Mix coc"
+    },
+    {
+      "id": "g15",
+      "query": "ingredients of chek chien",
+      "query_type": "ingredients",
+      "expected_intent": "ingredients",
+      "predicted_intent": "ingredients",
+      "intent_ok": true,
+      "expected_slug": "chek_chien",
+      "retrieved_slugs": [
+        "chek_chien"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.6,
+      "faithfulness_heuristic": 4.6,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Ingredients for Chek Chien (Fried Bananas):  - Namwa banana - Chicken - Ripe coconut - Turmeric (fresh) - Flying Boy brand flour mix - Rice flour - Cooking wine - Cooking oil - Duck egg - Salt  Source: published textbook"
+    },
+    {
+      "id": "g16",
+      "query": "how to cook nhoam moan tr young cek",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "nhoam_moan_tr_young_cek",
+      "retrieved_slugs": [
+        "nhoam_moan_tr_young_cek"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.81,
+      "faithfulness_heuristic": 4.81,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad):  Step 1: Wash the chicken clean and boil until cooked with the gizzard and liver. Step 2: Slice the banana blossom thinly; soak in water with vinegar so it does not darken; drain and set aside. Step 3: Shred the "
+    },
+    {
+      "id": "g17",
+      "query": "ingredients for samlor kako palm fruit",
+      "query_type": "ingredients",
+      "expected_intent": "ingredients",
+      "predicted_intent": "ingredients",
+      "intent_ok": true,
+      "expected_slug": "samlor_kako_phlae_tnoat",
+      "retrieved_slugs": [
+        "samlor_kako_phlae_tnoat",
+        "samlor_chap_chhay",
+        "bay_damnaeub_mukh_bangkea",
+        "num_ansom_chrouk"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.73,
+      "faithfulness_heuristic": 4.73,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Ingredients for Samlor Kako with Young Palm Fruit:  - Chicken - Soft white fish (e.g. trei andeng) - Young palm fruit - Fingerroot (krachai) - Turmeric - Galangal - Kaffir lime zest - Garlic and red shallots - Roasted rice powder - Fermented fish paste (prahok) - Salt - Fish sauc"
+    },
+    {
+      "id": "g18",
+      "query": "what dishes are in the dessert category?",
+      "query_type": "category",
+      "expected_intent": "category_browse",
+      "predicted_intent": "category_browse",
+      "intent_ok": true,
+      "expected_slug": "_parent_dessert",
+      "retrieved_slugs": [
+        "_parent_dessert",
+        "_parent_other",
+        "num_ansom_chrouk",
+        "bay_damnaeub_mukh_bangkea"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.62,
+      "faithfulness_heuristic": 4.62,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Category overview (corpus parent document)",
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Khmer Desserts & Sweet Snacks  Traditional Khmer sweet dishes including fried bananas, glutinous rice cakes, and steamed rice parcels. Techniques include frying batters, wrapping in banana leaves, and long steaming times.  Dishes in this category: 1. Bay Damnaeub Bam Pang (Fried "
+    },
+    {
+      "id": "g19",
+      "query": "how to cook samlor proheur",
+      "query_type": "how_to_cook",
+      "expected_intent": "how_to_cook",
+      "predicted_intent": "how_to_cook",
+      "intent_ok": true,
+      "expected_slug": "samlor_proheur",
+      "retrieved_slugs": [
+        "samlor_proheur",
+        "samlor_kari_kroeung_sach_ko"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.81,
+      "faithfulness_heuristic": 4.81,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "How to cook Samlor Proheur (Sour Fish Soup):  Step 1: Clean the fish and cut into rings; finely chop lemongrass and pound with fingerroot, turmeric, and garlic. Step 2: Peel lime or lemon into thin strips; wash basil and chili leaves; set aside. Step 3: Bring water to a boil; add"
+    },
+    {
+      "id": "g20",
+      "query": "should I fry garlic first for samlor chap chhay?",
+      "query_type": "technique",
+      "expected_intent": "technique",
+      "predicted_intent": "technique",
+      "intent_ok": true,
+      "expected_slug": "samlor_chap_chhay",
+      "retrieved_slugs": [
+        "samlor_chap_chhay"
+      ],
+      "score_retrieval": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "citation_ok": true,
+      "contains_ok": true,
+      "faithfulness": 4.69,
+      "faithfulness_heuristic": 4.69,
+      "faithfulness_llm": null,
+      "faithfulness_note": "llm_error: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions",
+      "citations": [
+        "published_textbook: Khmer cookbook (paraphrased), scan collection 2026"
+      ],
+      "answer_preview": "Related steps from this cookbook:  - Samlor Chap Chhay (Mixed Meat and Vegetable Soup) (step 6): Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in "
+    }
+  ]
+}

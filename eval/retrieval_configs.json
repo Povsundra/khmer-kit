@@ -1,0 +1,26 @@
+[
+  {
+    "id": "semantic_only",
+    "label": "Semantic only (FAISS)",
+    "mode": "semantic_only",
+    "semantic_weight": 1.0,
+    "bm25_weight": 0.0,
+    "description": "Dense retrieval with paraphrase-multilingual-mpnet-base-v2; no BM25."
+  },
+  {
+    "id": "hybrid",
+    "label": "Hybrid (FAISS + BM25)",
+    "mode": "hybrid",
+    "semantic_weight": 0.6,
+    "bm25_weight": 0.4,
+    "description": "Normalized semantic + BM25 fusion; bilingual tokenization."
+  },
+  {
+    "id": "hierarchical",
+    "label": "Hierarchical (category parent → dish steps)",
+    "mode": "hierarchical",
+    "semantic_weight": 0.6,
+    "bm25_weight": 0.4,
+    "description": "Predict top-2 category parents, then hybrid search within those categories."
+  }
+]

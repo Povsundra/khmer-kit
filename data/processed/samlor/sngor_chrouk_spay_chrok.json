@@ -1,0 +1,76 @@
+{
+  "dish_name_kh": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក",
+  "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ស្បែកជ្រូក",
+      "standardized_en": "Pork skin"
+    },
+    {
+      "raw_kh": "ឆ្អឹងជំនីជ្រូកខ្ចី",
+      "standardized_en": "Young pork ribs"
+    },
+    {
+      "raw_kh": "អំពិលទុំ",
+      "standardized_en": "Ripe tamarind"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    },
+    {
+      "raw_kh": "ស្លឹកខ្ទឹម",
+      "standardized_en": "Lemongrass (sliced)"
+    },
+    {
+      "raw_kh": "វ៉ាន់ស៊ុយ",
+      "standardized_en": "Green onion (scallion)"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ស្បែកលាងទឹកឱ្យស្អាត កាត់ប្រវែងមួយថ្នាំងដៃ ឆ្អឹងជំនីជ្រូកលាងឱ្យស្អាត កាប់ដុំៗ យកទៅស្លឱ្យផុយ",
+      "text_en": "Wash the pork skin and cut finger-length; wash and cut the young ribs; simmer the ribs until tender.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 1: Wash the pork skin and cut finger-length; wash and cut the young ribs; simmer the ribs until tender."
+    },
+    {
+      "step": 2,
+      "text_kh": "ទើបដាក់ស្បែកជ្រូកចូល ជ្រំអំពិលបន្តិច ដាក់អំបិល ស្ករ ចាក់ទឹកត្រី ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម",
+      "text_en": "Add the pork skin, ripe tamarind, salt, sugar, fish sauce, and soup powder; taste and adjust.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 2: Add the pork skin, ripe tamarind, salt, sugar, fish sauce, and soup powder; taste and adjust."
+    },
+    {
+      "step": 3,
+      "text_kh": "ហាន់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយវែងៗល្មម មុនដាក់ត្រូវបង់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយចូលសិន",
+      "text_en": "Slice lemongrass and green onion; add both to the soup just before serving.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 3: Slice lemongrass and green onion; add both to the soup just before serving."
+    }
+  ],
+  "common_mistake": ""
+}

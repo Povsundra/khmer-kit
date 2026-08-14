@@ -1,0 +1,10 @@
+{
+  "category": "other",
+  "title_en": "Other Khmer Dishes",
+  "title_kh": "ម្ហូបផ្សេងៗ",
+  "summary_en": "Miscellaneous Khmer dishes including salads (nhoam) and simple egg preparations. Salads often mix shredded meat with vegetables and a fish-sauce-vinegar dressing.",
+  "dishes": [
+    {"slug": "nhoam_moan_tr_young_cek", "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)"},
+    {"slug": "omelette", "dish_name_en": "Omelette (Duck or Chicken Egg)"}
+  ]
+}

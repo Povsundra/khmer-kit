@@ -1,0 +1,184 @@
+[
+  {
+    "id": "g01",
+    "query": "what soups are in the samlor category?",
+    "query_type": "category",
+    "expected_intent": "category_browse",
+    "expected_slug": "_parent_samlor",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Samlor Chap Chhay", "Sngor"]
+  },
+  {
+    "id": "g02",
+    "query": "ingredients of cha mi sour",
+    "query_type": "ingredients",
+    "expected_intent": "ingredients",
+    "expected_slug": "cha_mi_sour",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Lean pork", "Glass noodles"]
+  },
+  {
+    "id": "g03",
+    "query": "I want to eat cha mi sour, what should I buy at the market?",
+    "query_type": "shopping",
+    "expected_intent": "shopping_list",
+    "expected_slug": "cha_mi_sour",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["market", "Lean pork"]
+  },
+  {
+    "id": "g04",
+    "query": "how to cook samlor chap chhay",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "samlor_chap_chhay",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["step", "Samlor Chap Chhay"]
+  },
+  {
+    "id": "g05",
+    "query": "How do I know when the fish is done in samlor proheur?",
+    "query_type": "technique",
+    "expected_intent": "technique",
+    "expected_slug": "samlor_proheur",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["fish"]
+  },
+  {
+    "id": "g06",
+    "query": "recommend a cha dish today",
+    "query_type": "recommend",
+    "expected_intent": "recommend",
+    "expected_slug": "_parent_cha",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Cha"]
+  },
+  {
+    "id": "g07",
+    "query": "I cook cha mi sour but I don't have fish sauce",
+    "query_type": "substitution",
+    "expected_intent": "substitution",
+    "expected_slug": "cha_mi_sour",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["does not specify a substitute", "fish sauce"]
+  },
+  {
+    "id": "g08",
+    "query": "should I stir-fry the meat first before adding water for a soup?",
+    "query_type": "technique",
+    "expected_intent": "technique",
+    "expected_slug": "samlor_chap_chhay",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["stir-fry", "water"]
+  },
+  {
+    "id": "g09",
+    "query": "what is the price of fish sauce at the market?",
+    "query_type": "out_of_scope",
+    "expected_intent": "out_of_scope",
+    "expected_slug": null,
+    "expected_source_type": null,
+    "score_retrieval": false,
+    "must_contain": ["outside"]
+  },
+  {
+    "id": "g10",
+    "query": "គ្រឿងផ្សំឆាមីសួ",
+    "query_type": "khmer",
+    "expected_intent": "ingredients",
+    "expected_slug": "cha_mi_sour",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["សាច់", "មីសួ"]
+  },
+  {
+    "id": "g11",
+    "query": "how to cook cha sach morn",
+    "query_type": "missing_dish",
+    "expected_intent": "how_to_cook",
+    "expected_slug": null,
+    "expected_source_type": null,
+    "score_retrieval": false,
+    "must_contain": ["don't have", "Cha Mi Sour"]
+  },
+  {
+    "id": "g12",
+    "query": "How to make Omelette?",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "omelette",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Omelette", "step"]
+  },
+  {
+    "id": "g13",
+    "query": "how to cook cha khtuem barang",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "cha_khtuem_barang",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Cha Khtuem Barang", "step"]
+  },
+  {
+    "id": "g14",
+    "query": "how to cook num ansom chrouk",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "num_ansom_chrouk",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Ansom", "step"]
+  },
+  {
+    "id": "g15",
+    "query": "ingredients of chek chien",
+    "query_type": "ingredients",
+    "expected_intent": "ingredients",
+    "expected_slug": "chek_chien",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["banana"]
+  },
+  {
+    "id": "g16",
+    "query": "how to cook nhoam moan tr young cek",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "nhoam_moan_tr_young_cek",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Nhoam", "step"]
+  },
+  {
+    "id": "g17",
+    "query": "ingredients for samlor kako palm fruit",
+    "query_type": "ingredients",
+    "expected_intent": "ingredients",
+    "expected_slug": "samlor_kako_phlae_tnoat",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Palm"]
+  },
+  {
+    "id": "g18",
+    "query": "what dishes are in the dessert category?",
+    "query_type": "category",
+    "expected_intent": "category_browse",
+    "expected_slug": "_parent_dessert",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Chek Chien"]
+  },
+  {
+    "id": "g19",
+    "query": "how to cook samlor proheur",
+    "query_type": "how_to_cook",
+    "expected_intent": "how_to_cook",
+    "expected_slug": "samlor_proheur",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["Samlor Proheur", "step"]
+  },
+  {
+    "id": "g20",
+    "query": "should I fry garlic first for samlor chap chhay?",
+    "query_type": "technique",
+    "expected_intent": "technique",
+    "expected_slug": "samlor_chap_chhay",
+    "expected_source_type": "published_textbook",
+    "must_contain": ["garlic"]
+  }
+]

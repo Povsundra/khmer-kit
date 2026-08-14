@@ -1,0 +1,68 @@
+{
+  "dish_name_kh": "ឆាខ្ទឹមបារាំង",
+  "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)",
+  "category": "cha",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ឆ្អឹងជំនីរជ្រូកខ្ចី",
+      "standardized_en": "Young pork ribs"
+    },
+    {
+      "raw_kh": "ខ្ទឹមបារាំង",
+      "standardized_en": "Onion"
+    },
+    {
+      "raw_kh": "ម្សៅឆា",
+      "standardized_en": "Starch (for thickening)"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    },
+    {
+      "raw_kh": "ទឹកខ្លះ",
+      "standardized_en": "A little water"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ឆ្អឹងជំនីរខ្ចីកាត់ដុំៗ ខ្ទឹមបារាំង កាត់បណ្ដោយធំៗ",
+      "text_en": "Cut the young ribs into pieces; cut the onions into large lengthwise strips.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 1: Cut the young ribs into pieces; cut the onions into large lengthwise strips."
+    },
+    {
+      "step": 2,
+      "text_kh": "ដាំខ្ទះដាក់ខ្លាញ់ឱ្យក្តៅ ដាក់ឆ្អឹងជំនីរជ្រូកខ្ចីឆាចូល ចាក់ទឹកត្រី ដាក់ខ្ទឹមបារាំង អំបិល ស្ករ ម្សៅស៊ុប",
+      "text_en": "Heat a wok with oil, stir-fry the young pork ribs, add fish sauce, then add onion, salt, sugar, and soup powder.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 2: Heat a wok with oil, stir-fry the young pork ribs, add fish sauce, then add onion, salt, sugar, and soup powder."
+    },
+    {
+      "step": 3,
+      "text_kh": "ចាក់ទឹកខ្លះបន្តិច លាយម្សៅឆាចាក់ចូលបន្តិច ភ្លក្សមើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Add a little water, mix starch with water and pour in to thicken slightly; taste and adjust to preference.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 3: Add a little water, mix starch with water and pour in to thicken slightly; taste and adjust to preference."
+    }
+  ],
+  "common_mistake": ""
+}

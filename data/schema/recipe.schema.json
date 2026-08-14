@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KhmerKitchenRecipe",
+  "type": "object",
+  "required": [
+    "dish_name_kh",
+    "dish_name_en",
+    "category",
+    "source_type",
+    "source_citation",
+    "ingredients",
+    "steps",
+    "common_mistake"
+  ],
+  "properties": {
+    "dish_name_kh": { "type": "string", "minLength": 1 },
+    "dish_name_en": { "type": "string", "minLength": 1 },
+    "category": {
+      "type": "string",
+      "enum": ["samlor", "cha", "other", "dessert"]
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["family_interview", "published_textbook"]
+    },
+    "source_citation": { "type": "string", "minLength": 1 },
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["raw_kh", "standardized_en"],
+        "properties": {
+          "raw_kh": { "type": "string", "minLength": 1 },
+          "standardized_en": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["step", "text_kh", "text_en", "technique_note", "requires_safety_review", "contextualized_text_en"],
+        "properties": {
+          "step": { "type": "integer", "minimum": 1 },
+          "text_kh": { "type": "string", "minLength": 1 },
+          "text_en": { "type": "string", "minLength": 1 },
+          "technique_note": { "type": "string" },
+          "requires_safety_review": { "type": "boolean" },
+          "contextualized_text_en": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "common_mistake": { "type": "string" }
+  }
+}

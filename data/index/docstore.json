@@ -1,0 +1,1828 @@
+{
+  "chunks": [
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ សាច់ជ្រូកបីជាន់ · ស្បែកជ្រូកបំពង · ហៃប៊ី · យីហុ · ផ្សិតត្រចៀកកណ្តុរ · ផ្កាស្ពៃ · សាច់មាន់ · ថ្លើមជ្រូក · ពោះវៀនជ្រូក · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ម្រេច",
+      "text_en": "Ingredients: Three-layer pork (belly), Crispy fried pork skin, Dried lily buds, Wood ear mushrooms, Straw mushrooms, Cauliflower, Chicken meat, Pork liver, Pork intestines, Fish sauce, Salt, Sugar, Soup seasoning powder, Black pepper",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ សាច់ជ្រូកបីជាន់ · ស្បែកជ្រូកបំពង · ហៃប៊ី · យីហុ · ផ្សិតត្រចៀកកណ្តុរ · ផ្កាស្ពៃ · សាច់មាន់ · ថ្លើមជ្រូក · ពោះវៀនជ្រូក · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ម្រេច Full ingredient list for Samlor Chap Chhay (Mixed Meat and Vegetable Soup): Three-layer pork (belly), Crispy fried pork skin, Dried lily buds, Wood ear mushrooms, Straw mushrooms, Cauliflower, Chicken meat, Pork liver, Pork intestines, Fish sauce, Salt, Sugar, Soup seasoning powder, Black pepper.",
+      "ingredients": [
+        {
+          "raw_kh": "សាច់ជ្រូកបីជាន់",
+          "standardized_en": "Three-layer pork (belly)"
+        },
+        {
+          "raw_kh": "ស្បែកជ្រូកបំពង",
+          "standardized_en": "Crispy fried pork skin"
+        },
+        {
+          "raw_kh": "ហៃប៊ី",
+          "standardized_en": "Dried lily buds"
+        },
+        {
+          "raw_kh": "យីហុ",
+          "standardized_en": "Wood ear mushrooms"
+        },
+        {
+          "raw_kh": "ផ្សិតត្រចៀកកណ្តុរ",
+          "standardized_en": "Straw mushrooms"
+        },
+        {
+          "raw_kh": "ផ្កាស្ពៃ",
+          "standardized_en": "Cauliflower"
+        },
+        {
+          "raw_kh": "សាច់មាន់",
+          "standardized_en": "Chicken meat"
+        },
+        {
+          "raw_kh": "ថ្លើមជ្រូក",
+          "standardized_en": "Pork liver"
+        },
+        {
+          "raw_kh": "ពោះវៀនជ្រូក",
+          "standardized_en": "Pork intestines"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 0
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 1,
+      "text_kh": "សាច់ជ្រូកហាន់ជាបន្ទះស្តើងៗ",
+      "text_en": "Slice the pork into thin strips.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). សាច់ជ្រូកហាន់ជាបន្ទះស្តើងៗ For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 1: Slice the pork into thin strips.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 1
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 2,
+      "text_kh": "ពោះវៀនកាត់ជាកង់ៗ",
+      "text_en": "Cut the intestines into short rings.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ពោះវៀនកាត់ជាកង់ៗ For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 2: Cut the intestines into short rings.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 2
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 3,
+      "text_kh": "ថ្លើមហាន់ជាបន្ទះស្តើងៗ",
+      "text_en": "Slice the liver into thin strips.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ថ្លើមហាន់ជាបន្ទះស្តើងៗ For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 3: Slice the liver into thin strips.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 3
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 4,
+      "text_kh": "ហៃប៊ី យីហុ ត្រាំទឹក យីហុហាន់ជាចំណិតៗ",
+      "text_en": "Soak the lily buds and wood ear mushrooms in water; slice the wood ear into thin strips.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ហៃប៊ី យីហុ ត្រាំទឹក យីហុហាន់ជាចំណិតៗ For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 4: Soak the lily buds and wood ear mushrooms in water; slice the wood ear into thin strips.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 4
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 5,
+      "text_kh": "ផ្សិតត្រចៀកកណ្តុរកាត់ជាបន្ទះៗដែរ ផ្កាស្ពៃកាត់ជាកង់ៗដែរ ស្បែកជ្រូកបកសម្បកចេញកាត់ជាកង់ៗដែរ មាន់កាប់ជាដុំៗល្មមហូប",
+      "text_en": "Cut the straw mushrooms, cauliflower, and peeled crispy pork skin into pieces; cut the chicken into bite-sized pieces.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ផ្សិតត្រចៀកកណ្តុរកាត់ជាបន្ទះៗដែរ ផ្កាស្ពៃកាត់ជាកង់ៗដែរ ស្បែកជ្រូកបកសម្បកចេញកាត់ជាកង់ៗដែរ មាន់កាប់ជាដុំៗល្មមហូប For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 5: Cut the straw mushrooms, cauliflower, and peeled crispy pork skin into pieces; cut the chicken into bite-sized pieces.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 5
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_chap_chhay",
+      "dish_name_kh": "សម្លចាប់ឆាយ",
+      "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+      "step": 6,
+      "text_kh": "ឆ្នាំងដាក់ខ្លាញ់ក្តៅ ដាក់ខ្ទឹមសចិញ្ច្រាំឱ្យក្រហម រួចដាក់សាច់ជ្រូក សាច់មាន់ឆាចូលគ្នាឱ្យឆ្អិន ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ដាក់បន្លែទាំងអស់ចូលជាមួយគ្នា ចាក់ទឹកល្មមលិចបន្លែឱ្យពុះរួចលើកចុះ រោយម្រេចជាការស្រេច",
+      "text_en": "Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in enough water to cover and bring to a boil, then finish with black pepper.",
+      "embed_text": "សម្លចាប់ឆាយ Samlor Chap Chhay (Mixed Meat and Vegetable Soup). ឆ្នាំងដាក់ខ្លាញ់ក្តៅ ដាក់ខ្ទឹមសចិញ្ច្រាំឱ្យក្រហម រួចដាក់សាច់ជ្រូក សាច់មាន់ឆាចូលគ្នាឱ្យឆ្អិន ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ដាក់បន្លែទាំងអស់ចូលជាមួយគ្នា ចាក់ទឹកល្មមលិចបន្លែឱ្យពុះរួចលើកចុះ រោយម្រេចជាការស្រេច For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 6: Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in enough water to cover and bring to a boil, then finish with black pepper.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 6
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ មាន់ · ត្រីអណ្តែងទន់ · ផ្លែត្នោតខ្ចី · ខ្ជាយ · រមៀត · រំដេង · សំបកក្រូចសើច · ខ្ទឹមស-ក្រហម · អង្ករលីង · ប្រហុក · អំបិល · ទឹកត្រី · ស្ករ · ម្សៅស៊ុប",
+      "text_en": "Ingredients: Chicken, Soft white fish (e.g. trei andeng), Young palm fruit, Fingerroot (krachai), Turmeric, Galangal, Kaffir lime zest, Garlic and red shallots, Roasted rice powder, Fermented fish paste (prahok), Salt, Fish sauce, Sugar, Soup seasoning powder",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ មាន់ · ត្រីអណ្តែងទន់ · ផ្លែត្នោតខ្ចី · ខ្ជាយ · រមៀត · រំដេង · សំបកក្រូចសើច · ខ្ទឹមស-ក្រហម · អង្ករលីង · ប្រហុក · អំបិល · ទឹកត្រី · ស្ករ · ម្សៅស៊ុប Full ingredient list for Samlor Kako with Young Palm Fruit: Chicken, Soft white fish (e.g. trei andeng), Young palm fruit, Fingerroot (krachai), Turmeric, Galangal, Kaffir lime zest, Garlic and red shallots, Roasted rice powder, Fermented fish paste (prahok), Salt, Fish sauce, Sugar, Soup seasoning powder.",
+      "ingredients": [
+        {
+          "raw_kh": "មាន់",
+          "standardized_en": "Chicken"
+        },
+        {
+          "raw_kh": "ត្រីអណ្តែងទន់",
+          "standardized_en": "Soft white fish (e.g. trei andeng)"
+        },
+        {
+          "raw_kh": "ផ្លែត្នោតខ្ចី",
+          "standardized_en": "Young palm fruit"
+        },
+        {
+          "raw_kh": "ខ្ជាយ",
+          "standardized_en": "Fingerroot (krachai)"
+        },
+        {
+          "raw_kh": "រមៀត",
+          "standardized_en": "Turmeric"
+        },
+        {
+          "raw_kh": "រំដេង",
+          "standardized_en": "Galangal"
+        },
+        {
+          "raw_kh": "សំបកក្រូចសើច",
+          "standardized_en": "Kaffir lime zest"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស-ក្រហម",
+          "standardized_en": "Garlic and red shallots"
+        },
+        {
+          "raw_kh": "អង្ករលីង",
+          "standardized_en": "Roasted rice powder"
+        },
+        {
+          "raw_kh": "ប្រហុក",
+          "standardized_en": "Fermented fish paste (prahok)"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 7
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": 1,
+      "text_kh": "មាន់ឬត្រីលាងទឹកឱ្យស្អាត កាប់ដុំៗទុកសិន",
+      "text_en": "Wash the chicken or fish clean and cut into pieces; set aside.",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. មាន់ឬត្រីលាងទឹកឱ្យស្អាត កាប់ដុំៗទុកសិន For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 1: Wash the chicken or fish clean and cut into pieces; set aside.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 8
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": 2,
+      "text_kh": "ហាន់ស្លឹកគ្រៃឱ្យល្អិត យកទៅបុកជាមួយខ្ជាយរមៀតរំដេង សំបកក្រូចសើច ខ្ទឹមស-ក្រហមឱ្យម៉ដ្ឋទុកសិន អង្ករលីងកិនឱ្យល្អិត",
+      "text_en": "Finely chop lemongrass and pound with fingerroot, turmeric, galangal, kaffir lime zest, and garlic-shallot until smooth; set aside. Grind roasted rice powder finely.",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. ហាន់ស្លឹកគ្រៃឱ្យល្អិត យកទៅបុកជាមួយខ្ជាយរមៀតរំដេង សំបកក្រូចសើច ខ្ទឹមស-ក្រហមឱ្យម៉ដ្ឋទុកសិន អង្ករលីងកិនឱ្យល្អិត For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 2: Finely chop lemongrass and pound with fingerroot, turmeric, galangal, kaffir lime zest, and garlic-shallot until smooth; set aside. Grind roasted rice powder finely.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 9
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": 3,
+      "text_kh": "យកឆ្នាំងដាក់ទឹកកន្លះ យកត្នោតខ្ចីមកចិតឱ្យស្តើងដាក់ក្នុងឆ្នាំង ដាំចំនួនពីរអំពុះ",
+      "text_en": "Put half a pot of water on the heat, peel and thinly slice the young palm fruit into the pot, and bring to a boil twice.",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. យកឆ្នាំងដាក់ទឹកកន្លះ យកត្នោតខ្ចីមកចិតឱ្យស្តើងដាក់ក្នុងឆ្នាំង ដាំចំនួនពីរអំពុះ For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 3: Put half a pot of water on the heat, peel and thinly slice the young palm fruit into the pot, and bring to a boil twice.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 10
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": 4,
+      "text_kh": "ជ្រុំប្រហុក បង់សាច់ត្រីឬមាន់ រួចដាក់គ្រឿងដែលបុកចូលនិងអង្ករលីង",
+      "text_en": "Add a block of prahok and the fish or chicken meat, then add the pounded spice paste and roasted rice powder.",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. ជ្រុំប្រហុក បង់សាច់ត្រីឬមាន់ រួចដាក់គ្រឿងដែលបុកចូលនិងអង្ករលីង For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 4: Add a block of prahok and the fish or chicken meat, then add the pounded spice paste and roasted rice powder.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 11
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kako_phlae_tnoat",
+      "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+      "dish_name_en": "Samlor Kako with Young Palm Fruit",
+      "step": 5,
+      "text_kh": "ចាក់ទឹកត្រីអំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Season with fish sauce, salt, sugar, and soup powder; taste and adjust to preference.",
+      "embed_text": "សម្លកកូរផ្លែត្នោត Samlor Kako with Young Palm Fruit. ចាក់ទឹកត្រីអំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 5: Season with fish sauce, salt, sugar, and soup powder; taste and adjust to preference.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 12
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ សាច់គោ · (យកសាច់សម្រាប់ស្ល) · ឬយកកម្ទេចសាច់តាមចូលចិត្ត · ថ្លើម · បេះដូង · បន្លែត្រកួន · ឬត្រប់ · ឬប៉េងប៉ោះ · ប្រហុកល្អ · ម្ជូរអំពិល · គល់ស្លឹកគ្រៃ · អំពិលខ្ចីឬក្រសាំង · ខ្ទឹមស · រំដេង · សំបកក្រូចសើច · ស្លឹកកន្ទ្រោបឬ · ស្លឹកក្រូចសើច · រមៀត · ទឹកត្រី · អំបិល",
+      "text_en": "Ingredients: Beef, (យកសាច់សម្រាប់ស្ល), ឬយកកម្ទេចសាច់តាមចូលចិត្ត, Liver, Heart, បន្លែត្រកួន, ឬត្រប់, ឬប៉េងប៉ោះ, Good quality prahok, Tamarind, Lemongrass seeds, អំពិលខ្ចីឬក្រសាំង, Garlic, Galangal, Kaffir lime zest, Holy basil leaves, Kaffir lime leaves, Turmeric, Fish sauce, Salt",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ សាច់គោ · (យកសាច់សម្រាប់ស្ល) · ឬយកកម្ទេចសាច់តាមចូលចិត្ត · ថ្លើម · បេះដូង · បន្លែត្រកួន · ឬត្រប់ · ឬប៉េងប៉ោះ · ប្រហុកល្អ · ម្ជូរអំពិល · គល់ស្លឹកគ្រៃ · អំពិលខ្ចីឬក្រសាំង · ខ្ទឹមស · រំដេង · សំបកក្រូចសើច · ស្លឹកកន្ទ្រោបឬ · ស្លឹកក្រូចសើច · រមៀត · ទឹកត្រី · អំបិល Full ingredient list for Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup): Beef, (យកសាច់សម្រាប់ស្ល), ឬយកកម្ទេចសាច់តាមចូលចិត្ត, Liver, Heart, បន្លែត្រកួន, ឬត្រប់, ឬប៉េងប៉ោះ, Good quality prahok, Tamarind, Lemongrass seeds, អំពិលខ្ចីឬក្រសាំង, Garlic, Galangal, Kaffir lime zest, Holy basil leaves, Kaffir lime leaves, Turmeric, Fish sauce, Salt.",
+      "ingredients": [
+        {
+          "raw_kh": "សាច់គោ",
+          "standardized_en": "Beef"
+        },
+        {
+          "raw_kh": "(យកសាច់សម្រាប់ស្ល)",
+          "standardized_en": "(យកសាច់សម្រាប់ស្ល)"
+        },
+        {
+          "raw_kh": "ឬយកកម្ទេចសាច់តាមចូលចិត្ត",
+          "standardized_en": "ឬយកកម្ទេចសាច់តាមចូលចិត្ត"
+        },
+        {
+          "raw_kh": "ថ្លើម",
+          "standardized_en": "Liver"
+        },
+        {
+          "raw_kh": "បេះដូង",
+          "standardized_en": "Heart"
+        },
+        {
+          "raw_kh": "បន្លែត្រកួន",
+          "standardized_en": "បន្លែត្រកួន"
+        },
+        {
+          "raw_kh": "ឬត្រប់",
+          "standardized_en": "ឬត្រប់"
+        },
+        {
+          "raw_kh": "ឬប៉េងប៉ោះ",
+          "standardized_en": "ឬប៉េងប៉ោះ"
+        },
+        {
+          "raw_kh": "ប្រហុកល្អ",
+          "standardized_en": "Good quality prahok"
+        },
+        {
+          "raw_kh": "ម្ជូរអំពិល",
+          "standardized_en": "Tamarind"
+        },
+        {
+          "raw_kh": "គល់ស្លឹកគ្រៃ",
+          "standardized_en": "Lemongrass seeds"
+        },
+        {
+          "raw_kh": "អំពិលខ្ចីឬក្រសាំង",
+          "standardized_en": "អំពិលខ្ចីឬក្រសាំង"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        },
+        {
+          "raw_kh": "រំដេង",
+          "standardized_en": "Galangal"
+        },
+        {
+          "raw_kh": "សំបកក្រូចសើច",
+          "standardized_en": "Kaffir lime zest"
+        },
+        {
+          "raw_kh": "ស្លឹកកន្ទ្រោបឬ",
+          "standardized_en": "Holy basil leaves"
+        },
+        {
+          "raw_kh": "ស្លឹកក្រូចសើច",
+          "standardized_en": "Kaffir lime leaves"
+        },
+        {
+          "raw_kh": "រមៀត",
+          "standardized_en": "Turmeric"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 13
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": 1,
+      "text_kh": "សាច់គោ ថ្លើម បេះដូង ហាន់ជាបន្ទះស្តើងល្មម ម្ជូរអំពិលឆ្កឹះ គ្រាប់ត្រាំទឹកឱ្យទន់",
+      "text_en": "Slice the beef, liver, and heart into moderate strips; soak tamarind and lemongrass seeds until soft.",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). សាច់គោ ថ្លើម បេះដូង ហាន់ជាបន្ទះស្តើងល្មម ម្ជូរអំពិលឆ្កឹះ គ្រាប់ត្រាំទឹកឱ្យទន់ For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 1: Slice the beef, liver, and heart into moderate strips; soak tamarind and lemongrass seeds until soft.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 14
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": 2,
+      "text_kh": "គល់ស្លឹកគ្រៃហាន់ឱ្យល្អិត រំដេង សំបកក្រូចសើច រមៀតហាន់ឱ្យល្អិតទាំងអស់ បុកឱ្យម៉ដ្ឋ",
+      "text_en": "Finely chop lemongrass seeds, galangal, kaffir lime zest, and turmeric; pound until smooth.",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). គល់ស្លឹកគ្រៃហាន់ឱ្យល្អិត រំដេង សំបកក្រូចសើច រមៀតហាន់ឱ្យល្អិតទាំងអស់ បុកឱ្យម៉ដ្ឋ For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 2: Finely chop lemongrass seeds, galangal, kaffir lime zest, and turmeric; pound until smooth.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 15
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": 3,
+      "text_kh": "ដាក់សាច់គោ ថ្លើម បេះដូងក្នុងឆ្នាំង ដាក់គ្រឿងបុក ប្រហុកចិញ្ច្រាំ ម្ជូរអំពិល ឬក្រសាំងច្របល់ឱ្យសព្វ ដាក់រម្ងាស់ឱ្យរីងទឹកបន្តិច",
+      "text_en": "Add beef, liver, and heart to the pot with the pounded paste, minced prahok, and tamarind or galangal; simmer briefly.",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). ដាក់សាច់គោ ថ្លើម បេះដូងក្នុងឆ្នាំង ដាក់គ្រឿងបុក ប្រហុកចិញ្ច្រាំ ម្ជូរអំពិល ឬក្រសាំងច្របល់ឱ្យសព្វ ដាក់រម្ងាស់ឱ្យរីងទឹកបន្តិច For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 3: Add beef, liver, and heart to the pot with the pounded paste, minced prahok, and tamarind or galangal; simmer briefly.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 16
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": 4,
+      "text_kh": "ថែមទឹកដាំឱ្យពុះ ស្រង់អំពិលចេញសិន រម្ងាស់ទៅទៀតឱ្យផុយសាច់ បង់បន្លែ រម្ងាស់ឱ្យផុយសាច់ ឆ្អិនបន្លែ",
+      "text_en": "Add more water and bring to a boil; remove tamarind; simmer until meat is tender; add vegetables and cook through.",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). ថែមទឹកដាំឱ្យពុះ ស្រង់អំពិលចេញសិន រម្ងាស់ទៅទៀតឱ្យផុយសាច់ បង់បន្លែ រម្ងាស់ឱ្យផុយសាច់ ឆ្អិនបន្លែ For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 4: Add more water and bring to a boil; remove tamarind; simmer until meat is tender; add vegetables and cook through.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 17
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_kari_kroeung_sach_ko",
+      "dish_name_kh": "សម្លម្ជូរគ្រឿងសាច់គោ",
+      "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)",
+      "step": 5,
+      "text_kh": "ចាក់ទឹកត្រី ដាក់អំបិលភ្លក់ឱ្យល្មម បង់ស្លឹកក្រូចសើច ឬស្លឹកកន្ទ្រោប (ត្រូវរោលភ្លើង)",
+      "text_en": "Add fish sauce and salt to taste; finish with kaffir lime leaves or holy basil off the heat.",
+      "embed_text": "សម្លម្ជូរគ្រឿងសាច់គោ Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup). ចាក់ទឹកត្រី ដាក់អំបិលភ្លក់ឱ្យល្មម បង់ស្លឹកក្រូចសើច ឬស្លឹកកន្ទ្រោប (ត្រូវរោលភ្លើង) For the Khmer samlor dish Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup), step 5: Add fish sauce and salt to taste; finish with kaffir lime leaves or holy basil off the heat.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 18
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "samlor_proheur",
+      "dish_name_kh": "សម្លប្រហើរ",
+      "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ត្រីរស់ · ឬត្រីសណ្ដាយ · ស្លឹកគ្រៃ · ខ្ជាយ · រមៀត · ខ្ទឹមស · ស្លឹកជីរ · ស្លឹកម្ទេស · ទឹកត្រី · ស្ករ · អំបិល · ត្រឡាចឬល្ពៅ · ប្រហុក · ម្សៅស៊ុប",
+      "text_en": "Ingredients: Live fish, Dried fish, Lemongrass, Fingerroot (krachai), Turmeric, Garlic, Basil leaves, Chili leaves, Fish sauce, Sugar, Salt, Lime, Fermented fish paste (prahok), Soup seasoning powder",
+      "embed_text": "សម្លប្រហើរ Samlor Proheur (Sour Fish Soup). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ត្រីរស់ · ឬត្រីសណ្ដាយ · ស្លឹកគ្រៃ · ខ្ជាយ · រមៀត · ខ្ទឹមស · ស្លឹកជីរ · ស្លឹកម្ទេស · ទឹកត្រី · ស្ករ · អំបិល · ត្រឡាចឬល្ពៅ · ប្រហុក · ម្សៅស៊ុប Full ingredient list for Samlor Proheur (Sour Fish Soup): Live fish, Dried fish, Lemongrass, Fingerroot (krachai), Turmeric, Garlic, Basil leaves, Chili leaves, Fish sauce, Sugar, Salt, Lime, Fermented fish paste (prahok), Soup seasoning powder.",
+      "ingredients": [
+        {
+          "raw_kh": "ត្រីរស់",
+          "standardized_en": "Live fish"
+        },
+        {
+          "raw_kh": "ឬត្រីសណ្ដាយ",
+          "standardized_en": "Dried fish"
+        },
+        {
+          "raw_kh": "ស្លឹកគ្រៃ",
+          "standardized_en": "Lemongrass"
+        },
+        {
+          "raw_kh": "ខ្ជាយ",
+          "standardized_en": "Fingerroot (krachai)"
+        },
+        {
+          "raw_kh": "រមៀត",
+          "standardized_en": "Turmeric"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        },
+        {
+          "raw_kh": "ស្លឹកជីរ",
+          "standardized_en": "Basil leaves"
+        },
+        {
+          "raw_kh": "ស្លឹកម្ទេស",
+          "standardized_en": "Chili leaves"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ត្រឡាចឬល្ពៅ",
+          "standardized_en": "Lime"
+        },
+        {
+          "raw_kh": "ប្រហុក",
+          "standardized_en": "Fermented fish paste (prahok)"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 19
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_proheur",
+      "dish_name_kh": "សម្លប្រហើរ",
+      "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+      "step": 1,
+      "text_kh": "ត្រីធ្វើឱ្យស្អាតកាប់ជាកង់ៗ ស្លឹកគ្រៃហាន់ឱ្យល្អិត ដាក់ខ្ជាយ រមៀត ខ្ទឹមសបុកឱ្យម៉ដ្ឋ",
+      "text_en": "Clean the fish and cut into rings; finely chop lemongrass and pound with fingerroot, turmeric, and garlic.",
+      "embed_text": "សម្លប្រហើរ Samlor Proheur (Sour Fish Soup). ត្រីធ្វើឱ្យស្អាតកាប់ជាកង់ៗ ស្លឹកគ្រៃហាន់ឱ្យល្អិត ដាក់ខ្ជាយ រមៀត ខ្ទឹមសបុកឱ្យម៉ដ្ឋ For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 1: Clean the fish and cut into rings; finely chop lemongrass and pound with fingerroot, turmeric, and garlic.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 20
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_proheur",
+      "dish_name_kh": "សម្លប្រហើរ",
+      "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+      "step": 2,
+      "text_kh": "ត្រឡាចចិតស្តើងល្មម ល្ពៅចិតកាស់ដុំៗ ស្លឹកជីរ ស្លឹកម្ទេស បេះលាងឱ្យស្អាតទុកសិន",
+      "text_en": "Peel lime or lemon into thin strips; wash basil and chili leaves; set aside.",
+      "embed_text": "សម្លប្រហើរ Samlor Proheur (Sour Fish Soup). ត្រឡាចចិតស្តើងល្មម ល្ពៅចិតកាស់ដុំៗ ស្លឹកជីរ ស្លឹកម្ទេស បេះលាងឱ្យស្អាតទុកសិន For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 2: Peel lime or lemon into thin strips; wash basil and chili leaves; set aside.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 21
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_proheur",
+      "dish_name_kh": "សម្លប្រហើរ",
+      "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+      "step": 3,
+      "text_kh": "ទើបដាំទឹកឱ្យពុះ ជ្រុំប្រហុកបង់អំបិលបន្តិច រួចដាក់ត្រីបង់ចូលឱ្យឆ្អិន",
+      "text_en": "Bring water to a boil; add prahok and a little salt; add the fish and cook through.",
+      "embed_text": "សម្លប្រហើរ Samlor Proheur (Sour Fish Soup). ទើបដាំទឹកឱ្យពុះ ជ្រុំប្រហុកបង់អំបិលបន្តិច រួចដាក់ត្រីបង់ចូលឱ្យឆ្អិន For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 3: Bring water to a boil; add prahok and a little salt; add the fish and cook through.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 22
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "samlor_proheur",
+      "dish_name_kh": "សម្លប្រហើរ",
+      "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+      "step": 4,
+      "text_kh": "ដួសខ្លះបេះយកតែសាច់បុកជាមួយគ្រឿង ទើបបង់ល្ពៅ ឬត្រឡាចចូលឱ្យឆ្អិន ចាក់ទឹកត្រី ស្ករ ម្សៅស៊ុប សឹមដាក់គ្រឿងដាំឱ្យពុះ ភ្លក់មើលឱ្យល្មម មុនដាក់ចុះ សឹមបង់ស្លឹកជីរចូល",
+      "text_en": "Scoop some fish, pound the flesh with the spices, return with lemon or lime; season with fish sauce, sugar, and soup powder; simmer; add basil leaves just before serving.",
+      "embed_text": "សម្លប្រហើរ Samlor Proheur (Sour Fish Soup). ដួសខ្លះបេះយកតែសាច់បុកជាមួយគ្រឿង ទើបបង់ល្ពៅ ឬត្រឡាចចូលឱ្យឆ្អិន ចាក់ទឹកត្រី ស្ករ ម្សៅស៊ុប សឹមដាក់គ្រឿងដាំឱ្យពុះ ភ្លក់មើលឱ្យល្មម មុនដាក់ចុះ សឹមបង់ស្លឹកជីរចូល For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 4: Scoop some fish, pound the flesh with the spices, return with lemon or lime; season with fish sauce, sugar, and soup powder; simmer; add basil leaves just before serving.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 23
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "sngor_chrouk_spay_chrok",
+      "dish_name_kh": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក",
+      "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ស្បែកជ្រូក · ឆ្អឹងជំនីជ្រូកខ្ចី · អំពិលទុំ · ម្រេច · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ស្លឹកខ្ទឹម · វ៉ាន់ស៊ុយ",
+      "text_en": "Ingredients: Pork skin, Young pork ribs, Ripe tamarind, Black pepper, Fish sauce, Salt, Sugar, Soup seasoning powder, Lemongrass (sliced), Green onion (scallion)",
+      "embed_text": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក Sngor Pickled Cabbage and Pork Skin Soup. ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ស្បែកជ្រូក · ឆ្អឹងជំនីជ្រូកខ្ចី · អំពិលទុំ · ម្រេច · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ស្លឹកខ្ទឹម · វ៉ាន់ស៊ុយ Full ingredient list for Sngor Pickled Cabbage and Pork Skin Soup: Pork skin, Young pork ribs, Ripe tamarind, Black pepper, Fish sauce, Salt, Sugar, Soup seasoning powder, Lemongrass (sliced), Green onion (scallion).",
+      "ingredients": [
+        {
+          "raw_kh": "ស្បែកជ្រូក",
+          "standardized_en": "Pork skin"
+        },
+        {
+          "raw_kh": "ឆ្អឹងជំនីជ្រូកខ្ចី",
+          "standardized_en": "Young pork ribs"
+        },
+        {
+          "raw_kh": "អំពិលទុំ",
+          "standardized_en": "Ripe tamarind"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        },
+        {
+          "raw_kh": "ស្លឹកខ្ទឹម",
+          "standardized_en": "Lemongrass (sliced)"
+        },
+        {
+          "raw_kh": "វ៉ាន់ស៊ុយ",
+          "standardized_en": "Green onion (scallion)"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 24
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_chrouk_spay_chrok",
+      "dish_name_kh": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក",
+      "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup",
+      "step": 1,
+      "text_kh": "ស្បែកលាងទឹកឱ្យស្អាត កាត់ប្រវែងមួយថ្នាំងដៃ ឆ្អឹងជំនីជ្រូកលាងឱ្យស្អាត កាប់ដុំៗ យកទៅស្លឱ្យផុយ",
+      "text_en": "Wash the pork skin and cut finger-length; wash and cut the young ribs; simmer the ribs until tender.",
+      "embed_text": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក Sngor Pickled Cabbage and Pork Skin Soup. ស្បែកលាងទឹកឱ្យស្អាត កាត់ប្រវែងមួយថ្នាំងដៃ ឆ្អឹងជំនីជ្រូកលាងឱ្យស្អាត កាប់ដុំៗ យកទៅស្លឱ្យផុយ For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 1: Wash the pork skin and cut finger-length; wash and cut the young ribs; simmer the ribs until tender.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 25
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_chrouk_spay_chrok",
+      "dish_name_kh": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក",
+      "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup",
+      "step": 2,
+      "text_kh": "ទើបដាក់ស្បែកជ្រូកចូល ជ្រំអំពិលបន្តិច ដាក់អំបិល ស្ករ ចាក់ទឹកត្រី ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម",
+      "text_en": "Add the pork skin, ripe tamarind, salt, sugar, fish sauce, and soup powder; taste and adjust.",
+      "embed_text": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក Sngor Pickled Cabbage and Pork Skin Soup. ទើបដាក់ស្បែកជ្រូកចូល ជ្រំអំពិលបន្តិច ដាក់អំបិល ស្ករ ចាក់ទឹកត្រី ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 2: Add the pork skin, ripe tamarind, salt, sugar, fish sauce, and soup powder; taste and adjust.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 26
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_chrouk_spay_chrok",
+      "dish_name_kh": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក",
+      "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup",
+      "step": 3,
+      "text_kh": "ហាន់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយវែងៗល្មម មុនដាក់ត្រូវបង់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយចូលសិន",
+      "text_en": "Slice lemongrass and green onion; add both to the soup just before serving.",
+      "embed_text": "ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក Sngor Pickled Cabbage and Pork Skin Soup. ហាន់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយវែងៗល្មម មុនដាក់ត្រូវបង់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយចូលសិន For the Khmer samlor dish Sngor Pickled Cabbage and Pork Skin Soup, step 3: Slice lemongrass and green onion; add both to the soup just before serving.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 27
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "samlor",
+      "slug": "sngor_prohet_trei_slat",
+      "dish_name_kh": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប",
+      "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ត្រីស្លាត · ស្ពៃក្តោប · ហៃប៊ី · យីហុឺ · ទឹកត្រី · អំបិល · ស្ករ · ម្រេច · ស្លឹកខ្ទឹម · វ៉ាន់ស៊ុយ · ម្សៅស៊ុប",
+      "text_en": "Ingredients: Snakehead fish, Napa cabbage, Dried lily buds, Wood ear mushrooms, Fish sauce, Salt, Sugar, Black pepper, Lemongrass (sliced), Green onion (scallion), Soup seasoning powder",
+      "embed_text": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប Sngor Fish Ball Soup with Napa Cabbage. ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ត្រីស្លាត · ស្ពៃក្តោប · ហៃប៊ី · យីហុឺ · ទឹកត្រី · អំបិល · ស្ករ · ម្រេច · ស្លឹកខ្ទឹម · វ៉ាន់ស៊ុយ · ម្សៅស៊ុប Full ingredient list for Sngor Fish Ball Soup with Napa Cabbage: Snakehead fish, Napa cabbage, Dried lily buds, Wood ear mushrooms, Fish sauce, Salt, Sugar, Black pepper, Lemongrass (sliced), Green onion (scallion), Soup seasoning powder.",
+      "ingredients": [
+        {
+          "raw_kh": "ត្រីស្លាត",
+          "standardized_en": "Snakehead fish"
+        },
+        {
+          "raw_kh": "ស្ពៃក្តោប",
+          "standardized_en": "Napa cabbage"
+        },
+        {
+          "raw_kh": "ហៃប៊ី",
+          "standardized_en": "Dried lily buds"
+        },
+        {
+          "raw_kh": "យីហុឺ",
+          "standardized_en": "Wood ear mushrooms"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        },
+        {
+          "raw_kh": "ស្លឹកខ្ទឹម",
+          "standardized_en": "Lemongrass (sliced)"
+        },
+        {
+          "raw_kh": "វ៉ាន់ស៊ុយ",
+          "standardized_en": "Green onion (scallion)"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 28
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_prohet_trei_slat",
+      "dish_name_kh": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប",
+      "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage",
+      "step": 1,
+      "text_kh": "ត្រីស្លាតត្រូវវះជាពីរ រួចយកទៅកោសយកសាច់ យកអំបិលម្រេចម៉ដ្ឋ ម្សៅស៊ុបដាក់ចូលច្របាច់ឱ្យឡើង ដាំទឹកឱ្យពុះ",
+      "text_en": "Split the snakehead fish and scrape out the meat; mix with salt, pepper, and soup powder; bring water to a boil.",
+      "embed_text": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប Sngor Fish Ball Soup with Napa Cabbage. ត្រីស្លាតត្រូវវះជាពីរ រួចយកទៅកោសយកសាច់ យកអំបិលម្រេចម៉ដ្ឋ ម្សៅស៊ុបដាក់ចូលច្របាច់ឱ្យឡើង ដាំទឹកឱ្យពុះ For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 1: Split the snakehead fish and scrape out the meat; mix with salt, pepper, and soup powder; bring water to a boil.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 29
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_prohet_trei_slat",
+      "dish_name_kh": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប",
+      "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage",
+      "step": 2,
+      "text_kh": "លញ់ជាប្រហិតមូលៗបង់សម្លរទើបចាក់ទឹកត្រី អំបិល ស្ករ ដាក់ហៃប៊ីបង់សម្លរជាមួយឱ្យចេញជាតិ",
+      "text_en": "Shape into round fish balls and add to the soup; season with fish sauce, salt, and sugar; add lily buds for aroma.",
+      "embed_text": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប Sngor Fish Ball Soup with Napa Cabbage. លញ់ជាប្រហិតមូលៗបង់សម្លរទើបចាក់ទឹកត្រី អំបិល ស្ករ ដាក់ហៃប៊ីបង់សម្លរជាមួយឱ្យចេញជាតិ For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 2: Shape into round fish balls and add to the soup; season with fish sauce, salt, and sugar; add lily buds for aroma.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 30
+    },
+    {
+      "chunk_type": "step",
+      "category": "samlor",
+      "slug": "sngor_prohet_trei_slat",
+      "dish_name_kh": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប",
+      "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage",
+      "step": 3,
+      "text_kh": "ចិតស្ពៃក្តោបលាងឱ្យស្អាតបង់ចូលចំនួនពីរឬបីអំពុះ ដាក់ម្សៅស៊ុប ម្រេចម៉ដ្ឋ មុនដាក់ចុះត្រូវហាន់ស្លឹកខ្ទឹមបង់ចូល ភ្លក់មើលឱ្យល្មមសឹមដាក់ចុះជាក្រោយ",
+      "text_en": "Shred and wash napa cabbage; boil two or three times; add soup powder and pounded pepper; slice lemongrass and add before serving; taste and adjust.",
+      "embed_text": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប Sngor Fish Ball Soup with Napa Cabbage. ចិតស្ពៃក្តោបលាងឱ្យស្អាតបង់ចូលចំនួនពីរឬបីអំពុះ ដាក់ម្សៅស៊ុប ម្រេចម៉ដ្ឋ មុនដាក់ចុះត្រូវហាន់ស្លឹកខ្ទឹមបង់ចូល ភ្លក់មើលឱ្យល្មមសឹមដាក់ចុះជាក្រោយ For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 3: Shred and wash napa cabbage; boil two or three times; add soup powder and pounded pepper; slice lemongrass and add before serving; taste and adjust.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 31
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "cha",
+      "slug": "cha_khtuem_barang",
+      "dish_name_kh": "ឆាខ្ទឹមបារាំង",
+      "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ឆ្អឹងជំនីរជ្រូកខ្ចី · ខ្ទឹមបារាំង · ម្សៅឆា · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ទឹកខ្លះ",
+      "text_en": "Ingredients: Young pork ribs, Onion, Starch (for thickening), Fish sauce, Salt, Sugar, Soup seasoning powder, A little water",
+      "embed_text": "ឆាខ្ទឹមបារាំង Cha Khtuem Barang (Stir-fried Onion with Pork Ribs). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ឆ្អឹងជំនីរជ្រូកខ្ចី · ខ្ទឹមបារាំង · ម្សៅឆា · ទឹកត្រី · អំបិល · ស្ករ · ម្សៅស៊ុប · ទឹកខ្លះ Full ingredient list for Cha Khtuem Barang (Stir-fried Onion with Pork Ribs): Young pork ribs, Onion, Starch (for thickening), Fish sauce, Salt, Sugar, Soup seasoning powder, A little water.",
+      "ingredients": [
+        {
+          "raw_kh": "ឆ្អឹងជំនីរជ្រូកខ្ចី",
+          "standardized_en": "Young pork ribs"
+        },
+        {
+          "raw_kh": "ខ្ទឹមបារាំង",
+          "standardized_en": "Onion"
+        },
+        {
+          "raw_kh": "ម្សៅឆា",
+          "standardized_en": "Starch (for thickening)"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        },
+        {
+          "raw_kh": "ទឹកខ្លះ",
+          "standardized_en": "A little water"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 32
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_khtuem_barang",
+      "dish_name_kh": "ឆាខ្ទឹមបារាំង",
+      "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)",
+      "step": 1,
+      "text_kh": "ឆ្អឹងជំនីរខ្ចីកាត់ដុំៗ ខ្ទឹមបារាំង កាត់បណ្ដោយធំៗ",
+      "text_en": "Cut the young ribs into pieces; cut the onions into large lengthwise strips.",
+      "embed_text": "ឆាខ្ទឹមបារាំង Cha Khtuem Barang (Stir-fried Onion with Pork Ribs). ឆ្អឹងជំនីរខ្ចីកាត់ដុំៗ ខ្ទឹមបារាំង កាត់បណ្ដោយធំៗ For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 1: Cut the young ribs into pieces; cut the onions into large lengthwise strips.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 33
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_khtuem_barang",
+      "dish_name_kh": "ឆាខ្ទឹមបារាំង",
+      "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)",
+      "step": 2,
+      "text_kh": "ដាំខ្ទះដាក់ខ្លាញ់ឱ្យក្តៅ ដាក់ឆ្អឹងជំនីរជ្រូកខ្ចីឆាចូល ចាក់ទឹកត្រី ដាក់ខ្ទឹមបារាំង អំបិល ស្ករ ម្សៅស៊ុប",
+      "text_en": "Heat a wok with oil, stir-fry the young pork ribs, add fish sauce, then add onion, salt, sugar, and soup powder.",
+      "embed_text": "ឆាខ្ទឹមបារាំង Cha Khtuem Barang (Stir-fried Onion with Pork Ribs). ដាំខ្ទះដាក់ខ្លាញ់ឱ្យក្តៅ ដាក់ឆ្អឹងជំនីរជ្រូកខ្ចីឆាចូល ចាក់ទឹកត្រី ដាក់ខ្ទឹមបារាំង អំបិល ស្ករ ម្សៅស៊ុប For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 2: Heat a wok with oil, stir-fry the young pork ribs, add fish sauce, then add onion, salt, sugar, and soup powder.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 34
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_khtuem_barang",
+      "dish_name_kh": "ឆាខ្ទឹមបារាំង",
+      "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)",
+      "step": 3,
+      "text_kh": "ចាក់ទឹកខ្លះបន្តិច លាយម្សៅឆាចាក់ចូលបន្តិច ភ្លក្សមើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Add a little water, mix starch with water and pour in to thicken slightly; taste and adjust to preference.",
+      "embed_text": "ឆាខ្ទឹមបារាំង Cha Khtuem Barang (Stir-fried Onion with Pork Ribs). ចាក់ទឹកខ្លះបន្តិច លាយម្សៅឆាចាក់ចូលបន្តិច ភ្លក្សមើលឱ្យល្មមតាមចូលចិត្ត For the Khmer cha dish Cha Khtuem Barang (Stir-fried Onion with Pork Ribs), step 3: Add a little water, mix starch with water and pour in to thicken slightly; taste and adjust to preference.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 35
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "cha",
+      "slug": "cha_mi_sour",
+      "dish_name_kh": "ឆាមីសួ",
+      "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ សាច់សុទ្ធ · មីសួរ · ហៃប៊ី · ពងទាសាប · ខ្ទឹមបារាំង · ម្រេច · អំបិល · ទឹកត្រី · ស្ករ · ពពុះសណ្ដែក · ត្រចៀកកណ្តុរ · ខ្លាញ់ · ខ្ទឹមស · ម្សៅស៊ុប",
+      "text_en": "Ingredients: Lean pork, Glass noodles (mi sor), Dried lily buds, Duck egg, Onion, Black pepper, Salt, Fish sauce, Sugar, Bean sprouts, Wood ear mushrooms, Cooking oil, Garlic, Soup seasoning powder",
+      "embed_text": "ឆាមីសួ Cha Mi Sour (Stir-fried Glass Noodles). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ សាច់សុទ្ធ · មីសួរ · ហៃប៊ី · ពងទាសាប · ខ្ទឹមបារាំង · ម្រេច · អំបិល · ទឹកត្រី · ស្ករ · ពពុះសណ្ដែក · ត្រចៀកកណ្តុរ · ខ្លាញ់ · ខ្ទឹមស · ម្សៅស៊ុប Full ingredient list for Cha Mi Sour (Stir-fried Glass Noodles): Lean pork, Glass noodles (mi sor), Dried lily buds, Duck egg, Onion, Black pepper, Salt, Fish sauce, Sugar, Bean sprouts, Wood ear mushrooms, Cooking oil, Garlic, Soup seasoning powder.",
+      "ingredients": [
+        {
+          "raw_kh": "សាច់សុទ្ធ",
+          "standardized_en": "Lean pork"
+        },
+        {
+          "raw_kh": "មីសួរ",
+          "standardized_en": "Glass noodles (mi sor)"
+        },
+        {
+          "raw_kh": "ហៃប៊ី",
+          "standardized_en": "Dried lily buds"
+        },
+        {
+          "raw_kh": "ពងទាសាប",
+          "standardized_en": "Duck egg"
+        },
+        {
+          "raw_kh": "ខ្ទឹមបារាំង",
+          "standardized_en": "Onion"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ពពុះសណ្ដែក",
+          "standardized_en": "Bean sprouts"
+        },
+        {
+          "raw_kh": "ត្រចៀកកណ្តុរ",
+          "standardized_en": "Wood ear mushrooms"
+        },
+        {
+          "raw_kh": "ខ្លាញ់",
+          "standardized_en": "Cooking oil"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 36
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_mi_sour",
+      "dish_name_kh": "ឆាមីសួ",
+      "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+      "step": 1,
+      "text_kh": "សាច់សុទ្ធហាន់ជាបន្ទះស្តើងចិញ្ច្រាំឱ្យល្អិត មីសួរ ត្រចៀកកណ្តុរ ពពុះសណ្ដែកត្រាំទឹកឱ្យរីកកាត់ឱ្យខ្លី។ ស្រង់ទុកឱ្យស្រសទឹក",
+      "text_en": "Mince the lean pork finely; soak glass noodles, wood ear, and bean sprouts until soft, cut short, and drain well.",
+      "embed_text": "ឆាមីសួ Cha Mi Sour (Stir-fried Glass Noodles). សាច់សុទ្ធហាន់ជាបន្ទះស្តើងចិញ្ច្រាំឱ្យល្អិត មីសួរ ត្រចៀកកណ្តុរ ពពុះសណ្ដែកត្រាំទឹកឱ្យរីកកាត់ឱ្យខ្លី។ ស្រង់ទុកឱ្យស្រសទឹក For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 1: Mince the lean pork finely; soak glass noodles, wood ear, and bean sprouts until soft, cut short, and drain well.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 37
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_mi_sour",
+      "dish_name_kh": "ឆាមីសួ",
+      "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+      "step": 2,
+      "text_kh": "យកខ្លាញ់ដាក់ខ្ទឹមសចិញ្ច្រាំឆាឱ្យឈ្ងុយ ដាក់សាច់ជ្រកឆា ចាក់ទឹកត្រី ស្ករ អំបិល ម្សៅស៊ុប",
+      "text_en": "Heat oil and fry minced garlic until fragrant; stir-fry the pork; add fish sauce, sugar, salt, and soup powder.",
+      "embed_text": "ឆាមីសួ Cha Mi Sour (Stir-fried Glass Noodles). យកខ្លាញ់ដាក់ខ្ទឹមសចិញ្ច្រាំឆាឱ្យឈ្ងុយ ដាក់សាច់ជ្រកឆា ចាក់ទឹកត្រី ស្ករ អំបិល ម្សៅស៊ុប For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 2: Heat oil and fry minced garlic until fragrant; stir-fry the pork; add fish sauce, sugar, salt, and soup powder.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 38
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_mi_sour",
+      "dish_name_kh": "ឆាមីសួ",
+      "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+      "step": 3,
+      "text_kh": "ដាក់ខ្ទឹមបារាំងហាន់បណ្តោយចំណិត ដាក់មីសួរ ត្រចៀកកណ្តុរ ឆាឱ្យឆ្អិន",
+      "text_en": "Add sliced onion, glass noodles, and wood ear; stir-fry until cooked.",
+      "embed_text": "ឆាមីសួ Cha Mi Sour (Stir-fried Glass Noodles). ដាក់ខ្ទឹមបារាំងហាន់បណ្តោយចំណិត ដាក់មីសួរ ត្រចៀកកណ្តុរ ឆាឱ្យឆ្អិន For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 3: Add sliced onion, glass noodles, and wood ear; stir-fry until cooked.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 39
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "cha_mi_sour",
+      "dish_name_kh": "ឆាមីសួ",
+      "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+      "step": 4,
+      "text_kh": "វាយពងទាចាក់ចូលឆាឱ្យសព្វ រោយម្រេចបន្តិច ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Beat the duck egg and pour in; scramble until set; add black pepper; taste and adjust to preference.",
+      "embed_text": "ឆាមីសួ Cha Mi Sour (Stir-fried Glass Noodles). វាយពងទាចាក់ចូលឆាឱ្យសព្វ រោយម្រេចបន្តិច ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 4: Beat the duck egg and pour in; scramble until set; add black pepper; taste and adjust to preference.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 40
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "cha",
+      "slug": "kroeung_sach_trei",
+      "dish_name_kh": "ឆាគ្រឿងសាច់ត្រី",
+      "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ត្រីកេសរំពាង · ស្លឹកគ្រៃ · ខ្ជាយ · រមៀត · រំដេង · សំបកផ្លែក្រូចសើច · សណ្តែកដី · ទឹកត្រី · ស្ករ · អំបិល · ម្សៅស៊ុប · ខ្ទឹមស",
+      "text_en": "Ingredients: Kes rompeang fish, Lemongrass, Fingerroot (krachai), Turmeric, Galangal, Kaffir lime zest, Peanuts, Fish sauce, Sugar, Salt, Soup seasoning powder, Garlic",
+      "embed_text": "ឆាគ្រឿងសាច់ត្រី Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ត្រីកេសរំពាង · ស្លឹកគ្រៃ · ខ្ជាយ · រមៀត · រំដេង · សំបកផ្លែក្រូចសើច · សណ្តែកដី · ទឹកត្រី · ស្ករ · អំបិល · ម្សៅស៊ុប · ខ្ទឹមស Full ingredient list for Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste): Kes rompeang fish, Lemongrass, Fingerroot (krachai), Turmeric, Galangal, Kaffir lime zest, Peanuts, Fish sauce, Sugar, Salt, Soup seasoning powder, Garlic.",
+      "ingredients": [
+        {
+          "raw_kh": "ត្រីកេសរំពាង",
+          "standardized_en": "Kes rompeang fish"
+        },
+        {
+          "raw_kh": "ស្លឹកគ្រៃ",
+          "standardized_en": "Lemongrass"
+        },
+        {
+          "raw_kh": "ខ្ជាយ",
+          "standardized_en": "Fingerroot (krachai)"
+        },
+        {
+          "raw_kh": "រមៀត",
+          "standardized_en": "Turmeric"
+        },
+        {
+          "raw_kh": "រំដេង",
+          "standardized_en": "Galangal"
+        },
+        {
+          "raw_kh": "សំបកផ្លែក្រូចសើច",
+          "standardized_en": "Kaffir lime zest"
+        },
+        {
+          "raw_kh": "សណ្តែកដី",
+          "standardized_en": "Peanuts"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 41
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "kroeung_sach_trei",
+      "dish_name_kh": "ឆាគ្រឿងសាច់ត្រី",
+      "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)",
+      "step": 1,
+      "text_kh": "ត្រីស្រកាចេញ ហាន់ជាបន្ទះស្តើងល្មមប៉ុនៗមេដៃ សណ្តែកដីលីងបុក កុំឱ្យម៉ដ្ឋពេកទុកសិន",
+      "text_en": "Descale the fish and slice into thumb-sized strips; roast and crush peanuts, not too finely; set aside.",
+      "embed_text": "ឆាគ្រឿងសាច់ត្រី Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste). ត្រីស្រកាចេញ ហាន់ជាបន្ទះស្តើងល្មមប៉ុនៗមេដៃ សណ្តែកដីលីងបុក កុំឱ្យម៉ដ្ឋពេកទុកសិន For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 1: Descale the fish and slice into thumb-sized strips; roast and crush peanuts, not too finely; set aside.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 42
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "kroeung_sach_trei",
+      "dish_name_kh": "ឆាគ្រឿងសាច់ត្រី",
+      "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)",
+      "step": 2,
+      "text_kh": "ស្លឹកគ្រៃ ខ្ជាយ រមៀត ខ្ទឹមស រំដេង សំបកផ្លែក្រូចសើច បុកឱ្យម៉ដ្ឋ",
+      "text_en": "Pound lemongrass, fingerroot, turmeric, garlic, galangal, and kaffir lime zest until smooth.",
+      "embed_text": "ឆាគ្រឿងសាច់ត្រី Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste). ស្លឹកគ្រៃ ខ្ជាយ រមៀត ខ្ទឹមស រំដេង សំបកផ្លែក្រូចសើច បុកឱ្យម៉ដ្ឋ For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 2: Pound lemongrass, fingerroot, turmeric, garlic, galangal, and kaffir lime zest until smooth.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 43
+    },
+    {
+      "chunk_type": "step",
+      "category": "cha",
+      "slug": "kroeung_sach_trei",
+      "dish_name_kh": "ឆាគ្រឿងសាច់ត្រី",
+      "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)",
+      "step": 3,
+      "text_kh": "យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ ដាក់ស្លឹកគ្រៃដែលបុកនោះឱ្យឈ្ងុយ ទើបដាក់ត្រីចូល ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ឆាឱ្យឆ្អិន ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Heat a wok with oil, fry the pounded paste until fragrant, add the fish, season with fish sauce, salt, sugar, and soup powder; stir-fry until cooked; taste and adjust.",
+      "embed_text": "ឆាគ្រឿងសាច់ត្រី Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste). យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ ដាក់ស្លឹកគ្រៃដែលបុកនោះឱ្យឈ្ងុយ ទើបដាក់ត្រីចូល ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ឆាឱ្យឆ្អិន ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 3: Heat a wok with oil, fry the pounded paste until fragrant, add the fish, season with fish sauce, salt, sugar, and soup powder; stir-fry until cooked; taste and adjust.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 44
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "other",
+      "slug": "nhoam_moan_tr_young_cek",
+      "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+      "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ មាន់ · កោះ · ថ្លើម · ត្រយូងចេក · ជីរ · ទឹកខ្មេះ · ទឹកត្រី · អំបិល · ស្ករ · សណ្តែកដី · ខ្ទឹមស · ម្សៅស៊ុប",
+      "text_en": "Ingredients: Chicken, Chicken gizzard, Liver, Banana blossom, Herbs (basil/mint), Vinegar, Fish sauce, Salt, Sugar, Peanuts, Garlic, Soup seasoning powder",
+      "embed_text": "ញាំមាន់ត្រយូងចេក Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ មាន់ · កោះ · ថ្លើម · ត្រយូងចេក · ជីរ · ទឹកខ្មេះ · ទឹកត្រី · អំបិល · ស្ករ · សណ្តែកដី · ខ្ទឹមស · ម្សៅស៊ុប Full ingredient list for Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad): Chicken, Chicken gizzard, Liver, Banana blossom, Herbs (basil/mint), Vinegar, Fish sauce, Salt, Sugar, Peanuts, Garlic, Soup seasoning powder.",
+      "ingredients": [
+        {
+          "raw_kh": "មាន់",
+          "standardized_en": "Chicken"
+        },
+        {
+          "raw_kh": "កោះ",
+          "standardized_en": "Chicken gizzard"
+        },
+        {
+          "raw_kh": "ថ្លើម",
+          "standardized_en": "Liver"
+        },
+        {
+          "raw_kh": "ត្រយូងចេក",
+          "standardized_en": "Banana blossom"
+        },
+        {
+          "raw_kh": "ជីរ",
+          "standardized_en": "Herbs (basil/mint)"
+        },
+        {
+          "raw_kh": "ទឹកខ្មេះ",
+          "standardized_en": "Vinegar"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "សណ្តែកដី",
+          "standardized_en": "Peanuts"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 45
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "nhoam_moan_tr_young_cek",
+      "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+      "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+      "step": 1,
+      "text_kh": "មាន់លាងឱ្យស្អាត ស្ងោរឱ្យឆ្អិន ជាមួយកោះថ្លើម",
+      "text_en": "Wash the chicken clean and boil until cooked with the gizzard and liver.",
+      "embed_text": "ញាំមាន់ត្រយូងចេក Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad). មាន់លាងឱ្យស្អាត ស្ងោរឱ្យឆ្អិន ជាមួយកោះថ្លើម For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 1: Wash the chicken clean and boil until cooked with the gizzard and liver.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 46
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "nhoam_moan_tr_young_cek",
+      "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+      "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+      "step": 2,
+      "text_kh": "ត្រយូងចេក ហាន់ស្តើងៗ យកទៅត្រាំទឹកដាក់ទឹកខ្មេះចូល ត្រាំកុំឱ្យខ្មៅ រួចស្រង់ដាក់ កញ្ច្រែងទុកសិន",
+      "text_en": "Slice the banana blossom thinly; soak in water with vinegar so it does not darken; drain and set aside.",
+      "embed_text": "ញាំមាន់ត្រយូងចេក Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad). ត្រយូងចេក ហាន់ស្តើងៗ យកទៅត្រាំទឹកដាក់ទឹកខ្មេះចូល ត្រាំកុំឱ្យខ្មៅ រួចស្រង់ដាក់ កញ្ច្រែងទុកសិន For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 2: Slice the banana blossom thinly; soak in water with vinegar so it does not darken; drain and set aside.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 47
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "nhoam_moan_tr_young_cek",
+      "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+      "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+      "step": 3,
+      "text_kh": "យកមាន់បេះតែសាច់ជាសរសៃល្អិតៗ កោះថ្លើមហាន់ដាក់ លាយជាមួយត្រយូងចេក បេះស្លឹកជីរត្រូវកុំដាក់ឱ្យច្រើនពេក ខ្ទឹមសហាន់ ចៀនឱ្យក្រហមដាក់លាយជាមួយគ្នាទាំងអស់",
+      "text_en": "Shred the chicken meat finely; chop gizzard and liver; mix with banana blossom and a little herb; add fried golden garlic.",
+      "embed_text": "ញាំមាន់ត្រយូងចេក Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad). យកមាន់បេះតែសាច់ជាសរសៃល្អិតៗ កោះថ្លើមហាន់ដាក់ លាយជាមួយត្រយូងចេក បេះស្លឹកជីរត្រូវកុំដាក់ឱ្យច្រើនពេក ខ្ទឹមសហាន់ ចៀនឱ្យក្រហមដាក់លាយជាមួយគ្នាទាំងអស់ For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 3: Shred the chicken meat finely; chop gizzard and liver; mix with banana blossom and a little herb; add fried golden garlic.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": true,
+      "id": 48
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "nhoam_moan_tr_young_cek",
+      "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+      "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+      "step": 4,
+      "text_kh": "យកទឹកត្រីលាយទឹកខ្មេះ ស្ករ ម្រេចបុក ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម យកទៅចាក់ចូលលាយឱ្យសព្វ ភ្លក់មើលឱ្យឆ្ងាញ់ជាការស្រេច",
+      "text_en": "Mix fish sauce with vinegar, sugar, pounded pepper, and soup powder; taste; pour over the salad and mix well.",
+      "embed_text": "ញាំមាន់ត្រយូងចេក Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad). យកទឹកត្រីលាយទឹកខ្មេះ ស្ករ ម្រេចបុក ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម យកទៅចាក់ចូលលាយឱ្យសព្វ ភ្លក់មើលឱ្យឆ្ងាញ់ជាការស្រេច For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 4: Mix fish sauce with vinegar, sugar, pounded pepper, and soup powder; taste; pour over the salad and mix well.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 49
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "other",
+      "slug": "omelette",
+      "dish_name_kh": "ពងទាបឬពងមាន់ចៀន (Omelette)",
+      "dish_name_en": "Omelette (Duck or Chicken Egg)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ពងទាបឬពងមាន់ · ខ្លាញ់ · អំបិល · ម្រេច · ស្ករ",
+      "text_en": "Ingredients: Chicken, Cooking oil, Salt, Black pepper, Sugar",
+      "embed_text": "ពងទាបឬពងមាន់ចៀន (Omelette) Omelette (Duck or Chicken Egg). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ពងទាបឬពងមាន់ · ខ្លាញ់ · អំបិល · ម្រេច · ស្ករ Full ingredient list for Omelette (Duck or Chicken Egg): Chicken, Cooking oil, Salt, Black pepper, Sugar.",
+      "ingredients": [
+        {
+          "raw_kh": "ពងទាបឬពងមាន់",
+          "standardized_en": "Chicken"
+        },
+        {
+          "raw_kh": "ខ្លាញ់",
+          "standardized_en": "Cooking oil"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 50
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "omelette",
+      "dish_name_kh": "ពងទាបឬពងមាន់ចៀន (Omelette)",
+      "dish_name_en": "Omelette (Duck or Chicken Egg)",
+      "step": 1,
+      "text_kh": "យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ គោះពងមាន់ ដាក់លើខ្ទះ រោយអំបិល ស្ករ",
+      "text_en": "Heat a pan with oil; beat the eggs, pour onto the pan, and sprinkle with salt and sugar.",
+      "embed_text": "ពងទាបឬពងមាន់ចៀន (Omelette) Omelette (Duck or Chicken Egg). យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ គោះពងមាន់ ដាក់លើខ្ទះ រោយអំបិល ស្ករ For the Khmer other dish Omelette (Duck or Chicken Egg), step 1: Heat a pan with oil; beat the eggs, pour onto the pan, and sprinkle with salt and sugar.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 51
+    },
+    {
+      "chunk_type": "step",
+      "category": "other",
+      "slug": "omelette",
+      "dish_name_kh": "ពងទាបឬពងមាន់ចៀន (Omelette)",
+      "dish_name_en": "Omelette (Duck or Chicken Egg)",
+      "step": 2,
+      "text_kh": "ម្រេច ត្រឡប់រួចដួសដាក់ចាន ជាការស្រេច",
+      "text_en": "Add black pepper, flip once cooked, then scoop onto a plate to serve.",
+      "embed_text": "ពងទាបឬពងមាន់ចៀន (Omelette) Omelette (Duck or Chicken Egg). ម្រេច ត្រឡប់រួចដួសដាក់ចាន ជាការស្រេច For the Khmer other dish Omelette (Duck or Chicken Egg), step 2: Add black pepper, flip once cooked, then scoop onto a plate to serve.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 52
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "dessert",
+      "slug": "bay_damnaeub_mukh_bangkea",
+      "dish_name_kh": "បាយដំណើបបំពង",
+      "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ អង្ករដំណើបស · បង្គា · ត្រីងៀត · ស្លឹកក្រូចសើច · ខ្ទឹមស · អំបិល · ស្ករ · ទឹកត្រី · ម្សៅស៊ុប · ស្លឹកចេក",
+      "text_en": "Ingredients: Glutinous rice, Eggplant, Dried fish, Kaffir lime leaves, Garlic, Salt, Sugar, Fish sauce, Soup seasoning powder, Banana leaf",
+      "embed_text": "បាយដំណើបបំពង Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ អង្ករដំណើបស · បង្គា · ត្រីងៀត · ស្លឹកក្រូចសើច · ខ្ទឹមស · អំបិល · ស្ករ · ទឹកត្រី · ម្សៅស៊ុប · ស្លឹកចេក Full ingredient list for Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones): Glutinous rice, Eggplant, Dried fish, Kaffir lime leaves, Garlic, Salt, Sugar, Fish sauce, Soup seasoning powder, Banana leaf.",
+      "ingredients": [
+        {
+          "raw_kh": "អង្ករដំណើបស",
+          "standardized_en": "Glutinous rice"
+        },
+        {
+          "raw_kh": "បង្គា",
+          "standardized_en": "Eggplant"
+        },
+        {
+          "raw_kh": "ត្រីងៀត",
+          "standardized_en": "Dried fish"
+        },
+        {
+          "raw_kh": "ស្លឹកក្រូចសើច",
+          "standardized_en": "Kaffir lime leaves"
+        },
+        {
+          "raw_kh": "ខ្ទឹមស",
+          "standardized_en": "Garlic"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្ករ",
+          "standardized_en": "Sugar"
+        },
+        {
+          "raw_kh": "ទឹកត្រី",
+          "standardized_en": "Fish sauce"
+        },
+        {
+          "raw_kh": "ម្សៅស៊ុប",
+          "standardized_en": "Soup seasoning powder"
+        },
+        {
+          "raw_kh": "ស្លឹកចេក",
+          "standardized_en": "Banana leaf"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 53
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "bay_damnaeub_mukh_bangkea",
+      "dish_name_kh": "បាយដំណើបបំពង",
+      "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)",
+      "step": 1,
+      "text_kh": "អង្ករយកទៅត្រាំជាមួយទឹកអំបិលចំនួន ៣ ម៉ោង ទើបស្រង់ទៅបំពងឱ្យស្រួយយកមកកិន ដាក់អំបិលបន្តិច បង្គាយកទៅបំពងឱ្យស្រួយ ពណ៌ជម្ពូយកទៅបំពងឱ្យស្រួយ រួចបុកឱ្យម៉ដ្ឋបន្តិច",
+      "text_en": "Soak glutinous rice in salted water for 3 hours; drain, fry until crisp, pound lightly with a little salt; fry eggplant and dried fish until crisp and pound lightly.",
+      "embed_text": "បាយដំណើបបំពង Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones). អង្ករយកទៅត្រាំជាមួយទឹកអំបិលចំនួន ៣ ម៉ោង ទើបស្រង់ទៅបំពងឱ្យស្រួយយកមកកិន ដាក់អំបិលបន្តិច បង្គាយកទៅបំពងឱ្យស្រួយ ពណ៌ជម្ពូយកទៅបំពងឱ្យស្រួយ រួចបុកឱ្យម៉ដ្ឋបន្តិច For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 1: Soak glutinous rice in salted water for 3 hours; drain, fry until crisp, pound lightly with a little salt; fry eggplant and dried fish until crisp and pound lightly.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 54
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "bay_damnaeub_mukh_bangkea",
+      "dish_name_kh": "បាយដំណើបបំពង",
+      "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)",
+      "step": 2,
+      "text_kh": "ដាក់ម្សៅស៊ុបបន្តិច ចាក់ទឹកត្រីបន្តិច អំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឲ្យល្មម កុំឲ្យប្រៃពេក រួចច្របល់ចូលគ្នាជានិច្ច ទើបយកបាយបំពងមកច្របល់ជាមួយបង្គា និងត្រីងៀត",
+      "text_en": "Season with soup powder, fish sauce, salt, and sugar — not too salty; mix everything together, then combine the fried rice with eggplant and dried fish.",
+      "embed_text": "បាយដំណើបបំពង Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones). ដាក់ម្សៅស៊ុបបន្តិច ចាក់ទឹកត្រីបន្តិច អំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឲ្យល្មម កុំឲ្យប្រៃពេក រួចច្របល់ចូលគ្នាជានិច្ច ទើបយកបាយបំពងមកច្របល់ជាមួយបង្គា និងត្រីងៀត For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 2: Season with soup powder, fish sauce, salt, and sugar — not too salty; mix everything together, then combine the fried rice with eggplant and dried fish.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 55
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "bay_damnaeub_mukh_bangkea",
+      "dish_name_kh": "បាយដំណើបបំពង",
+      "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)",
+      "step": 3,
+      "text_kh": "យកស្លឹកចេកមកធ្វើជាកោណ ។ ចំណែកស្លឹកក្រូចសើចហាន់ជាសរសៃតូចៗ ទើបយកបាយដំណើបដាក់ក្នុងកោណនោះ យកសាច់បង្គាដាក់ពីលើឲ្យពេញ កុំឱ្យយឺតយូរ រួចយកស្លឹកកញ្ចុំដាក់ពីលើ និងស្លឹកក្រូចសើចហាន់ដាក់ពីលើទៀត ជាការស្រេច",
+      "text_en": "Shape a banana leaf into a cone; shred kaffir lime leaves finely; pack glutinous rice into the cone, top with the filling without delay, cover with banana leaf and kaffir shreds; serve.",
+      "embed_text": "បាយដំណើបបំពង Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones). យកស្លឹកចេកមកធ្វើជាកោណ ។ ចំណែកស្លឹកក្រូចសើចហាន់ជាសរសៃតូចៗ ទើបយកបាយដំណើបដាក់ក្នុងកោណនោះ យកសាច់បង្គាដាក់ពីលើឲ្យពេញ កុំឱ្យយឺតយូរ រួចយកស្លឹកកញ្ចុំដាក់ពីលើ និងស្លឹកក្រូចសើចហាន់ដាក់ពីលើទៀត ជាការស្រេច For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 3: Shape a banana leaf into a cone; shred kaffir lime leaves finely; pack glutinous rice into the cone, top with the filling without delay, cover with banana leaf and kaffir shreds; serve.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 56
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "dessert",
+      "slug": "chek_chien",
+      "dish_name_kh": "ចេកចៀន",
+      "dish_name_en": "Chek Chien (Fried Bananas)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ ចេកណាំវ៉ា · ឬចេកពងមាន់ · ដូងទុំ · ល្ង · ម្សៅកញ្ចប់រូបកុមារ៉ាល់ហោះ · ម្សៅខ្សាយ · ស៊ីអ៊ីវខាប់ · ខ្លាញ់ · ពងទាសាប · អំបិល",
+      "text_en": "Ingredients: Namwa banana, Chicken, Ripe coconut, Turmeric (fresh), Flying Boy brand flour mix, Rice flour, Cooking wine, Cooking oil, Duck egg, Salt",
+      "embed_text": "ចេកចៀន Chek Chien (Fried Bananas). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ ចេកណាំវ៉ា · ឬចេកពងមាន់ · ដូងទុំ · ល្ង · ម្សៅកញ្ចប់រូបកុមារ៉ាល់ហោះ · ម្សៅខ្សាយ · ស៊ីអ៊ីវខាប់ · ខ្លាញ់ · ពងទាសាប · អំបិល Full ingredient list for Chek Chien (Fried Bananas): Namwa banana, Chicken, Ripe coconut, Turmeric (fresh), Flying Boy brand flour mix, Rice flour, Cooking wine, Cooking oil, Duck egg, Salt.",
+      "ingredients": [
+        {
+          "raw_kh": "ចេកណាំវ៉ា",
+          "standardized_en": "Namwa banana"
+        },
+        {
+          "raw_kh": "ឬចេកពងមាន់",
+          "standardized_en": "Chicken"
+        },
+        {
+          "raw_kh": "ដូងទុំ",
+          "standardized_en": "Ripe coconut"
+        },
+        {
+          "raw_kh": "ល្ង",
+          "standardized_en": "Turmeric (fresh)"
+        },
+        {
+          "raw_kh": "ម្សៅកញ្ចប់រូបកុមារ៉ាល់ហោះ",
+          "standardized_en": "Flying Boy brand flour mix"
+        },
+        {
+          "raw_kh": "ម្សៅខ្សាយ",
+          "standardized_en": "Rice flour"
+        },
+        {
+          "raw_kh": "ស៊ីអ៊ីវខាប់",
+          "standardized_en": "Cooking wine"
+        },
+        {
+          "raw_kh": "ខ្លាញ់",
+          "standardized_en": "Cooking oil"
+        },
+        {
+          "raw_kh": "ពងទាសាប",
+          "standardized_en": "Duck egg"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 57
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "chek_chien",
+      "dish_name_kh": "ចេកចៀន",
+      "dish_name_en": "Chek Chien (Fried Bananas)",
+      "step": 1,
+      "text_kh": "ចេកត្រូវពុះជាបួនទុកសិន យកម្សៅខ្សាយលាយជាមួយម្សៅរូបកុមារ៉ាល់ហោះដាក់បន្តិច",
+      "text_en": "Halve the bananas lengthwise; mix rice flour with a little Flying Boy flour mix.",
+      "embed_text": "ចេកចៀន Chek Chien (Fried Bananas). ចេកត្រូវពុះជាបួនទុកសិន យកម្សៅខ្សាយលាយជាមួយម្សៅរូបកុមារ៉ាល់ហោះដាក់បន្តិច For the Khmer dessert dish Chek Chien (Fried Bananas), step 1: Halve the bananas lengthwise; mix rice flour with a little Flying Boy flour mix.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 58
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "chek_chien",
+      "dish_name_kh": "ចេកចៀន",
+      "dish_name_en": "Chek Chien (Fried Bananas)",
+      "step": 2,
+      "text_kh": "ពងទាយកតែសលាយជាមួយម្សៅឱ្យសព្វ ចាក់ស៊ីអ៊ីវបន្តិច ដាក់អំបិលបន្តិច",
+      "text_en": "Beat egg white into the flour until smooth; add a little cooking wine and salt.",
+      "embed_text": "ចេកចៀន Chek Chien (Fried Bananas). ពងទាយកតែសលាយជាមួយម្សៅឱ្យសព្វ ចាក់ស៊ីអ៊ីវបន្តិច ដាក់អំបិលបន្តិច For the Khmer dessert dish Chek Chien (Fried Bananas), step 2: Beat egg white into the flour until smooth; add a little cooking wine and salt.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 59
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "chek_chien",
+      "dish_name_kh": "ចេកចៀន",
+      "dish_name_en": "Chek Chien (Fried Bananas)",
+      "step": 3,
+      "text_kh": "យកល្ង ដូងពុះយកក្បាលខ្ទិះចាក់លាយម្សៅ រួចយកសាច់ដូងដែលកោសដាក់ចូលខ្លះ",
+      "text_en": "Grate turmeric and coconut head into the batter; add some grated coconut flesh.",
+      "embed_text": "ចេកចៀន Chek Chien (Fried Bananas). យកល្ង ដូងពុះយកក្បាលខ្ទិះចាក់លាយម្សៅ រួចយកសាច់ដូងដែលកោសដាក់ចូលខ្លះ For the Khmer dessert dish Chek Chien (Fried Bananas), step 3: Grate turmeric and coconut head into the batter; add some grated coconut flesh.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 60
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "chek_chien",
+      "dish_name_kh": "ចេកចៀន",
+      "dish_name_en": "Chek Chien (Fried Bananas)",
+      "step": 4,
+      "text_kh": "ដាំខ្លាញ់ឱ្យក្តៅទើបយកចេកទៅជ្រលក់នឹងម្សៅ បង់ក្នុងខ្លាញ់ឱ្យឡើងក្រហមស្រួយ ជាការស្រេច",
+      "text_en": "Heat oil; dip bananas in the batter and fry until golden and crisp.",
+      "embed_text": "ចេកចៀន Chek Chien (Fried Bananas). ដាំខ្លាញ់ឱ្យក្តៅទើបយកចេកទៅជ្រលក់នឹងម្សៅ បង់ក្នុងខ្លាញ់ឱ្យឡើងក្រហមស្រួយ ជាការស្រេច For the Khmer dessert dish Chek Chien (Fried Bananas), step 4: Heat oil; dip bananas in the batter and fry until golden and crisp.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 61
+    },
+    {
+      "chunk_type": "ingredients",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": null,
+      "text_kh": "គ្រឿងផ្សំ៖ អង្ករដំណើប · សាច់ជ្រូកបីជាន់ · សណ្តែកបាយ · ម្រេច · អំបិល · ស្លឹកខ្ទឹម · ដូងទុំ · ស្លឹកចេក · ស្លឹកឫស្សី",
+      "text_en": "Ingredients: Glutinous rice, Three-layer pork (belly), Soybeans, Black pepper, Salt, Lemongrass (sliced), Ripe coconut, Banana leaf, Pandan leaves",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). ingredients គ្រឿងផ្សំ គ្រឿងផ្សំ៖ អង្ករដំណើប · សាច់ជ្រូកបីជាន់ · សណ្តែកបាយ · ម្រេច · អំបិល · ស្លឹកខ្ទឹម · ដូងទុំ · ស្លឹកចេក · ស្លឹកឫស្សី Full ingredient list for Num Ansom Chrouk (Pork Rice Cake): Glutinous rice, Three-layer pork (belly), Soybeans, Black pepper, Salt, Lemongrass (sliced), Ripe coconut, Banana leaf, Pandan leaves.",
+      "ingredients": [
+        {
+          "raw_kh": "អង្ករដំណើប",
+          "standardized_en": "Glutinous rice"
+        },
+        {
+          "raw_kh": "សាច់ជ្រូកបីជាន់",
+          "standardized_en": "Three-layer pork (belly)"
+        },
+        {
+          "raw_kh": "សណ្តែកបាយ",
+          "standardized_en": "Soybeans"
+        },
+        {
+          "raw_kh": "ម្រេច",
+          "standardized_en": "Black pepper"
+        },
+        {
+          "raw_kh": "អំបិល",
+          "standardized_en": "Salt"
+        },
+        {
+          "raw_kh": "ស្លឹកខ្ទឹម",
+          "standardized_en": "Lemongrass (sliced)"
+        },
+        {
+          "raw_kh": "ដូងទុំ",
+          "standardized_en": "Ripe coconut"
+        },
+        {
+          "raw_kh": "ស្លឹកចេក",
+          "standardized_en": "Banana leaf"
+        },
+        {
+          "raw_kh": "ស្លឹកឫស្សី",
+          "standardized_en": "Pandan leaves"
+        }
+      ],
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 62
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": 1,
+      "text_kh": "អង្ករដំណើបត្រាំទឹកបីឬបួនម៉ោង សណ្តែកបាយលាង រួចយកទៅត្រាំទឹកឱ្យរីកសំបក លាងសម្អាតចេញឱ្យស្អាត",
+      "text_en": "Soak glutinous rice for 3–4 hours; wash soybeans and soak until skins loosen; rinse clean.",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). អង្ករដំណើបត្រាំទឹកបីឬបួនម៉ោង សណ្តែកបាយលាង រួចយកទៅត្រាំទឹកឱ្យរីកសំបក លាងសម្អាតចេញឱ្យស្អាត For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 1: Soak glutinous rice for 3–4 hours; wash soybeans and soak until skins loosen; rinse clean.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 63
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": 2,
+      "text_kh": "សាច់ជ្រូកហាន់វែងៗ រួចយកទៅប្រឡាក់អំបិល-ម្រេច ហាន់ស្លឹកខ្ទឹមដាក់លាយជាមួយ សណ្តែកបាយទៅដាំបាយសិន",
+      "text_en": "Slice pork into long strips; marinate with salt and pepper; slice lemongrass and mix in; cook soybeans first.",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). សាច់ជ្រូកហាន់វែងៗ រួចយកទៅប្រឡាក់អំបិល-ម្រេច ហាន់ស្លឹកខ្ទឹមដាក់លាយជាមួយ សណ្តែកបាយទៅដាំបាយសិន For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 2: Slice pork into long strips; marinate with salt and pepper; slice lemongrass and mix in; cook soybeans first.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 64
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": 3,
+      "text_kh": "ជូនកាលយកក្បាលខ្ទិះលាយជាមួយអង្ករ ទើបយកស្លឹកចេកមកជូតពូតឱ្យស្អាត រួចយកអង្ករមកវាសដាក់លើស្លឹកចេក យកសណ្តែកដាក់លើអង្ករ រួចយកសាច់ជ្រូកដាក់កណ្តាលខ្ចប់ជាអន្សម ចងឱ្យជាប់មួយៗ",
+      "text_en": "Mix coconut head with rice; wipe banana leaves clean; spread rice on leaf, add soybeans, place pork in the center, and wrap each ansom tightly.",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). ជូនកាលយកក្បាលខ្ទិះលាយជាមួយអង្ករ ទើបយកស្លឹកចេកមកជូតពូតឱ្យស្អាត រួចយកអង្ករមកវាសដាក់លើស្លឹកចេក យកសណ្តែកដាក់លើអង្ករ រួចយកសាច់ជ្រូកដាក់កណ្តាលខ្ចប់ជាអន្សម ចងឱ្យជាប់មួយៗ For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 3: Mix coconut head with rice; wipe banana leaves clean; spread rice on leaf, add soybeans, place pork in the center, and wrap each ansom tightly.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 65
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": 4,
+      "text_kh": "យកស្លឹកឫស្សីមកទ្រាប់បាតឆ្នាំង យកអន្សមដាក់ដំរៀបឱ្យពេញល្មម យកស្លឹកឫស្សីគ្របពីលើឱ្យពេញ ទើបចាក់ទឹកឱ្យល្មម រួចលើកចង្ក្រាន",
+      "text_en": "Line the pot with pandan leaves; arrange the ansom; cover with more pandan; add enough water and bring to a boil.",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). យកស្លឹកឫស្សីមកទ្រាប់បាតឆ្នាំង យកអន្សមដាក់ដំរៀបឱ្យពេញល្មម យកស្លឹកឫស្សីគ្របពីលើឱ្យពេញ ទើបចាក់ទឹកឱ្យល្មម រួចលើកចង្ក្រាន For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 4: Line the pot with pandan leaves; arrange the ansom; cover with more pandan; add enough water and bring to a boil.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 66
+    },
+    {
+      "chunk_type": "step",
+      "category": "dessert",
+      "slug": "num_ansom_chrouk",
+      "dish_name_kh": "អន្សមជ្រូក",
+      "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+      "step": 5,
+      "text_kh": "កាលណាខះទឹកត្រូវចាក់ទឹកថែមទៀត ចំនួន៨ឬ៩ម៉ោង លុះតែឆ្អិន សឹមស្រង់ដាក់ក្រឡបោកតម្រៀបស្រេច",
+      "text_en": "Top up water as needed; steam 8–9 hours until cooked; drain and press in a mold to set.",
+      "embed_text": "អន្សមជ្រូក Num Ansom Chrouk (Pork Rice Cake). កាលណាខះទឹកត្រូវចាក់ទឹកថែមទៀត ចំនួន៨ឬ៩ម៉ោង លុះតែឆ្អិន សឹមស្រង់ដាក់ក្រឡបោកតម្រៀបស្រេច For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 5: Top up water as needed; steam 8–9 hours until cooked; drain and press in a mold to set.",
+      "source_type": "published_textbook",
+      "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+      "requires_safety_review": false,
+      "id": 67
+    },
+    {
+      "chunk_type": "parent",
+      "category": "cha",
+      "slug": "_parent_cha",
+      "dish_name_kh": "ឆា",
+      "dish_name_en": "Cha (Khmer Stir-fries)",
+      "step": null,
+      "text_kh": "ឆា",
+      "text_en": "Khmer stir-fried dishes cooked quickly in a wok with oil, garlic, and seasonings. Includes meat, fish, and noodle stir-fries. Key techniques: fry aromatics first, high heat, season with fish sauce and adjust taste at the end.",
+      "embed_text": "ឆា Cha (Khmer Stir-fries). Khmer stir-fried dishes cooked quickly in a wok with oil, garlic, and seasonings. Includes meat, fish, and noodle stir-fries. Key techniques: fry aromatics first, high heat, season with fish sauce and adjust taste at the end.",
+      "source_type": "published_textbook",
+      "source_citation": "Category overview (corpus parent document)",
+      "requires_safety_review": false,
+      "dishes": [
+        {
+          "slug": "cha_khtuem_barang",
+          "dish_name_en": "Cha Khtuem Barang (Stir-fried Onion with Pork Ribs)"
+        },
+        {
+          "slug": "kroeung_sach_trei",
+          "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)"
+        },
+        {
+          "slug": "cha_mi_sour",
+          "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)"
+        }
+      ],
+      "id": 68
+    },
+    {
+      "chunk_type": "parent",
+      "category": "dessert",
+      "slug": "_parent_dessert",
+      "dish_name_kh": "បង្អែម",
+      "dish_name_en": "Khmer Desserts & Sweet Snacks",
+      "step": null,
+      "text_kh": "បង្អែម",
+      "text_en": "Traditional Khmer sweet dishes including fried bananas, glutinous rice cakes, and steamed rice parcels. Techniques include frying batters, wrapping in banana leaves, and long steaming times.",
+      "embed_text": "បង្អែម Khmer Desserts & Sweet Snacks. Traditional Khmer sweet dishes including fried bananas, glutinous rice cakes, and steamed rice parcels. Techniques include frying batters, wrapping in banana leaves, and long steaming times.",
+      "source_type": "published_textbook",
+      "source_citation": "Category overview (corpus parent document)",
+      "requires_safety_review": false,
+      "dishes": [
+        {
+          "slug": "bay_damnaeub_mukh_bangkea",
+          "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)"
+        },
+        {
+          "slug": "chek_chien",
+          "dish_name_en": "Chek Chien (Fried Bananas)"
+        },
+        {
+          "slug": "num_ansom_chrouk",
+          "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)"
+        }
+      ],
+      "id": 69
+    },
+    {
+      "chunk_type": "parent",
+      "category": "other",
+      "slug": "_parent_other",
+      "dish_name_kh": "ម្ហូបផ្សេងៗ",
+      "dish_name_en": "Other Khmer Dishes",
+      "step": null,
+      "text_kh": "ម្ហូបផ្សេងៗ",
+      "text_en": "Miscellaneous Khmer dishes including salads (nhoam) and simple egg preparations. Salads often mix shredded meat with vegetables and a fish-sauce-vinegar dressing.",
+      "embed_text": "ម្ហូបផ្សេងៗ Other Khmer Dishes. Miscellaneous Khmer dishes including salads (nhoam) and simple egg preparations. Salads often mix shredded meat with vegetables and a fish-sauce-vinegar dressing.",
+      "source_type": "published_textbook",
+      "source_citation": "Category overview (corpus parent document)",
+      "requires_safety_review": false,
+      "dishes": [
+        {
+          "slug": "nhoam_moan_tr_young_cek",
+          "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)"
+        },
+        {
+          "slug": "omelette",
+          "dish_name_en": "Omelette (Duck or Chicken Egg)"
+        }
+      ],
+      "id": 70
+    },
+    {
+      "chunk_type": "parent",
+      "category": "samlor",
+      "slug": "_parent_samlor",
+      "dish_name_kh": "សម្ល និង ស្ងោរ",
+      "dish_name_en": "Samlor & Sngor (Khmer Soups)",
+      "step": null,
+      "text_kh": "សម្ល និង ស្ងោរ",
+      "text_en": "Khmer soup dishes including samlor (brothy soups with meat, fish, and vegetables) and sngor (lighter broths). In Khmer cookbooks, sngor is grouped with samlor. Techniques cover simmering, seasoning with fish sauce, and adding herbs at the end.",
+      "embed_text": "សម្ល និង ស្ងោរ Samlor & Sngor (Khmer Soups). Khmer soup dishes including samlor (brothy soups with meat, fish, and vegetables) and sngor (lighter broths). In Khmer cookbooks, sngor is grouped with samlor. Techniques cover simmering, seasoning with fish sauce, and adding herbs at the end.",
+      "source_type": "published_textbook",
+      "source_citation": "Category overview (corpus parent document)",
+      "requires_safety_review": false,
+      "dishes": [
+        {
+          "slug": "samlor_chap_chhay",
+          "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)"
+        },
+        {
+          "slug": "samlor_kako_phlae_tnoat",
+          "dish_name_en": "Samlor Kako with Young Palm Fruit"
+        },
+        {
+          "slug": "samlor_kari_kroeung_sach_ko",
+          "dish_name_en": "Samlor Machu Kroeung Sach Ko (Sour Beef Offal Soup)"
+        },
+        {
+          "slug": "samlor_proheur",
+          "dish_name_en": "Samlor Proheur (Sour Fish Soup)"
+        },
+        {
+          "slug": "sngor_chrouk_spay_chrok",
+          "dish_name_en": "Sngor Pickled Cabbage and Pork Skin Soup"
+        },
+        {
+          "slug": "sngor_prohet_trei_slat",
+          "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage"
+        }
+      ],
+      "id": 71
+    }
+  ]
+}

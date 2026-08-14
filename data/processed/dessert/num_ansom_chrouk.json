@@ -1,0 +1,88 @@
+{
+  "dish_name_kh": "អន្សមជ្រូក",
+  "dish_name_en": "Num Ansom Chrouk (Pork Rice Cake)",
+  "category": "dessert",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "អង្ករដំណើប",
+      "standardized_en": "Glutinous rice"
+    },
+    {
+      "raw_kh": "សាច់ជ្រូកបីជាន់",
+      "standardized_en": "Three-layer pork (belly)"
+    },
+    {
+      "raw_kh": "សណ្តែកបាយ",
+      "standardized_en": "Soybeans"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្លឹកខ្ទឹម",
+      "standardized_en": "Lemongrass (sliced)"
+    },
+    {
+      "raw_kh": "ដូងទុំ",
+      "standardized_en": "Ripe coconut"
+    },
+    {
+      "raw_kh": "ស្លឹកចេក",
+      "standardized_en": "Banana leaf"
+    },
+    {
+      "raw_kh": "ស្លឹកឫស្សី",
+      "standardized_en": "Pandan leaves"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "អង្ករដំណើបត្រាំទឹកបីឬបួនម៉ោង សណ្តែកបាយលាង រួចយកទៅត្រាំទឹកឱ្យរីកសំបក លាងសម្អាតចេញឱ្យស្អាត",
+      "text_en": "Soak glutinous rice for 3–4 hours; wash soybeans and soak until skins loosen; rinse clean.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 1: Soak glutinous rice for 3–4 hours; wash soybeans and soak until skins loosen; rinse clean."
+    },
+    {
+      "step": 2,
+      "text_kh": "សាច់ជ្រូកហាន់វែងៗ រួចយកទៅប្រឡាក់អំបិល-ម្រេច ហាន់ស្លឹកខ្ទឹមដាក់លាយជាមួយ សណ្តែកបាយទៅដាំបាយសិន",
+      "text_en": "Slice pork into long strips; marinate with salt and pepper; slice lemongrass and mix in; cook soybeans first.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 2: Slice pork into long strips; marinate with salt and pepper; slice lemongrass and mix in; cook soybeans first."
+    },
+    {
+      "step": 3,
+      "text_kh": "ជូនកាលយកក្បាលខ្ទិះលាយជាមួយអង្ករ ទើបយកស្លឹកចេកមកជូតពូតឱ្យស្អាត រួចយកអង្ករមកវាសដាក់លើស្លឹកចេក យកសណ្តែកដាក់លើអង្ករ រួចយកសាច់ជ្រូកដាក់កណ្តាលខ្ចប់ជាអន្សម ចងឱ្យជាប់មួយៗ",
+      "text_en": "Mix coconut head with rice; wipe banana leaves clean; spread rice on leaf, add soybeans, place pork in the center, and wrap each ansom tightly.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 3: Mix coconut head with rice; wipe banana leaves clean; spread rice on leaf, add soybeans, place pork in the center, and wrap each ansom tightly."
+    },
+    {
+      "step": 4,
+      "text_kh": "យកស្លឹកឫស្សីមកទ្រាប់បាតឆ្នាំង យកអន្សមដាក់ដំរៀបឱ្យពេញល្មម យកស្លឹកឫស្សីគ្របពីលើឱ្យពេញ ទើបចាក់ទឹកឱ្យល្មម រួចលើកចង្ក្រាន",
+      "text_en": "Line the pot with pandan leaves; arrange the ansom; cover with more pandan; add enough water and bring to a boil.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 4: Line the pot with pandan leaves; arrange the ansom; cover with more pandan; add enough water and bring to a boil."
+    },
+    {
+      "step": 5,
+      "text_kh": "កាលណាខះទឹកត្រូវចាក់ទឹកថែមទៀត ចំនួន៨ឬ៩ម៉ោង លុះតែឆ្អិន សឹមស្រង់ដាក់ក្រឡបោកតម្រៀបស្រេច",
+      "text_en": "Top up water as needed; steam 8–9 hours until cooked; drain and press in a mold to set.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Num Ansom Chrouk (Pork Rice Cake), step 5: Top up water as needed; steam 8–9 hours until cooked; drain and press in a mold to set."
+    }
+  ],
+  "common_mistake": ""
+}

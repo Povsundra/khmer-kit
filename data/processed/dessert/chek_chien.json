@@ -1,0 +1,84 @@
+{
+  "dish_name_kh": "ចេកចៀន",
+  "dish_name_en": "Chek Chien (Fried Bananas)",
+  "category": "dessert",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ចេកណាំវ៉ា",
+      "standardized_en": "Namwa banana"
+    },
+    {
+      "raw_kh": "ឬចេកពងមាន់",
+      "standardized_en": "Chicken"
+    },
+    {
+      "raw_kh": "ដូងទុំ",
+      "standardized_en": "Ripe coconut"
+    },
+    {
+      "raw_kh": "ល្ង",
+      "standardized_en": "Turmeric (fresh)"
+    },
+    {
+      "raw_kh": "ម្សៅកញ្ចប់រូបកុមារ៉ាល់ហោះ",
+      "standardized_en": "Flying Boy brand flour mix"
+    },
+    {
+      "raw_kh": "ម្សៅខ្សាយ",
+      "standardized_en": "Rice flour"
+    },
+    {
+      "raw_kh": "ស៊ីអ៊ីវខាប់",
+      "standardized_en": "Cooking wine"
+    },
+    {
+      "raw_kh": "ខ្លាញ់",
+      "standardized_en": "Cooking oil"
+    },
+    {
+      "raw_kh": "ពងទាសាប",
+      "standardized_en": "Duck egg"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ចេកត្រូវពុះជាបួនទុកសិន យកម្សៅខ្សាយលាយជាមួយម្សៅរូបកុមារ៉ាល់ហោះដាក់បន្តិច",
+      "text_en": "Halve the bananas lengthwise; mix rice flour with a little Flying Boy flour mix.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Chek Chien (Fried Bananas), step 1: Halve the bananas lengthwise; mix rice flour with a little Flying Boy flour mix."
+    },
+    {
+      "step": 2,
+      "text_kh": "ពងទាយកតែសលាយជាមួយម្សៅឱ្យសព្វ ចាក់ស៊ីអ៊ីវបន្តិច ដាក់អំបិលបន្តិច",
+      "text_en": "Beat egg white into the flour until smooth; add a little cooking wine and salt.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Chek Chien (Fried Bananas), step 2: Beat egg white into the flour until smooth; add a little cooking wine and salt."
+    },
+    {
+      "step": 3,
+      "text_kh": "យកល្ង ដូងពុះយកក្បាលខ្ទិះចាក់លាយម្សៅ រួចយកសាច់ដូងដែលកោសដាក់ចូលខ្លះ",
+      "text_en": "Grate turmeric and coconut head into the batter; add some grated coconut flesh.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Chek Chien (Fried Bananas), step 3: Grate turmeric and coconut head into the batter; add some grated coconut flesh."
+    },
+    {
+      "step": 4,
+      "text_kh": "ដាំខ្លាញ់ឱ្យក្តៅទើបយកចេកទៅជ្រលក់នឹងម្សៅ បង់ក្នុងខ្លាញ់ឱ្យឡើងក្រហមស្រួយ ជាការស្រេច",
+      "text_en": "Heat oil; dip bananas in the batter and fry until golden and crisp.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Chek Chien (Fried Bananas), step 4: Heat oil; dip bananas in the batter and fry until golden and crisp."
+    }
+  ],
+  "common_mistake": ""
+}

@@ -1,0 +1,14 @@
+# slug: sngor_chrouk_spay_chrok
+# source_type: published_textbook
+# source_citation: Khmer cookbook (paraphrased), scan collection 2026
+# verified: yes
+# notes: Extracted from PNG — scan title differs from filename
+# scan: data/source_scans/samlor/Sngor Ch'eung Chrouk ning Spay Chrok.png
+
+ស្ងោរគ្រឿងជ្រក់និងស្បែកជ្រូក
+
+គ្រឿងផ្សំ
+ស្បែកជ្រូក ឆ្អឹងជំនីជ្រូកខ្ចី អំពិលទុំ ម្រេច ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយ ។
+
+របៀបធ្វើ
+ស្បែកលាងទឹកឱ្យស្អាត កាត់ប្រវែងមួយថ្នាំងដៃ ឆ្អឹងជំនីជ្រូកលាងឱ្យស្អាត កាប់ដុំៗ យកទៅស្លឱ្យផុយ ទើបដាក់ស្បែកជ្រូកចូល ជ្រំអំពិលបន្តិច ដាក់អំបិល ស្ករ ចាក់ទឹកត្រី ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម ហាន់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយវែងៗល្មម មុនដាក់ត្រូវបង់ស្លឹកខ្ទឹម វ៉ាន់ស៊ុយចូលសិន ។

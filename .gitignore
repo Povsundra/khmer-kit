@@ -1,0 +1,10 @@
+.env
+.streamlit/secrets.toml
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.cursor/
+Final_Project_AI_Engineer.pdf

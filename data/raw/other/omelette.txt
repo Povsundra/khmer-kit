@@ -1,0 +1,15 @@
+# slug: omelette
+# source_type: published_textbook
+# source_citation: Khmer cookbook (paraphrased), scan collection 2026
+# verified: yes
+# notes: Extracted from PNG — VERIFY all characters
+# scan: data/source_scans/other/Omelette.png
+
+ពងទាបឬពងមាន់ចៀន (Omelette)
+
+គ្រឿងផ្សំ
+ពងទាបឬពងមាន់ ខ្លាញ់ អំបិល ម្រេច ស្ករ។
+
+របៀបធ្វើ
+យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ គោះពងមាន់ ដាក់លើខ្ទះ រោយអំបិល​ ​ស្ករ
+ម្រេច ត្រឡប់រួចដួសដាក់ចាន ជាការស្រេច ។

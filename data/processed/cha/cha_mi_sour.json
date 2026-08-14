@@ -1,0 +1,100 @@
+{
+  "dish_name_kh": "ឆាមីសួ",
+  "dish_name_en": "Cha Mi Sour (Stir-fried Glass Noodles)",
+  "category": "cha",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "សាច់សុទ្ធ",
+      "standardized_en": "Lean pork"
+    },
+    {
+      "raw_kh": "មីសួរ",
+      "standardized_en": "Glass noodles (mi sor)"
+    },
+    {
+      "raw_kh": "ហៃប៊ី",
+      "standardized_en": "Dried lily buds"
+    },
+    {
+      "raw_kh": "ពងទាសាប",
+      "standardized_en": "Duck egg"
+    },
+    {
+      "raw_kh": "ខ្ទឹមបារាំង",
+      "standardized_en": "Onion"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ពពុះសណ្ដែក",
+      "standardized_en": "Bean sprouts"
+    },
+    {
+      "raw_kh": "ត្រចៀកកណ្តុរ",
+      "standardized_en": "Wood ear mushrooms"
+    },
+    {
+      "raw_kh": "ខ្លាញ់",
+      "standardized_en": "Cooking oil"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "សាច់សុទ្ធហាន់ជាបន្ទះស្តើងចិញ្ច្រាំឱ្យល្អិត មីសួរ ត្រចៀកកណ្តុរ ពពុះសណ្ដែកត្រាំទឹកឱ្យរីកកាត់ឱ្យខ្លី។ ស្រង់ទុកឱ្យស្រសទឹក",
+      "text_en": "Mince the lean pork finely; soak glass noodles, wood ear, and bean sprouts until soft, cut short, and drain well.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 1: Mince the lean pork finely; soak glass noodles, wood ear, and bean sprouts until soft, cut short, and drain well."
+    },
+    {
+      "step": 2,
+      "text_kh": "យកខ្លាញ់ដាក់ខ្ទឹមសចិញ្ច្រាំឆាឱ្យឈ្ងុយ ដាក់សាច់ជ្រកឆា ចាក់ទឹកត្រី ស្ករ អំបិល ម្សៅស៊ុប",
+      "text_en": "Heat oil and fry minced garlic until fragrant; stir-fry the pork; add fish sauce, sugar, salt, and soup powder.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 2: Heat oil and fry minced garlic until fragrant; stir-fry the pork; add fish sauce, sugar, salt, and soup powder."
+    },
+    {
+      "step": 3,
+      "text_kh": "ដាក់ខ្ទឹមបារាំងហាន់បណ្តោយចំណិត ដាក់មីសួរ ត្រចៀកកណ្តុរ ឆាឱ្យឆ្អិន",
+      "text_en": "Add sliced onion, glass noodles, and wood ear; stir-fry until cooked.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 3: Add sliced onion, glass noodles, and wood ear; stir-fry until cooked."
+    },
+    {
+      "step": 4,
+      "text_kh": "វាយពងទាចាក់ចូលឆាឱ្យសព្វ រោយម្រេចបន្តិច ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Beat the duck egg and pour in; scramble until set; add black pepper; taste and adjust to preference.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Mi Sour (Stir-fried Glass Noodles), step 4: Beat the duck egg and pour in; scramble until set; add black pepper; taste and adjust to preference."
+    }
+  ],
+  "common_mistake": ""
+}

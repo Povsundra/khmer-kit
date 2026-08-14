@@ -1,0 +1,84 @@
+{
+  "dish_name_kh": "ឆាគ្រឿងសាច់ត្រី",
+  "dish_name_en": "Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste)",
+  "category": "cha",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ត្រីកេសរំពាង",
+      "standardized_en": "Kes rompeang fish"
+    },
+    {
+      "raw_kh": "ស្លឹកគ្រៃ",
+      "standardized_en": "Lemongrass"
+    },
+    {
+      "raw_kh": "ខ្ជាយ",
+      "standardized_en": "Fingerroot (krachai)"
+    },
+    {
+      "raw_kh": "រមៀត",
+      "standardized_en": "Turmeric"
+    },
+    {
+      "raw_kh": "រំដេង",
+      "standardized_en": "Galangal"
+    },
+    {
+      "raw_kh": "សំបកផ្លែក្រូចសើច",
+      "standardized_en": "Kaffir lime zest"
+    },
+    {
+      "raw_kh": "សណ្តែកដី",
+      "standardized_en": "Peanuts"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ត្រីស្រកាចេញ ហាន់ជាបន្ទះស្តើងល្មមប៉ុនៗមេដៃ សណ្តែកដីលីងបុក កុំឱ្យម៉ដ្ឋពេកទុកសិន",
+      "text_en": "Descale the fish and slice into thumb-sized strips; roast and crush peanuts, not too finely; set aside.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 1: Descale the fish and slice into thumb-sized strips; roast and crush peanuts, not too finely; set aside."
+    },
+    {
+      "step": 2,
+      "text_kh": "ស្លឹកគ្រៃ ខ្ជាយ រមៀត ខ្ទឹមស រំដេង សំបកផ្លែក្រូចសើច បុកឱ្យម៉ដ្ឋ",
+      "text_en": "Pound lemongrass, fingerroot, turmeric, garlic, galangal, and kaffir lime zest until smooth.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 2: Pound lemongrass, fingerroot, turmeric, garlic, galangal, and kaffir lime zest until smooth."
+    },
+    {
+      "step": 3,
+      "text_kh": "យកខ្ទះដាក់ខ្លាញ់ដាំឱ្យក្តៅ ដាក់ស្លឹកគ្រៃដែលបុកនោះឱ្យឈ្ងុយ ទើបដាក់ត្រីចូល ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ឆាឱ្យឆ្អិន ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Heat a wok with oil, fry the pounded paste until fragrant, add the fish, season with fish sauce, salt, sugar, and soup powder; stir-fry until cooked; taste and adjust.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer cha dish Cha Kroeung Sach Trei (Stir-fried Fish with Spice Paste), step 3: Heat a wok with oil, fry the pounded paste until fragrant, add the fish, season with fish sauce, salt, sugar, and soup powder; stir-fry until cooked; taste and adjust."
+    }
+  ],
+  "common_mistake": ""
+}

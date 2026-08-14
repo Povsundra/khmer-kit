@@ -1,0 +1,92 @@
+{
+  "dish_name_kh": "ញាំមាន់ត្រយូងចេក",
+  "dish_name_en": "Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad)",
+  "category": "other",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "មាន់",
+      "standardized_en": "Chicken"
+    },
+    {
+      "raw_kh": "កោះ",
+      "standardized_en": "Chicken gizzard"
+    },
+    {
+      "raw_kh": "ថ្លើម",
+      "standardized_en": "Liver"
+    },
+    {
+      "raw_kh": "ត្រយូងចេក",
+      "standardized_en": "Banana blossom"
+    },
+    {
+      "raw_kh": "ជីរ",
+      "standardized_en": "Herbs (basil/mint)"
+    },
+    {
+      "raw_kh": "ទឹកខ្មេះ",
+      "standardized_en": "Vinegar"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "សណ្តែកដី",
+      "standardized_en": "Peanuts"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "មាន់លាងឱ្យស្អាត ស្ងោរឱ្យឆ្អិន ជាមួយកោះថ្លើម",
+      "text_en": "Wash the chicken clean and boil until cooked with the gizzard and liver.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 1: Wash the chicken clean and boil until cooked with the gizzard and liver."
+    },
+    {
+      "step": 2,
+      "text_kh": "ត្រយូងចេក ហាន់ស្តើងៗ យកទៅត្រាំទឹកដាក់ទឹកខ្មេះចូល ត្រាំកុំឱ្យខ្មៅ រួចស្រង់ដាក់ កញ្ច្រែងទុកសិន",
+      "text_en": "Slice the banana blossom thinly; soak in water with vinegar so it does not darken; drain and set aside.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 2: Slice the banana blossom thinly; soak in water with vinegar so it does not darken; drain and set aside."
+    },
+    {
+      "step": 3,
+      "text_kh": "យកមាន់បេះតែសាច់ជាសរសៃល្អិតៗ កោះថ្លើមហាន់ដាក់ លាយជាមួយត្រយូងចេក បេះស្លឹកជីរត្រូវកុំដាក់ឱ្យច្រើនពេក ខ្ទឹមសហាន់ ចៀនឱ្យក្រហមដាក់លាយជាមួយគ្នាទាំងអស់",
+      "text_en": "Shred the chicken meat finely; chop gizzard and liver; mix with banana blossom and a little herb; add fried golden garlic.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 3: Shred the chicken meat finely; chop gizzard and liver; mix with banana blossom and a little herb; add fried golden garlic."
+    },
+    {
+      "step": 4,
+      "text_kh": "យកទឹកត្រីលាយទឹកខ្មេះ ស្ករ ម្រេចបុក ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មម យកទៅចាក់ចូលលាយឱ្យសព្វ ភ្លក់មើលឱ្យឆ្ងាញ់ជាការស្រេច",
+      "text_en": "Mix fish sauce with vinegar, sugar, pounded pepper, and soup powder; taste; pour over the salad and mix well.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer other dish Nhoam Moan Tr Young Cek (Chicken Banana Blossom Salad), step 4: Mix fish sauce with vinegar, sugar, pounded pepper, and soup powder; taste; pour over the salad and mix well."
+    }
+  ],
+  "common_mistake": ""
+}

@@ -1,0 +1,108 @@
+{
+  "dish_name_kh": "សម្លកកូរផ្លែត្នោត",
+  "dish_name_en": "Samlor Kako with Young Palm Fruit",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "មាន់",
+      "standardized_en": "Chicken"
+    },
+    {
+      "raw_kh": "ត្រីអណ្តែងទន់",
+      "standardized_en": "Soft white fish (e.g. trei andeng)"
+    },
+    {
+      "raw_kh": "ផ្លែត្នោតខ្ចី",
+      "standardized_en": "Young palm fruit"
+    },
+    {
+      "raw_kh": "ខ្ជាយ",
+      "standardized_en": "Fingerroot (krachai)"
+    },
+    {
+      "raw_kh": "រមៀត",
+      "standardized_en": "Turmeric"
+    },
+    {
+      "raw_kh": "រំដេង",
+      "standardized_en": "Galangal"
+    },
+    {
+      "raw_kh": "សំបកក្រូចសើច",
+      "standardized_en": "Kaffir lime zest"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស-ក្រហម",
+      "standardized_en": "Garlic and red shallots"
+    },
+    {
+      "raw_kh": "អង្ករលីង",
+      "standardized_en": "Roasted rice powder"
+    },
+    {
+      "raw_kh": "ប្រហុក",
+      "standardized_en": "Fermented fish paste (prahok)"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "មាន់ឬត្រីលាងទឹកឱ្យស្អាត កាប់ដុំៗទុកសិន",
+      "text_en": "Wash the chicken or fish clean and cut into pieces; set aside.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 1: Wash the chicken or fish clean and cut into pieces; set aside."
+    },
+    {
+      "step": 2,
+      "text_kh": "ហាន់ស្លឹកគ្រៃឱ្យល្អិត យកទៅបុកជាមួយខ្ជាយរមៀតរំដេង សំបកក្រូចសើច ខ្ទឹមស-ក្រហមឱ្យម៉ដ្ឋទុកសិន អង្ករលីងកិនឱ្យល្អិត",
+      "text_en": "Finely chop lemongrass and pound with fingerroot, turmeric, galangal, kaffir lime zest, and garlic-shallot until smooth; set aside. Grind roasted rice powder finely.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 2: Finely chop lemongrass and pound with fingerroot, turmeric, galangal, kaffir lime zest, and garlic-shallot until smooth; set aside. Grind roasted rice powder finely."
+    },
+    {
+      "step": 3,
+      "text_kh": "យកឆ្នាំងដាក់ទឹកកន្លះ យកត្នោតខ្ចីមកចិតឱ្យស្តើងដាក់ក្នុងឆ្នាំង ដាំចំនួនពីរអំពុះ",
+      "text_en": "Put half a pot of water on the heat, peel and thinly slice the young palm fruit into the pot, and bring to a boil twice.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 3: Put half a pot of water on the heat, peel and thinly slice the young palm fruit into the pot, and bring to a boil twice."
+    },
+    {
+      "step": 4,
+      "text_kh": "ជ្រុំប្រហុក បង់សាច់ត្រីឬមាន់ រួចដាក់គ្រឿងដែលបុកចូលនិងអង្ករលីង",
+      "text_en": "Add a block of prahok and the fish or chicken meat, then add the pounded spice paste and roasted rice powder.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 4: Add a block of prahok and the fish or chicken meat, then add the pounded spice paste and roasted rice powder."
+    },
+    {
+      "step": 5,
+      "text_kh": "ចាក់ទឹកត្រីអំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឱ្យល្មមតាមចូលចិត្ត",
+      "text_en": "Season with fish sauce, salt, sugar, and soup powder; taste and adjust to preference.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Kako with Young Palm Fruit, step 5: Season with fish sauce, salt, sugar, and soup powder; taste and adjust to preference."
+    }
+  ],
+  "common_mistake": ""
+}

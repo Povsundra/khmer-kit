@@ -1,0 +1,74 @@
+[
+  {
+    "id": "e01",
+    "query": "what soups are in the samlor category?",
+    "expected_intent": "category_browse",
+    "must_contain": ["Samlor Chap Chhay", "Sngor"]
+  },
+  {
+    "id": "e02",
+    "query": "ingredients of cha mi sour",
+    "expected_intent": "ingredients",
+    "must_contain": ["Lean pork", "Glass noodles"]
+  },
+  {
+    "id": "e03",
+    "query": "I want to eat cha mi sour, what should I buy at the market?",
+    "expected_intent": "shopping_list",
+    "must_contain": ["market", "Lean pork"]
+  },
+  {
+    "id": "e04",
+    "query": "how to cook samlor chap chhay",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["step", "Samlor Chap Chhay"]
+  },
+  {
+    "id": "e05",
+    "query": "recommend a cha dish today",
+    "expected_intent": "recommend",
+    "must_contain": ["Cha"]
+  },
+  {
+    "id": "e06",
+    "query": "I cook cha mi sour but I don't have fish sauce",
+    "expected_intent": "substitution",
+    "must_contain": ["does not specify a substitute", "fish sauce"]
+  },
+  {
+    "id": "e07",
+    "query": "should I stir-fry the meat first before adding water for a soup?",
+    "expected_intent": "technique",
+    "must_contain": ["stir-fry", "water"]
+  },
+  {
+    "id": "e08",
+    "query": "tell me how to cha mi sour",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Cha Mi Sour"]
+  },
+  {
+    "id": "e09",
+    "query": "what is the price of fish sauce at the market?",
+    "expected_intent": "out_of_scope",
+    "must_contain": ["outside"]
+  },
+  {
+    "id": "e10",
+    "query": "គ្រឿងផ្សំឆាមីសួ",
+    "expected_intent": "ingredients",
+    "must_contain": ["សាច់", "មីសួ"]
+  },
+  {
+    "id": "e11",
+    "query": "how to cook cha sach morn",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["don't have", "Cha Mi Sour"]
+  },
+  {
+    "id": "e12",
+    "query": "How to make Omelette?",
+    "expected_intent": "how_to_cook",
+    "must_contain": ["Omelette", "step"]
+  }
+]

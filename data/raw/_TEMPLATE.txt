@@ -1,0 +1,19 @@
+# slug: REPLACE_WITH_SLUG
+# dish_name_kh: REPLACE_WITH_KHMER_NAME
+# source_type: family_interview | published_textbook
+# source_citation: Interview with [relation], 2026  OR  SalaDigital p.X (paraphrased)
+# verified: no
+# notes:
+
+[Khmer dish name — line 1]
+
+គ្រឿងផ្សំ
+[ingredients exactly as in source — one paragraph or list]
+
+របៀបធ្វើ
+1- [first step]
+2- [second step]
+
+# Optional — only if present in source:
+# technique_note:
+# common_mistake:

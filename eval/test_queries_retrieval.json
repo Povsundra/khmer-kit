@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q01",
+    "query": "Samlor Chap Chhay",
+    "expected_slug": "samlor_chap_chhay",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q02",
+    "query": "សម្លចាប់ឆាយ",
+    "expected_slug": "samlor_chap_chhay",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q03",
+    "query": "how to fry garlic for chap chhay soup",
+    "expected_slug": "samlor_chap_chhay",
+    "query_type": "technique"
+  },
+  {
+    "id": "q04",
+    "query": "Samlor Kako palm fruit",
+    "expected_slug": "samlor_kako_phlae_tnoat",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q05",
+    "query": "sour beef soup prahok",
+    "expected_slug": "samlor_kari_kroeung_sach_ko",
+    "query_type": "technique"
+  },
+  {
+    "id": "q06",
+    "query": "samlor proheur fish",
+    "expected_slug": "samlor_proheur",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q07",
+    "query": "pork skin soup pickled cabbage",
+    "expected_slug": "sngor_chrouk_spay_chrok",
+    "query_type": "technique"
+  },
+  {
+    "id": "q08",
+    "query": "fish ball soup napa cabbage",
+    "expected_slug": "sngor_prohet_trei_slat",
+    "query_type": "technique"
+  },
+  {
+    "id": "q09",
+    "query": "ឆាខ្ទឹមបារាំង",
+    "expected_slug": "cha_khtuem_barang",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q10",
+    "query": "ឆាមីសួ",
+    "expected_slug": "cha_mi_sour",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q11",
+    "query": "stir fry fish kroeung paste",
+    "expected_slug": "kroeung_sach_trei",
+    "query_type": "technique"
+  },
+  {
+    "id": "q12",
+    "query": "fried bananas chek chien",
+    "expected_slug": "chek_chien",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q13",
+    "query": "how to wrap num ansom",
+    "expected_slug": "num_ansom_chrouk",
+    "query_type": "technique"
+  },
+  {
+    "id": "q14",
+    "query": "glutinous rice cone banana leaf",
+    "expected_slug": "bay_damnaeub_mukh_bangkea",
+    "query_type": "technique"
+  },
+  {
+    "id": "q15",
+    "query": "chicken banana blossom salad",
+    "expected_slug": "nhoam_moan_tr_young_cek",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q16",
+    "query": "omelette duck egg",
+    "expected_slug": "omelette",
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "q17",
+    "query": "what soups are in the samlor category",
+    "expected_slug": "_parent_samlor",
+    "query_type": "category"
+  },
+  {
+    "id": "q18",
+    "query": "Khmer dessert fried",
+    "expected_slug": "_parent_dessert",
+    "query_type": "category"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "dish_name_kh": "ស្ងោរប្រហិតត្រីស្ពៃក្តោប",
+  "dish_name_en": "Sngor Fish Ball Soup with Napa Cabbage",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ត្រីស្លាត",
+      "standardized_en": "Snakehead fish"
+    },
+    {
+      "raw_kh": "ស្ពៃក្តោប",
+      "standardized_en": "Napa cabbage"
+    },
+    {
+      "raw_kh": "ហៃប៊ី",
+      "standardized_en": "Dried lily buds"
+    },
+    {
+      "raw_kh": "យីហុឺ",
+      "standardized_en": "Wood ear mushrooms"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    },
+    {
+      "raw_kh": "ស្លឹកខ្ទឹម",
+      "standardized_en": "Lemongrass (sliced)"
+    },
+    {
+      "raw_kh": "វ៉ាន់ស៊ុយ",
+      "standardized_en": "Green onion (scallion)"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ត្រីស្លាតត្រូវវះជាពីរ រួចយកទៅកោសយកសាច់ យកអំបិលម្រេចម៉ដ្ឋ ម្សៅស៊ុបដាក់ចូលច្របាច់ឱ្យឡើង ដាំទឹកឱ្យពុះ",
+      "text_en": "Split the snakehead fish and scrape out the meat; mix with salt, pepper, and soup powder; bring water to a boil.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 1: Split the snakehead fish and scrape out the meat; mix with salt, pepper, and soup powder; bring water to a boil."
+    },
+    {
+      "step": 2,
+      "text_kh": "លញ់ជាប្រហិតមូលៗបង់សម្លរទើបចាក់ទឹកត្រី អំបិល ស្ករ ដាក់ហៃប៊ីបង់សម្លរជាមួយឱ្យចេញជាតិ",
+      "text_en": "Shape into round fish balls and add to the soup; season with fish sauce, salt, and sugar; add lily buds for aroma.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 2: Shape into round fish balls and add to the soup; season with fish sauce, salt, and sugar; add lily buds for aroma."
+    },
+    {
+      "step": 3,
+      "text_kh": "ចិតស្ពៃក្តោបលាងឱ្យស្អាតបង់ចូលចំនួនពីរឬបីអំពុះ ដាក់ម្សៅស៊ុប ម្រេចម៉ដ្ឋ មុនដាក់ចុះត្រូវហាន់ស្លឹកខ្ទឹមបង់ចូល ភ្លក់មើលឱ្យល្មមសឹមដាក់ចុះជាក្រោយ",
+      "text_en": "Shred and wash napa cabbage; boil two or three times; add soup powder and pounded pepper; slice lemongrass and add before serving; taste and adjust.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Sngor Fish Ball Soup with Napa Cabbage, step 3: Shred and wash napa cabbage; boil two or three times; add soup powder and pounded pepper; slice lemongrass and add before serving; taste and adjust."
+    }
+  ],
+  "common_mistake": ""
+}

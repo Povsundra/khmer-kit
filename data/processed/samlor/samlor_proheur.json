@@ -1,0 +1,100 @@
+{
+  "dish_name_kh": "សម្លប្រហើរ",
+  "dish_name_en": "Samlor Proheur (Sour Fish Soup)",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "ត្រីរស់",
+      "standardized_en": "Live fish"
+    },
+    {
+      "raw_kh": "ឬត្រីសណ្ដាយ",
+      "standardized_en": "Dried fish"
+    },
+    {
+      "raw_kh": "ស្លឹកគ្រៃ",
+      "standardized_en": "Lemongrass"
+    },
+    {
+      "raw_kh": "ខ្ជាយ",
+      "standardized_en": "Fingerroot (krachai)"
+    },
+    {
+      "raw_kh": "រមៀត",
+      "standardized_en": "Turmeric"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    },
+    {
+      "raw_kh": "ស្លឹកជីរ",
+      "standardized_en": "Basil leaves"
+    },
+    {
+      "raw_kh": "ស្លឹកម្ទេស",
+      "standardized_en": "Chili leaves"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ត្រឡាចឬល្ពៅ",
+      "standardized_en": "Lime"
+    },
+    {
+      "raw_kh": "ប្រហុក",
+      "standardized_en": "Fermented fish paste (prahok)"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "ត្រីធ្វើឱ្យស្អាតកាប់ជាកង់ៗ ស្លឹកគ្រៃហាន់ឱ្យល្អិត ដាក់ខ្ជាយ រមៀត ខ្ទឹមសបុកឱ្យម៉ដ្ឋ",
+      "text_en": "Clean the fish and cut into rings; finely chop lemongrass and pound with fingerroot, turmeric, and garlic.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 1: Clean the fish and cut into rings; finely chop lemongrass and pound with fingerroot, turmeric, and garlic."
+    },
+    {
+      "step": 2,
+      "text_kh": "ត្រឡាចចិតស្តើងល្មម ល្ពៅចិតកាស់ដុំៗ ស្លឹកជីរ ស្លឹកម្ទេស បេះលាងឱ្យស្អាតទុកសិន",
+      "text_en": "Peel lime or lemon into thin strips; wash basil and chili leaves; set aside.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 2: Peel lime or lemon into thin strips; wash basil and chili leaves; set aside."
+    },
+    {
+      "step": 3,
+      "text_kh": "ទើបដាំទឹកឱ្យពុះ ជ្រុំប្រហុកបង់អំបិលបន្តិច រួចដាក់ត្រីបង់ចូលឱ្យឆ្អិន",
+      "text_en": "Bring water to a boil; add prahok and a little salt; add the fish and cook through.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 3: Bring water to a boil; add prahok and a little salt; add the fish and cook through."
+    },
+    {
+      "step": 4,
+      "text_kh": "ដួសខ្លះបេះយកតែសាច់បុកជាមួយគ្រឿង ទើបបង់ល្ពៅ ឬត្រឡាចចូលឱ្យឆ្អិន ចាក់ទឹកត្រី ស្ករ ម្សៅស៊ុប សឹមដាក់គ្រឿងដាំឱ្យពុះ ភ្លក់មើលឱ្យល្មម មុនដាក់ចុះ សឹមបង់ស្លឹកជីរចូល",
+      "text_en": "Scoop some fish, pound the flesh with the spices, return with lemon or lime; season with fish sauce, sugar, and soup powder; simmer; add basil leaves just before serving.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Proheur (Sour Fish Soup), step 4: Scoop some fish, pound the flesh with the spices, return with lemon or lime; season with fish sauce, sugar, and soup powder; simmer; add basil leaves just before serving."
+    }
+  ],
+  "common_mistake": ""
+}

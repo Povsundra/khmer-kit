@@ -1,0 +1,116 @@
+{
+  "dish_name_kh": "សម្លចាប់ឆាយ",
+  "dish_name_en": "Samlor Chap Chhay (Mixed Meat and Vegetable Soup)",
+  "category": "samlor",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "សាច់ជ្រូកបីជាន់",
+      "standardized_en": "Three-layer pork (belly)"
+    },
+    {
+      "raw_kh": "ស្បែកជ្រូកបំពង",
+      "standardized_en": "Crispy fried pork skin"
+    },
+    {
+      "raw_kh": "ហៃប៊ី",
+      "standardized_en": "Dried lily buds"
+    },
+    {
+      "raw_kh": "យីហុ",
+      "standardized_en": "Wood ear mushrooms"
+    },
+    {
+      "raw_kh": "ផ្សិតត្រចៀកកណ្តុរ",
+      "standardized_en": "Straw mushrooms"
+    },
+    {
+      "raw_kh": "ផ្កាស្ពៃ",
+      "standardized_en": "Cauliflower"
+    },
+    {
+      "raw_kh": "សាច់មាន់",
+      "standardized_en": "Chicken meat"
+    },
+    {
+      "raw_kh": "ថ្លើមជ្រូក",
+      "standardized_en": "Pork liver"
+    },
+    {
+      "raw_kh": "ពោះវៀនជ្រូក",
+      "standardized_en": "Pork intestines"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    },
+    {
+      "raw_kh": "ម្រេច",
+      "standardized_en": "Black pepper"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "សាច់ជ្រូកហាន់ជាបន្ទះស្តើងៗ",
+      "text_en": "Slice the pork into thin strips.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 1: Slice the pork into thin strips."
+    },
+    {
+      "step": 2,
+      "text_kh": "ពោះវៀនកាត់ជាកង់ៗ",
+      "text_en": "Cut the intestines into short rings.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 2: Cut the intestines into short rings."
+    },
+    {
+      "step": 3,
+      "text_kh": "ថ្លើមហាន់ជាបន្ទះស្តើងៗ",
+      "text_en": "Slice the liver into thin strips.",
+      "technique_note": "",
+      "requires_safety_review": true,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 3: Slice the liver into thin strips."
+    },
+    {
+      "step": 4,
+      "text_kh": "ហៃប៊ី យីហុ ត្រាំទឹក យីហុហាន់ជាចំណិតៗ",
+      "text_en": "Soak the lily buds and wood ear mushrooms in water; slice the wood ear into thin strips.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 4: Soak the lily buds and wood ear mushrooms in water; slice the wood ear into thin strips."
+    },
+    {
+      "step": 5,
+      "text_kh": "ផ្សិតត្រចៀកកណ្តុរកាត់ជាបន្ទះៗដែរ ផ្កាស្ពៃកាត់ជាកង់ៗដែរ ស្បែកជ្រូកបកសម្បកចេញកាត់ជាកង់ៗដែរ មាន់កាប់ជាដុំៗល្មមហូប",
+      "text_en": "Cut the straw mushrooms, cauliflower, and peeled crispy pork skin into pieces; cut the chicken into bite-sized pieces.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 5: Cut the straw mushrooms, cauliflower, and peeled crispy pork skin into pieces; cut the chicken into bite-sized pieces."
+    },
+    {
+      "step": 6,
+      "text_kh": "ឆ្នាំងដាក់ខ្លាញ់ក្តៅ ដាក់ខ្ទឹមសចិញ្ច្រាំឱ្យក្រហម រួចដាក់សាច់ជ្រូក សាច់មាន់ឆាចូលគ្នាឱ្យឆ្អិន ចាក់ទឹកត្រី អំបិល ស្ករ ម្សៅស៊ុប ដាក់បន្លែទាំងអស់ចូលជាមួយគ្នា ចាក់ទឹកល្មមលិចបន្លែឱ្យពុះរួចលើកចុះ រោយម្រេចជាការស្រេច",
+      "text_en": "Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in enough water to cover and bring to a boil, then finish with black pepper.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer samlor dish Samlor Chap Chhay (Mixed Meat and Vegetable Soup), step 6: Heat a pot with oil, fry minced garlic until golden, add pork and chicken and stir-fry until cooked, season with fish sauce, salt, sugar, and soup powder, add all vegetables, pour in enough water to cover and bring to a boil, then finish with black pepper."
+    }
+  ],
+  "common_mistake": ""
+}

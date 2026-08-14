@@ -1,0 +1,76 @@
+{
+  "dish_name_kh": "បាយដំណើបបំពង",
+  "dish_name_en": "Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones)",
+  "category": "dessert",
+  "source_type": "published_textbook",
+  "source_citation": "Khmer cookbook (paraphrased), scan collection 2026",
+  "ingredients": [
+    {
+      "raw_kh": "អង្ករដំណើបស",
+      "standardized_en": "Glutinous rice"
+    },
+    {
+      "raw_kh": "បង្គា",
+      "standardized_en": "Eggplant"
+    },
+    {
+      "raw_kh": "ត្រីងៀត",
+      "standardized_en": "Dried fish"
+    },
+    {
+      "raw_kh": "ស្លឹកក្រូចសើច",
+      "standardized_en": "Kaffir lime leaves"
+    },
+    {
+      "raw_kh": "ខ្ទឹមស",
+      "standardized_en": "Garlic"
+    },
+    {
+      "raw_kh": "អំបិល",
+      "standardized_en": "Salt"
+    },
+    {
+      "raw_kh": "ស្ករ",
+      "standardized_en": "Sugar"
+    },
+    {
+      "raw_kh": "ទឹកត្រី",
+      "standardized_en": "Fish sauce"
+    },
+    {
+      "raw_kh": "ម្សៅស៊ុប",
+      "standardized_en": "Soup seasoning powder"
+    },
+    {
+      "raw_kh": "ស្លឹកចេក",
+      "standardized_en": "Banana leaf"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "text_kh": "អង្ករយកទៅត្រាំជាមួយទឹកអំបិលចំនួន ៣ ម៉ោង ទើបស្រង់ទៅបំពងឱ្យស្រួយយកមកកិន ដាក់អំបិលបន្តិច បង្គាយកទៅបំពងឱ្យស្រួយ ពណ៌ជម្ពូយកទៅបំពងឱ្យស្រួយ រួចបុកឱ្យម៉ដ្ឋបន្តិច",
+      "text_en": "Soak glutinous rice in salted water for 3 hours; drain, fry until crisp, pound lightly with a little salt; fry eggplant and dried fish until crisp and pound lightly.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 1: Soak glutinous rice in salted water for 3 hours; drain, fry until crisp, pound lightly with a little salt; fry eggplant and dried fish until crisp and pound lightly."
+    },
+    {
+      "step": 2,
+      "text_kh": "ដាក់ម្សៅស៊ុបបន្តិច ចាក់ទឹកត្រីបន្តិច អំបិល ស្ករ ម្សៅស៊ុប ភ្លក់មើលឲ្យល្មម កុំឲ្យប្រៃពេក រួចច្របល់ចូលគ្នាជានិច្ច ទើបយកបាយបំពងមកច្របល់ជាមួយបង្គា និងត្រីងៀត",
+      "text_en": "Season with soup powder, fish sauce, salt, and sugar — not too salty; mix everything together, then combine the fried rice with eggplant and dried fish.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 2: Season with soup powder, fish sauce, salt, and sugar — not too salty; mix everything together, then combine the fried rice with eggplant and dried fish."
+    },
+    {
+      "step": 3,
+      "text_kh": "យកស្លឹកចេកមកធ្វើជាកោណ ។ ចំណែកស្លឹកក្រូចសើចហាន់ជាសរសៃតូចៗ ទើបយកបាយដំណើបដាក់ក្នុងកោណនោះ យកសាច់បង្គាដាក់ពីលើឲ្យពេញ កុំឱ្យយឺតយូរ រួចយកស្លឹកកញ្ចុំដាក់ពីលើ និងស្លឹកក្រូចសើចហាន់ដាក់ពីលើទៀត ជាការស្រេច",
+      "text_en": "Shape a banana leaf into a cone; shred kaffir lime leaves finely; pack glutinous rice into the cone, top with the filling without delay, cover with banana leaf and kaffir shreds; serve.",
+      "technique_note": "",
+      "requires_safety_review": false,
+      "contextualized_text_en": "For the Khmer dessert dish Bay Damnaeub Bam Pang (Fried Glutinous Rice Cones), step 3: Shape a banana leaf into a cone; shred kaffir lime leaves finely; pack glutinous rice into the cone, top with the filling without delay, cover with banana leaf and kaffir shreds; serve."
+    }
+  ],
+  "common_mistake": ""
+}
