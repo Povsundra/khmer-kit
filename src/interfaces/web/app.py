@@ -34,10 +34,7 @@ init_session_state()
 
 
 def _apply_streamlit_secrets() -> None:
-    """Copy Cloud secrets into env so retrieval/LLM see the key after reboot."""
-    secrets_path = ROOT / ".streamlit" / "secrets.toml"
-    if not secrets_path.is_file():
-        return
+    """Copy Streamlit secrets (Cloud dashboard or local secrets.toml) into os.environ."""
     try:
         for key, value in st.secrets.items():
             if isinstance(value, str) and value and not os.getenv(key):
@@ -105,6 +102,10 @@ def render_sidebar() -> str:
             f'<div class="{status_class}">{dot} {status_text}</div>',
             unsafe_allow_html=True,
         )
+        if not connected:
+            st.caption(
+                "Add OPENROUTER_API_KEY in `.env` (local) or Streamlit Cloud **Settings → Secrets**, then reboot."
+            )
     return category
 
 
