@@ -4,14 +4,28 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.core.entities import Entities
+from src.core.entities import Entities, dish_by_slug
 from src.core.language import QueryLanguage, chunk_body
 from src.core.retrieve import get_chunks_for_slug, get_parent_for_category
 
 
-def _cite(hit: dict[str, Any]) -> str:
+def _cite(hit: dict[str, Any], lang: QueryLanguage = "en") -> str:
     st = hit.get("source_type", "published_textbook").replace("_", " ")
+    if lang == "kh":
+        return f"ប្រភព: {st}"
     return f"Source: {st}"
+
+
+def menu_dish_label(dish: dict[str, Any], lang: QueryLanguage) -> str:
+    """Khmer + English when lang is kh; English only otherwise."""
+    slug = dish.get("slug")
+    row = dish_by_slug(slug) if slug else None
+    en = (row or dish).get("dish_name_en") or dish.get("slug") or ""
+    en_short = en.split("(")[0].strip()
+    kh = ((row or dish).get("dish_name_kh") or "").strip()
+    if lang == "kh" and kh:
+        return f"{kh} ({en_short})"
+    return en
 
 
 def format_category_browse(hit: dict[str, Any], lang: QueryLanguage) -> str:
@@ -24,10 +38,9 @@ def format_category_browse(hit: dict[str, Any], lang: QueryLanguage) -> str:
     else:
         lines.append("Dishes in this category:")
     for i, d in enumerate(dishes, start=1):
-        name = d.get("dish_name_en", d.get("slug", ""))
-        lines.append(f"{i}. {name}")
+        lines.append(f"{i}. {menu_dish_label(d, lang)}")
     lines.append("")
-    lines.append(_cite(hit))
+    lines.append(_cite(hit, lang))
     return "\n".join(lines)
 
 
@@ -38,7 +51,7 @@ def format_ingredients(hit: dict[str, Any], lang: QueryLanguage) -> str:
         header = f"គ្រឿងផ្សំសម្រាប់ {name}៖"
     else:
         header = f"Ingredients for {name}:"
-    return f"{header}\n\n{body}\n\n{_cite(hit)}"
+    return f"{header}\n\n{body}\n\n{_cite(hit, lang)}"
 
 
 def format_shopping_list(hit: dict[str, Any], lang: QueryLanguage) -> str:
@@ -48,7 +61,7 @@ def format_shopping_list(hit: dict[str, Any], lang: QueryLanguage) -> str:
         header = f"មុនទៅផ្សារ ទិញគ្រឿងផ្សំសម្រាប់ {name}៖"
     else:
         header = f"Before you go to the market for {name}, buy:"
-    return f"{header}\n\n{body}\n\n{_cite(hit)}"
+    return f"{header}\n\n{body}\n\n{_cite(hit, lang)}"
 
 
 def format_how_to_cook(slug: str, lang: QueryLanguage) -> str | None:
@@ -68,7 +81,7 @@ def format_how_to_cook(slug: str, lang: QueryLanguage) -> str | None:
         else:
             lines.append(f"Step {n}: {body}")
     lines.append("")
-    lines.append(_cite(steps[0]))
+    lines.append(_cite(steps[0], lang))
     return "\n".join(lines)
 
 
@@ -112,7 +125,7 @@ def format_substitution(
 
     if hits:
         lines.append("")
-        lines.append(_cite(hits[0]))
+        lines.append(_cite(hits[0], lang))
     return "\n".join(lines)
 
 
@@ -124,15 +137,15 @@ def format_recommend_template(parent: dict[str, Any], lang: QueryLanguage) -> st
     else:
         lines = [f"{title} in this cookbook:", ""]
     for i, d in enumerate(dishes, start=1):
-        lines.append(f"{i}. {d.get('dish_name_en', d.get('slug', ''))}")
+        lines.append(f"{i}. {menu_dish_label(d, lang)}")
     if dishes:
-        pick = dishes[0].get("dish_name_en", dishes[0].get("slug", ""))
+        pick = menu_dish_label(dishes[0], lang)
         if lang == "kh":
             lines.extend(["", f"សាកល្បង {pick} — ម្ហូបដំបូងក្នុងបញ្ជី។"])
         else:
             lines.extend(["", f"You could try **{pick}** — the first dish in this category."])
     lines.append("")
-    lines.append(_cite(parent))
+    lines.append(_cite(parent, lang))
     return "\n".join(lines)
 
 
@@ -150,7 +163,7 @@ def format_technique_fallback(hits: list[dict[str, Any]], lang: QueryLanguage) -
         label = f"{name} (step {step_n})" if step_n else name
         lines.append(f"- {label}: {body}")
     lines.append("")
-    lines.append(_cite(hits[0]))
+    lines.append(_cite(hits[0], lang))
     return "\n".join(lines)
 
 
@@ -177,27 +190,45 @@ def format_out_of_scope(lang: QueryLanguage) -> str:
     )
 
 
-def format_unknown_dish(lang: QueryLanguage) -> str:
+def _unknown_dish_name(requested_name: str | None, lang: QueryLanguage) -> str:
+    name = (requested_name or "").strip()
+    if not name:
+        return "ម្ហូបនេះ" if lang == "kh" else "this dish"
+    return name.title() if lang == "en" else name
+
+
+def _unknown_dish_opener(name: str, lang: QueryLanguage) -> str:
     if lang == "kh":
-        return "មិនរកឃើញម្ហូបនេះក្នុងបណ្ណាល័យ ១៤ រូបមន្តទេ។ សូមបញ្ជាក់ឈ្មោះម្ហូបពី samlor, cha, dessert, ឬ other។"
+        return f'មិនមាន "{name}" ក្នុងម៉ឺនុយរបស់យើងនៅឡើយទេ។'
+    return f'We don\'t have "{name}" in our menu yet.'
+
+
+def _unknown_dish_recommend(lang: QueryLanguage) -> str:
+    if lang == "kh":
+        return (
+            "ខ្ញុំអាចណែនាំម្ហូបពី samlor, cha, dessert, ឬ other។ "
+            'សួរ "ណែនាំម្ហូប cha" ឬ "របៀបធ្វើ cha mi sour"។'
+        )
     return (
-        "That dish is not in the 14-recipe collection. "
-        "Try a dish from samlor, cha, dessert, or other categories."
+        "I can help with dishes from samlor, cha, dessert, or other. "
+        'Ask "recommend a cha dish" or "how to cook cha mi sour".'
     )
 
 
+def format_unknown_dish(lang: QueryLanguage, requested_name: str | None = None) -> str:
+    name = _unknown_dish_name(requested_name, lang)
+    return f"{_unknown_dish_opener(name, lang)}\n\n{_unknown_dish_recommend(lang)}"
+
+
 def format_unknown_dish_with_alternatives(
-    requested_name: str,
+    requested_name: str | None,
     category: str | None,
     lang: QueryLanguage,
 ) -> str:
     from src.core.retrieve import get_parent_for_category
 
-    name = requested_name.strip().title() if lang == "en" else requested_name.strip()
-    if lang == "kh":
-        lines = [f'មិនមាន "{name}" ក្នុងសៀវភៅធ្វើម្ហូប ១៤ ម្ហូបរបស់យើងទេ។', ""]
-    else:
-        lines = [f'We don\'t have "{name}" in this cookbook collection yet.', ""]
+    name = _unknown_dish_name(requested_name, lang)
+    lines = [_unknown_dish_opener(name, lang), ""]
 
     parent = get_parent_for_category(category) if category else None
     if parent and parent.get("dishes"):
@@ -207,7 +238,7 @@ def format_unknown_dish_with_alternatives(
         else:
             lines.append(f"{cat_title} you can try from our database:")
         for i, d in enumerate(parent["dishes"], start=1):
-            lines.append(f"{i}. {d.get('dish_name_en', d.get('slug', ''))}")
+            lines.append(f"{i}. {menu_dish_label(d, lang)}")
         if lang == "kh":
             lines.extend(["", 'សួរ "របៀបធ្វើ cha mi sour" ឬ "ណែនាំម្ហូប cha" ដើម្បីទទួលបានរូបមន្តពេញលេញ។'])
         else:
@@ -217,6 +248,6 @@ def format_unknown_dish_with_alternatives(
                 f'Ask "how to cook {example.lower()}" or "recommend a {category} dish" for a full recipe.',
             ])
     else:
-        lines.append(format_unknown_dish(lang))
+        lines.append(_unknown_dish_recommend(lang))
 
     return "\n".join(lines)

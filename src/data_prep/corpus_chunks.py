@@ -3,14 +3,31 @@
 from __future__ import annotations
 
 import json
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-from src.config import CATEGORIES, PROCESSED
+from src.config import ALIASES_PATH, CATEGORIES, PROCESSED
 
 
 def load_dish_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+@lru_cache(maxsize=1)
+def _curated_aliases() -> dict[str, list[str]]:
+    if not ALIASES_PATH.is_file():
+        return {}
+    return json.loads(ALIASES_PATH.read_text(encoding="utf-8"))
+
+
+def aliases_for_slug(slug: str) -> list[str]:
+    return [a.strip() for a in _curated_aliases().get(slug, []) if a and str(a).strip()]
+
+
+def _alias_embed_suffix(slug: str) -> str:
+    aliases = aliases_for_slug(slug)
+    return (" " + " ".join(aliases)) if aliases else ""
 
 
 def slug_from_path(path: Path) -> str:
@@ -29,6 +46,7 @@ def build_ingredients_chunk(slug: str, dish: dict[str, Any]) -> dict[str, Any]:
     embed_text = (
         f"{dish['dish_name_kh']} {dish['dish_name_en']}. "
         f"ingredients គ្រឿងផ្សំ {text_kh} {contextual}"
+        f"{_alias_embed_suffix(slug)}"
     )
     return {
         "chunk_type": "ingredients",
@@ -49,7 +67,10 @@ def build_ingredients_chunk(slug: str, dish: dict[str, Any]) -> dict[str, Any]:
 
 def build_step_chunk(slug: str, dish: dict[str, Any], step: dict[str, Any]) -> dict[str, Any]:
     contextual = step["contextualized_text_en"]
-    embed_text = f"{dish['dish_name_kh']} {dish['dish_name_en']}. {step['text_kh']} {contextual}"
+    embed_text = (
+        f"{dish['dish_name_kh']} {dish['dish_name_en']}. {step['text_kh']} {contextual}"
+        f"{_alias_embed_suffix(slug)}"
+    )
     return {
         "chunk_type": "step",
         "category": dish["category"],
@@ -70,7 +91,14 @@ def build_parent_chunk(parent: dict[str, Any]) -> dict[str, Any]:
     title = parent["title_en"]
     title_kh = parent.get("title_kh", "")
     summary = parent["summary_en"]
+    extra = " ".join(
+        alias
+        for dish in parent.get("dishes", [])
+        for alias in aliases_for_slug(str(dish.get("slug", "")))
+    )
     embed_text = f"{title_kh} {title}. {summary}"
+    if extra:
+        embed_text = f"{embed_text} {extra}"
     return {
         "chunk_type": "parent",
         "category": parent["category"],

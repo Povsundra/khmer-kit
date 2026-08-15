@@ -25,6 +25,24 @@ MIN_FUZZY_SCORE_KH = 90
 MIN_AMBIGUITY_MARGIN = 8
 MIN_EN_LEN = 4
 MIN_KH_LEN = 3
+MIN_KH_SUBSEQ_LEN = 5
+MIN_KH_UNIQUE_SUBSTR_LEN = 4
+MIN_KH_COVERAGE = 0.45
+MIN_KH_COVERAGE_MARGIN = 0.15
+
+_COOKING_VERBS = frozenset(
+    {"ចៀន", "ឆា", "ស្ងោរ", "ស្ងោ", "ដាំ", "ធ្វើ", "បំពង", "ចំហុយ", "លីង"}
+)
+_INTENT_LEFTOVERS = frozenset({"គ្រឿងផ្សំ", "ទិញ"})
+_INTENT_LEFTOVER_RE = re.compile(r"^(?:គ្រឿ.?ផ្សំ|ទិញ)$")
+
+
+def _is_intent_leftover(text: str) -> bool:
+    if not text:
+        return False
+    if text in _INTENT_LEFTOVERS:
+        return True
+    return _INTENT_LEFTOVER_RE.match(text) is not None
 
 
 @dataclass(frozen=True)
@@ -67,6 +85,108 @@ def _phrase_too_short(query_norm: str) -> bool:
     if query_norm in _CATEGORY_TOKENS:
         return True
     return len(query_norm) < MIN_EN_LEN
+
+
+def _khmer_only(text: str) -> str:
+    return "".join(c for c in text if "\u1780" <= c <= "\u17FF")
+
+
+def _resolve_unique_substring(
+    q_kh: str,
+    by_slug: dict[str, dict[str, Any]],
+) -> ResolveResult | None:
+    """If the query is a contiguous piece of exactly one Khmer dish name, use that dish."""
+    if _khmer_char_count(q_kh) < MIN_KH_UNIQUE_SUBSTR_LEN:
+        return None
+    hits: dict[str, str] = {}
+    for alias_norm, slug, display_alias in _alias_index():
+        a_kh = _khmer_only(alias_norm)
+        if q_kh in a_kh:
+            hits.setdefault(slug, display_alias)
+    if len(hits) != 1:
+        return None
+    slug, display_alias = next(iter(hits.items()))
+    return ResolveResult(
+        slug=slug,
+        score=100.0,
+        method="alias",
+        dish=by_slug[slug],
+        matched_alias=display_alias,
+    )
+
+
+def _is_in_order_subsequence(needle: str, haystack: str) -> bool:
+    if not needle or not haystack:
+        return False
+    i = 0
+    for ch in haystack:
+        if i < len(needle) and ch == needle[i]:
+            i += 1
+    return i == len(needle)
+
+
+def _resolve_khmer_shortening(
+    query_norm: str,
+    by_slug: dict[str, dict[str, Any]],
+) -> ResolveResult | None:
+    """Match Khmer shortenings: alias+verb/intent leftover, or in-order subsequence of a dish name."""
+    q_kh = _khmer_only(query_norm)
+    if _khmer_char_count(q_kh) < MIN_KH_LEN:
+        return None
+
+    verb_hits: list[tuple[str, str]] = []
+    for alias_norm, slug, display_alias in _alias_index():
+        a_kh = _khmer_only(alias_norm)
+        if _khmer_char_count(a_kh) < MIN_KH_LEN:
+            continue
+        if a_kh in q_kh:
+            leftover = q_kh.replace(a_kh, "", 1)
+            if leftover in _COOKING_VERBS or _is_intent_leftover(leftover):
+                verb_hits.append((slug, display_alias))
+
+    verb_slugs = {slug for slug, _ in verb_hits}
+    if len(verb_slugs) == 1:
+        slug, display_alias = verb_hits[0]
+        return ResolveResult(
+            slug=slug,
+            score=100.0,
+            method="alias",
+            dish=by_slug[slug],
+            matched_alias=display_alias,
+        )
+
+    unique = _resolve_unique_substring(q_kh, by_slug)
+    if unique:
+        return unique
+
+    if _khmer_char_count(q_kh) < MIN_KH_SUBSEQ_LEN:
+        return None
+
+    sub_hits: list[tuple[float, str, str]] = []
+    for alias_norm, slug, display_alias in _alias_index():
+        a_kh = _khmer_only(alias_norm)
+        if len(a_kh) < MIN_KH_SUBSEQ_LEN:
+            continue
+        if not _is_in_order_subsequence(q_kh, a_kh):
+            continue
+        coverage = len(q_kh) / len(a_kh)
+        if coverage >= MIN_KH_COVERAGE:
+            sub_hits.append((coverage, slug, display_alias))
+
+    if not sub_hits:
+        return None
+    sub_hits.sort(key=lambda x: x[0], reverse=True)
+    best_cov, best_slug, best_alias = sub_hits[0]
+    rivals = [c for c, slug, _ in sub_hits if slug != best_slug]
+    if rivals and best_cov - max(rivals) < MIN_KH_COVERAGE_MARGIN:
+        return None
+    return ResolveResult(
+        slug=best_slug,
+        score=round(best_cov * 100, 1),
+        method="fuzzy",
+        dish=by_slug[best_slug],
+        matched_alias=best_alias,
+    )
 
 
 @lru_cache(maxsize=1)
@@ -141,6 +261,10 @@ def resolve_dish_phrase(phrase: str) -> ResolveResult | None:
             dish=by_slug[slug],
             matched_alias=phrase.strip(),
         )
+
+    shortened = _resolve_khmer_shortening(query_norm, by_slug)
+    if shortened:
+        return shortened
 
     scored: list[tuple[float, str, str]] = []
     for alias_norm, slug, display_alias in _alias_index():

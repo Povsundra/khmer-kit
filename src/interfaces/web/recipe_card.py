@@ -11,6 +11,7 @@ import streamlit as st
 
 from src.config import CHECKLIST_PATH, PROCESSED
 from src.core.language import QueryLanguage
+from src.interfaces.web.i18n import t
 
 
 @lru_cache(maxsize=1)
@@ -49,14 +50,14 @@ def render_recipe_preview(dish: dict[str, Any], lang: QueryLanguage) -> None:
     n_ing = len(dish.get("ingredients", []))
     n_steps = len(dish.get("steps", []))
     title = name_kh if lang == "kh" else name_en.split("(")[0].strip()
-    subtitle = f"{n_ing} ingredients · {n_steps} steps"
+    subtitle = t("ing_steps", lang, n_ing=n_ing, n_steps=n_steps)
     with st.container(border=True):
-        st.caption("Retrieved recipe")
+        st.caption(t("retrieved", lang))
         if lang == "kh":
             st.markdown(f'<p class="khmer" style="margin:0;font-weight:600;">{html.escape(title)}</p>', unsafe_allow_html=True)
         else:
             st.markdown(f"**{html.escape(title)}**")
-        st.markdown(f'<span style="color:#8B949E;font-size:0.85rem;">{html.escape(subtitle)}</span>', unsafe_allow_html=True)
+        st.markdown(f'<span style="color:var(--muted);font-size:0.85rem;">{html.escape(subtitle)}</span>', unsafe_allow_html=True)
 
 
 def render_recipe_preview_html(dish: dict[str, Any], lang: QueryLanguage) -> str:
@@ -93,13 +94,24 @@ def render_recipe_card(dish: dict[str, Any], lang: QueryLanguage) -> None:
     citation = dish.get("source_citation", "")
 
     with st.container(border=True):
-        st.markdown(f"**{name_en}**")
-        if name_kh:
+        if lang == "kh" and name_kh:
             st.markdown(
-                f'<p class="khmer recipe-title-kh" style="margin:0.25rem 0 0.75rem 0;color:#8B949E;">'
-                f"{html.escape(name_kh)}</p>",
+                f'<p class="khmer" style="margin:0;font-weight:600;">{html.escape(name_kh)}</p>',
                 unsafe_allow_html=True,
             )
+            st.markdown(
+                f'<p class="recipe-title-kh" style="margin:0.25rem 0 0.75rem 0;color:var(--muted);">'
+                f"{html.escape(name_en)}</p>",
+                unsafe_allow_html=True,
+            )
+        else:
+            st.markdown(f"**{name_en}**")
+            if name_kh:
+                st.markdown(
+                    f'<p class="khmer recipe-title-kh" style="margin:0.25rem 0 0.75rem 0;color:var(--muted);">'
+                    f"{html.escape(name_kh)}</p>",
+                    unsafe_allow_html=True,
+                )
         if needs_safety:
             st.warning(safety_msg)
 
@@ -111,4 +123,4 @@ def render_recipe_card(dish: dict[str, Any], lang: QueryLanguage) -> None:
             st.markdown(f"**{steps_label}**")
             st.markdown("\n".join(f"{i}. {text}" for i, text in enumerate(step_items, start=1)))
 
-        st.caption(f"Source: {source_type} · {citation}")
+        st.caption(f"{t('source', lang)}: {source_type} · {citation}")

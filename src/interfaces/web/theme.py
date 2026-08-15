@@ -4,15 +4,16 @@ from __future__ import annotations
 
 import streamlit as st
 
-BG = "#161B22"
-SURFACE = "#21262D"
-SIDEBAR = "#0D1117"
-PRIMARY = "#E05263"
-PRIMARY_DIM = "#3D2228"
-SECONDARY = "#3FB950"
-TEXT = "#F0F6FC"
-MUTED = "#8B949E"
-BORDER = "#30363D"
+BG = "#1C1814"
+SURFACE = "#2A241E"
+SIDEBAR = "#14110E"
+PRIMARY = "#D4A24C"
+PRIMARY_DIM = "#3D3220"
+SECONDARY = "#8FBF6A"
+TEXT = "#F5EDE3"
+MUTED = "#A89880"
+BORDER = "#3D342C"
+USER_BUBBLE = "#322B23"
 
 CATEGORY_LABELS = {
     "samlor": "Samlor",
@@ -46,11 +47,12 @@ def inject_theme() -> None:
             --text: {TEXT};
             --muted: {MUTED};
             --border: {BORDER};
+            --user-bubble: {USER_BUBBLE};
         }}
         .stApp {{
             background-color: var(--bg);
             color: var(--text);
-            font-family: 'Inter', system-ui, sans-serif;
+            font-family: 'Inter', 'Noto Sans Khmer', system-ui, sans-serif;
         }}
         .khmer {{
             font-family: 'Noto Sans Khmer', 'Inter', sans-serif;
@@ -74,9 +76,8 @@ def inject_theme() -> None:
             color: var(--text);
         }}
         .sidebar-brand {{
-            padding: 0.5rem 0 1.25rem 0;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 1rem;
+            padding: 0.5rem 0 0.75rem 0;
+            margin-bottom: 0.35rem;
         }}
         .sidebar-brand h2 {{
             font-size: 1.1rem;
@@ -86,7 +87,7 @@ def inject_theme() -> None:
         }}
         .sidebar-brand p {{
             font-size: 0.78rem;
-            color: var(--muted);
+            color: var(--primary);
             margin: 0.25rem 0 0 0;
         }}
         .sidebar-section {{
@@ -95,7 +96,18 @@ def inject_theme() -> None:
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--muted);
-            margin: 1rem 0 0.5rem 0;
+            margin: 0.85rem 0 0.5rem 0;
+        }}
+        div[data-testid="stSidebar"] div[data-testid="stRadio"] {{
+            margin-bottom: 0.35rem;
+        }}
+        div[data-testid="stSidebar"] div[data-testid="stRadio"] label {{
+            padding: 0.22rem 0.5rem;
+            font-size: 0.8rem;
+        }}
+        .sidebar-nav-end {{
+            border-bottom: 1px solid var(--border);
+            margin: 0.35rem 0 0.25rem 0;
         }}
         .llm-status {{
             font-size: 0.8rem;
@@ -131,7 +143,7 @@ def inject_theme() -> None:
             margin-bottom: 1rem;
         }}
         .card-preview {{
-            background: #1A2028;
+            background: var(--bg);
             border: 1px solid var(--border);
             border-radius: 10px;
             padding: 1rem 1.25rem;
@@ -155,14 +167,14 @@ def inject_theme() -> None:
             margin-top: 0.5rem;
         }}
         .tag-source {{
-            background: rgba(63, 185, 80, 0.15);
+            background: rgba(143, 191, 106, 0.15);
             color: var(--secondary);
-            border: 1px solid rgba(63, 185, 80, 0.3);
+            border: 1px solid rgba(143, 191, 106, 0.3);
         }}
         .tag-intent {{
-            background: rgba(224, 82, 99, 0.12);
+            background: rgba(212, 162, 76, 0.12);
             color: var(--primary);
-            border: 1px solid rgba(224, 82, 99, 0.25);
+            border: 1px solid rgba(212, 162, 76, 0.25);
         }}
         .tag-dish {{
             background: rgba(139, 148, 158, 0.15);
@@ -220,7 +232,8 @@ def inject_theme() -> None:
         }}
         .welcome-box {{
             background: var(--surface);
-            border: 1px dashed var(--border);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--primary);
             border-radius: 12px;
             padding: 1.5rem;
             color: var(--muted);
@@ -235,6 +248,10 @@ def inject_theme() -> None:
             border-radius: 12px;
             color: var(--text);
         }}
+        div[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"])
+            [data-testid="stChatMessageContent"] {{
+            background: var(--user-bubble);
+        }}
         .stChatInput textarea {{
             background-color: var(--surface) !important;
             color: var(--text) !important;
@@ -248,13 +265,20 @@ def inject_theme() -> None:
             font-weight: 600;
         }}
         .stButton > button[kind="primary"]:hover {{
-            background-color: #C94455;
+            background-color: #B8862F;
         }}
         div[data-testid="stRadio"] label {{
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 0.35rem 0.75rem;
+        }}
+        div[data-testid="stRadio"] input {{
+            accent-color: var(--primary);
+        }}
+        div[data-testid="stRadio"] label:has(input:checked) {{
+            background: var(--primary-dim);
+            border-color: var(--primary);
         }}
         </style>
         """,
@@ -263,11 +287,13 @@ def inject_theme() -> None:
 
 
 def render_sidebar_brand() -> None:
+    from src.interfaces.web.i18n import t
+
     st.markdown(
-        """
+        f"""
         <div class="sidebar-brand">
             <h2><span class="khmer">ម្ហូបខ្មែរ AI</span></h2>
-            <p>Khmer Kitchen Companion</p>
+            <p class="khmer">{t("brand_sub")}</p>
         </div>
         """,
         unsafe_allow_html=True,

@@ -22,12 +22,21 @@ MIN_DISH_MATCH_LEN = 8
 
 _PREFIX_RE = re.compile(
     r"^(?:how to (?:cook|make|prepare)|how do i (?:cook|make|prepare)|"
-    r"recipe for|steps for|tell me how to|ingredients of|ingredients for|"
-    r"i want to (?:eat|make|cook)|what(?:'s| is) in)\s+",
+    r"recipe for|steps for|tell me how to|"
+    r"(?:list|show|give)(?: me)?(?: all)?(?: the)? ingredients?(?: of| for)?|"
+    r"what are (?:all )?(?:the )?ingredients?(?: of| for)?|"
+    r"ingredients? (?:of|for)|"
+    r"i want to (?:eat|make|cook)|what(?:'s| is) in|"
+    r"what do i need(?: for)?|"
+    r"shopping list(?: for)?|"
+    r"what (?:do i|should i) buy|"
+    r"what to buy)\s*",
     re.I,
 )
 _KH_PREFIX_RE = re.compile(
-    r"^(?:របៀបចៀន|របៀបធ្វើ|របៀបដាំ|វិធីធ្វើ)\s*",
+    r"^(?:របៀបចៀន|របៀបធ្វើ|របៀបដាំ|វិធីធ្វើ|"
+    r"គ្រឿ.?ផ្សំ(?:សម្រាប់|នៃ)?|បញ្ជី(?:គ្រឿ.?ផ្សំ)?|"
+    r"ត្រូវការអ្វីខ្លះ|ត្រូវការ|ទិញអ្វីខ្លះ|ទិញ)\s*",
 )
 
 
@@ -144,7 +153,7 @@ def _match_category(query_norm: str) -> str | None:
     aliases = {
         "samlor": ["samlor", "sngor", "soup", "soups", "សម្ល", "ស្ងោរ"],
         "cha": ["cha", "stir fry", "stir-fry", "ឆា"],
-        "dessert": ["dessert", "desserts", "sweet", "បង្អែ"],
+        "dessert": ["dessert", "desserts", "sweet", "បង្អែម"],
         "other": ["other", "salad", "omelette"],
     }
     for cat, terms in aliases.items():

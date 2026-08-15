@@ -1,0 +1,76 @@
+[
+  {
+    "id": "d01",
+    "turns": ["recommend me Khmer food?"],
+    "expected_intent": "recommend",
+    "expected_action": "clarify",
+    "must_contain": ["samlor", "cha", "dessert"]
+  },
+  {
+    "id": "d02",
+    "turns": ["recommend me Khmer food?", "soup"],
+    "expected_intent": "recommend",
+    "expected_action": "answer",
+    "expected_category": "samlor",
+    "must_contain": ["Samlor"]
+  },
+  {
+    "id": "d03",
+    "turns": ["recommend me Khmer food?", "soup", "what should I buy at the market?"],
+    "expected_intent": "shopping_list",
+    "expected_action": "answer",
+    "must_have_slug": true
+  },
+  {
+    "id": "d04",
+    "turns": ["recommend me Khmer food?", "soup", "actually recommend a dessert instead"],
+    "expected_intent": "recommend",
+    "expected_action": "answer",
+    "expected_category": "dessert"
+  },
+  {
+    "id": "d05",
+    "turns": ["how do I cook Khmer food?"],
+    "expected_intent": "how_to_cook",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "d06",
+    "turns": ["list me all ingredient"],
+    "expected_intent": "ingredients",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "d07",
+    "turns": ["I want to eat something spicy"],
+    "expected_intent": "recommend",
+    "expected_action": "clarify"
+  },
+  {
+    "id": "d08",
+    "turns": ["recommend a cha dish today"],
+    "expected_intent": "recommend",
+    "expected_action": "answer",
+    "must_contain": ["Cha"]
+  },
+  {
+    "id": "d09",
+    "turns": ["what is the price of fish sauce at the market?"],
+    "expected_intent": "out_of_scope",
+    "expected_action": "refuse",
+    "must_contain": ["outside"]
+  },
+  {
+    "id": "d10",
+    "turns": ["how to cook cha sach morn"],
+    "expected_intent": "how_to_cook",
+    "expected_action": "refuse",
+    "must_contain": ["don't have"]
+  },
+  {
+    "id": "d11",
+    "turns": ["recommend a dessert", "I want to eat something spicy"],
+    "expected_intent": "recommend",
+    "expected_action": "clarify"
+  }
+]

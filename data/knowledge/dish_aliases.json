@@ -1,76 +1,166 @@
 {
   "samlor_chap_chhay": [
     "samlor chap chay",
-    "chap chhay soup"
+    "chap chhay soup", 
+    "សម្លកចាប់ឆាយ",
+    "ចាប់ឆាយ"
   ],
   "samlor_kako_phlae_tnoat": [
     "samlor koko",
     "samlor korko",
     "samlor kako",
-    "kako phlae tnoat"
+    "kako phlae tnoat",
+    "កកូ",
+    "កកូរ", 
+    "សម្លកកូ"
   ],
   "samlor_kari_kroeung_sach_ko": [
     "samlor machu",
     "machu kroeung",
     "samlor kari beef",
-    "machu kroeung sach ko"
+    "machu kroeung sach ko", 
+    "សម្លកការី",
+    "ការី",
+    "ការី"
   ],
   "samlor_proheur": [
     "proheur",
-    "samlor proheur soup"
+    "samlor proheur soup",
+    "សម្ល ប្រហើរ",
+    "ប្រហើរ",
+    "សម្លប្រហើរ",
+    "ប្រហើ"
   ],
   "sngor_chrouk_spay_chrok": [
     "sngor chrouk",
     "pork ribs pickled cabbage soup",
-    "sngor spay chrok"
+    "sngor spay chrok",
+    "ស្ងោរស្ពៃជ្រក់",
+    "ស្ពៃជ្រក់", 
+    "ស្ពៃជ្រក់ស្ងោរ",
+    "ស្ងោរស្ពៃ",
+    "ស្ពៃជ្រក់ស្ងោរ",
+    "ស្ពៃ"
   ],
   "sngor_prohet_trei_slat": [
     "sngor prohet trei",
     "fish ball soup",
-    "trei slat soup"
+    "trei slat soup",
+    "ស្ងោរប្រហិតត្រីស្លាត",
+    "ប្រហិតត្រីស្លាត",
+    "ស្ងោរប្រហិត",
+    "ប្រហិត",
+    "ត្រីស្លាត",
+    "ត្រីស្លាតស្ងោរ",
+    "ត្រីស្លាត",
+    "ស្ងោរប្រហិតត្រីស្លាត",
+    "ប្រហិតត្រីស្លាត",
+    "ស្ងោរប្រហិត"
   ],
   "cha_khtuem_barang": [
     "cha khtuem",
     "stir fried onion",
-    "khtuem barang"
+    "khtuem barang",
+    "ខ្ទឹមបារាំង",
+    "ឆាខ្ទឹមបារាំង",
+    "ខ្ទឹមបារាំង",
+    "ឆាខ្ទឹម"
   ],
   "kroeung_sach_trei": [
     "cha kroeung sach trei",
     "kar kroeung sach trei",
-    "fish spice paste"
+    "fish spice paste",
+    "kroeung paste with fish",
+    "fish lemongrass paste",
+    "គ្រឿងសាច់ត្រី",
+    "គ្រឿងត្រី"
   ],
   "cha_mi_sour": [
     "cha mi sour noodles",
-    "mi sour"
+    "mi sour", 
+    "cha mi sour noodles",
+    "mi sour",
+    "cha mi sor",
+    "stir fried bean thread noodles",
+    "stir fried glass noodles",
+    "cellophane noodles stir fry",
+    "ឆាមីសួ",
+    "មីសួ",
+    "ឆាមីសួរ", 
+    "noodles"
   ],
   "bay_damnaeub_mukh_bangkea": [
     "bay damnaeub",
-    "mukh bangkea"
+    "mukh bangkea", 
+    "sticky rice with shrimp",
+    "bay domneub shrimp",
+    "sweet sticky rice dried shrimp",
+    "បាយដំណើបុកបង្គា",
+    "បាយដំណើបបុកបង្គា",
+    "បាយដំណើបុក",
+    "បាយដំណើប",
+    "បាយដំណើបុក"
   ],
   "chek_chien": [
     "chek chieng",
     "jek jean",
     "fried banana",
-    "fried bananas"
+    "fried bananas",
+    "fried plantains",
+    "cambodian fried banana",
+    "ចេកចៀន",
+    "ចៀនចេក",
+    "ចៀន"
   ],
   "num_ansom_chrouk": [
     "num ansom",
-    "pork rice cake"
+    "pork rice cake",
+    "num ansom",
+    "pork rice cake",
+    "ansam chrouk",
+    "sticky rice cake with pork",
+    "khmer cylindrical rice cake",
+    "នំអន្សមជ្រូក",
+    "អន្សមជ្រូក",
+    "នំអន្សម"
   ],
   "nhoam_moan_tr_young_cek": [
     "nhoam moan",
     "banana blossom salad",
-    "chicken banana blossom"
+    "chicken banana blossom", 
+    "nhoam trayong chek",
+    "khmer chicken salad",
+    "ញាំមាន់ត្រយូងចេក",
+    "ញាំត្រយូងចេក",
+    "ញាំ"
   ],
   "omelette": [
     "oemlette",
     "omlette",
     "omelet",
+    "omalet",
     "egg omelette",
     "ពងទា",
     "ពងមាន់",
     "ពងមាន់ចៀន",
     "ចៀនពងមាន់",
+    "ពងទាចៀន",
+    "ចៀនពងទា",
+    "ពងទាឬពងមាន់",
+    "oemlette",
+    "omlette",
+    "omelet",
+    "omalet",
+    "egg omelette",
+    "khmer omelette",
+    "pong moarn chien",
+    "pong tea chien",
+    "ពងទា",
+    "ពងមាន់",
+    "ពងមាន់ចៀន",
+    "ចៀនពងមាន់",
+    "ពងទាចៀន",
+    "ចៀនពងទា",
     "ពងទាឬពងមាន់"
   ]
 }

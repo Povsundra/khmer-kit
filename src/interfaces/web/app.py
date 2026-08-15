@@ -15,13 +15,6 @@ os.environ.setdefault("USE_TF", "0")
 
 import streamlit as st
 
-from src.config import CATEGORIES, FAISS_PATH
-from src.core.language import QueryLanguage
-from src.core.llm import llm_available
-from src.interfaces.web.chat_ui import init_session_state, render_chat_history, run_ask
-from src.interfaces.web.recipe_card import dishes_for_category, load_dish_json, render_recipe_card
-from src.interfaces.web.theme import CATEGORY_ICONS, CATEGORY_LABELS, inject_theme, render_sidebar_brand
-
 st.set_page_config(
     page_title="Khmer Kitchen Companion",
     page_icon="🍲",
@@ -29,12 +22,31 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+from src.config import CATEGORIES, FAISS_PATH, secrets_toml_exists
+from src.core.language import QueryLanguage
+from src.core.llm import llm_available
+from src.interfaces.web.chat_ui import (
+    init_session_state,
+    render_chat_history,
+    reset_conversation,
+    run_ask,
+)
+from src.interfaces.web.recipe_card import dishes_for_category, load_dish_json, render_recipe_card
+from src.interfaces.web.i18n import TABS, category_label, t, tab_label, ui_lang
+from src.interfaces.web.theme import CATEGORY_ICONS, inject_theme, render_sidebar_brand
+
 inject_theme()
 init_session_state()
 
 
 def _apply_streamlit_secrets() -> None:
-    """Copy Streamlit secrets (Cloud dashboard or local secrets.toml) into os.environ."""
+    """Copy Streamlit secrets into os.environ when a secrets.toml exists.
+
+    Do not touch st.secrets otherwise: Streamlit prints 'No secrets files found'
+    in the UI even inside try/except. Local runs use `.env` via dotenv.
+    """
+    if not secrets_toml_exists():
+        return
     try:
         for key, value in st.secrets.items():
             if isinstance(value, str) and value and not os.getenv(key):
@@ -58,48 +70,85 @@ def _lang_param() -> QueryLanguage | None:
     return st.session_state.ui_lang  # "en" or "kh"
 
 
-def _short_name(slug: str | None, category: str) -> str:
+def _dish_names(slug: str | None, category: str) -> tuple[str, str]:
     if not slug:
-        return ""
+        return "", ""
     for d in dishes_for_category(category):
         if d["slug"] == slug:
-            return d["dish_name_en"].split("(")[0].strip().lower()
-    return ""
+            en = d["dish_name_en"].split("(")[0].strip()
+            kh = (d.get("dish_name_kh") or en).strip()
+            return en.lower(), kh
+    return "", ""
 
 
 def render_sidebar() -> str:
+    lang = ui_lang()
     with st.sidebar:
         render_sidebar_brand()
-        st.markdown('<div class="sidebar-section">Categories</div>', unsafe_allow_html=True)
+        st.radio(
+            "Lang",
+            options=["en", "kh"],
+            format_func=lambda x: "EN" if x == "en" else "KH",
+            horizontal=True,
+            label_visibility="collapsed",
+            key="ui_lang",
+        )
+        lang = ui_lang()
+        tab = st.radio(
+            "View",
+            options=list(TABS),
+            format_func=lambda name: tab_label(name, lang),
+            horizontal=True,
+            label_visibility="collapsed",
+            index=list(TABS).index(st.session_state.active_tab)
+            if st.session_state.active_tab in TABS
+            else 0,
+        )
+        st.session_state.active_tab = tab
+        st.markdown('<div class="sidebar-nav-end"></div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="sidebar-section khmer">{t("categories", lang)}</div>',
+            unsafe_allow_html=True,
+        )
         category = st.radio(
             "Category",
             options=list(CATEGORIES),
-            format_func=lambda c: f"{CATEGORY_ICONS.get(c, '')} {CATEGORY_LABELS.get(c, c.title())}",
+            format_func=lambda c: f"{CATEGORY_ICONS.get(c, '')} {category_label(c, lang)}",
             index=list(CATEGORIES).index(st.session_state.selected_category),
             label_visibility="collapsed",
         )
         st.session_state.selected_category = category
 
-        st.markdown('<div class="sidebar-section">Dishes</div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="sidebar-section khmer">{t("dishes", lang)}</div>',
+            unsafe_allow_html=True,
+        )
         dishes = dishes_for_category(category)
-        labels = {d["slug"]: d["dish_name_en"].split("(")[0].strip() for d in dishes}
+        if lang == "kh":
+            labels = {d["slug"]: d["dish_name_kh"] or d["dish_name_en"] for d in dishes}
+        else:
+            labels = {d["slug"]: d["dish_name_en"].split("(")[0].strip() for d in dishes}
         opts = [None] + [d["slug"] for d in dishes]
         idx = opts.index(st.session_state.selected_slug) if st.session_state.selected_slug in opts else 0
         picked = st.selectbox(
             "Dish",
             options=opts,
-            format_func=lambda s: "— Select a dish —" if s is None else labels[s],
+            format_func=lambda s: t("select_dish", lang) if s is None else labels[s],
             index=idx,
             label_visibility="collapsed",
         )
         st.session_state.selected_slug = picked
 
+        if st.button(t("new_chat", lang), use_container_width=True):
+            reset_conversation()
+            st.rerun()
+
         connected = llm_available()
         status_class = "llm-status connected" if connected else "llm-status"
-        status_text = "LLM connected" if connected else "Template answers only"
+        status_text = t("llm_on", lang) if connected else t("llm_off", lang)
         dot = "●" if connected else "○"
         st.markdown(
-            f'<div class="{status_class}">{dot} {status_text}</div>',
+            f'<div class="{status_class} khmer">{dot} {status_text}</div>',
             unsafe_allow_html=True,
         )
         if not connected:
@@ -109,32 +158,12 @@ def render_sidebar() -> str:
     return category
 
 
-def render_top_bar(category: str) -> str:
+def render_top_bar(category: str) -> None:
+    lang = ui_lang()
     dishes = dishes_for_category(category)
-    cat_label = CATEGORY_LABELS.get(category, category.title())
-    col_title, col_tabs, col_lang = st.columns([2, 2, 1])
-    with col_title:
-        st.markdown(f"### {cat_label}")
-        st.caption(f"{len(dishes)} traditional recipes")
-    with col_tabs:
-        tab = st.radio(
-            "View",
-            options=["Chat", "Browse", "Recipe"],
-            horizontal=True,
-            label_visibility="collapsed",
-            index=["Chat", "Browse", "Recipe"].index(st.session_state.active_tab),
-        )
-        st.session_state.active_tab = tab
-    with col_lang:
-        lang_choice = st.radio(
-            "Lang",
-            options=["EN", "KH"],
-            horizontal=True,
-            label_visibility="collapsed",
-            index=0 if st.session_state.ui_lang == "en" else 1,
-        )
-        st.session_state.ui_lang = "en" if lang_choice == "EN" else "kh"
-    return tab
+    cat_label = category_label(category, lang)
+    st.markdown(f'<h3 class="khmer">{cat_label}</h3>', unsafe_allow_html=True)
+    st.caption(t("recipes_count", lang, n=len(dishes)))
 
 
 def render_browse_tab(category: str, lang: QueryLanguage) -> None:
@@ -152,45 +181,55 @@ def render_browse_tab(category: str, lang: QueryLanguage) -> None:
 
 def render_recipe_tab(category: str, slug: str | None, lang: QueryLanguage) -> None:
     if not slug:
-        st.info("Select a dish from the sidebar or Browse tab.")
+        st.info(t("pick_dish", lang))
         return
     data = load_dish_json(category, slug)
     if data:
         render_recipe_card(data, lang)
     else:
-        st.warning("Recipe not found.")
+        st.warning(t("recipe_missing", lang))
 
 
 def render_suggestion_chips(category: str, slug: str | None) -> None:
-    short = _short_name(slug, category)
-    if short:
-        prompts = [
-            f"ingredients of {short}",
-            f"how to cook {short}",
-            f"recommend a {category} dish",
+    lang = ui_lang()
+    cat_shown = category_label(category, lang)
+    en_name, kh_name = _dish_names(slug, category)
+    shown_name = kh_name if lang == "kh" else en_name
+    if en_name:
+        pairs = [
+            (f"ingredients of {en_name}", t("chip_ingredients", lang, name=shown_name)),
+            (f"how to cook {en_name}", t("chip_how_to", lang, name=shown_name)),
+            (f"recommend a {category} dish", t("chip_recommend", lang, cat=cat_shown)),
         ]
     else:
-        prompts = [
-            f"what dishes are in the {category} category?",
-            f"recommend a {category} dish today",
+        pairs = [
+            (
+                f"what dishes are in the {category} category?",
+                t("chip_list_cat", lang, cat=cat_shown),
+            ),
+            (
+                f"recommend a {category} dish today",
+                t("chip_recommend_cat", lang, cat=cat_shown),
+            ),
         ]
-    cols = st.columns(len(prompts))
-    for i, p in enumerate(prompts):
-        if cols[i].button(p, key=f"suggest_{i}", use_container_width=True):
-            run_ask(p, _lang_param())
+    cols = st.columns(len(pairs))
+    for i, (query, label) in enumerate(pairs):
+        if cols[i].button(label, key=f"suggest_{i}", use_container_width=True):
+            run_ask(query, _lang_param())
             st.rerun()
 
 
 def main() -> None:
     _apply_streamlit_secrets()
     if not FAISS_PATH.is_file():
-        st.error("Recipe index not found. Run: `python scripts/build_index.py`")
+        st.error(t("index_missing"))
         st.stop()
 
     _warmup_search()
 
     category = render_sidebar()
-    tab = render_top_bar(category)
+    render_top_bar(category)
+    tab = st.session_state.active_tab
     lang: QueryLanguage = st.session_state.ui_lang
     slug = st.session_state.selected_slug
 
@@ -202,7 +241,7 @@ def main() -> None:
     elif tab == "Recipe":
         render_recipe_tab(category, slug, lang)
 
-    query = st.chat_input("Ask about a recipe or technique…")
+    query = st.chat_input(t("chat_placeholder", lang))
     if query:
         st.session_state.active_tab = "Chat"
         run_ask(query, _lang_param())

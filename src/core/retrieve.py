@@ -28,7 +28,7 @@ def _min_max(scores: np.ndarray) -> np.ndarray:
         return scores
     lo, hi = float(scores.min()), float(scores.max())
     if hi - lo < 1e-9:
-        return np.ones_like(scores)
+        return np.zeros_like(scores)
     return (scores - lo) / (hi - lo)
 
 

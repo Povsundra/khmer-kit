@@ -2,7 +2,7 @@
 
 **Course:** AI Engineering · Track B (RAG)  
 **Requirement:** ≥10 documented failures with root-cause analysis  
-**Last updated:** 2026-08-14  
+**Last updated:** 2026-08-15  
 **Status key:** `fixed` = mitigated in code · `open` = still reproducible · `accepted` = known limitation, not a bug to “fix” this phase
 
 Failures below were observed in CLI, Streamlit, retrieval experiments, or corpus review — not invented for the report.
@@ -22,12 +22,13 @@ Failures below were observed in CLI, Streamlit, retrieval experiments, or corpus
 | F07 | Similar-dish confusion | `how to cook samlor machu pralit` | open |
 | F08 | Intent / substitution miss | `no chicken for nhoam moan` | open |
 | F09 | Ambiguous query handling | `how to fry garlic for chap chhay soup` | open |
-| F10 | Ambiguous query handling | `I want to eat something spicy` | open |
+| F10 | Ambiguous query handling | `I want to eat something spicy` | fixed |
 | F11 | Translation drift | Chek Chien `ចេកពងមាន់` → “Chicken” | open |
 | F12 | Faithfulness / technique | `how do I know when the fish is 70% done` | open |
 | F13 | Citation / corpus gap | North-star `family_interview` | accepted |
 | F14 | UI overlay | Chat/Browse/Recipe appeared pinned on scroll | fixed |
 | F15 | Eval process | Phase 9 LLM-as-judge skipped | accepted |
+| F16 | Ambiguous query handling | `recommend me Khmer food?` dumped cha | fixed |
 
 ---
 
@@ -145,7 +146,7 @@ Failures below were observed in CLI, Streamlit, retrieval experiments, or corpus
 **Observed:** Intent=`dish_lookup`, no dish/category. Top chunks: Cha Khtuem Barang, pickled-cabbage sngor, Chap Chhay — none framed as a recommendation or a clarifying question.  
 **Expected:** Ask which category, or `recommend` from corpus with an explicit hedge.  
 **Root cause:** No intent for preference/mood; default `dish_lookup` always retrieves and (without a successful LLM call) prints `format_technique_fallback`.  
-**Status:** open
+**Status:** fixed (clarify path). Vague preference now routes to `recommend` and asks for a category instead of dumping unrelated steps.
 
 ---
 
@@ -200,6 +201,19 @@ Failures below were observed in CLI, Streamlit, retrieval experiments, or corpus
 **Expected (idea.md §13.2):** Gemini/Claude scores 1–5 groundedness.  
 **Root cause:** `run_eval.py` calls `llm_available()`; that process did not see `OPENROUTER_API_KEY` (Streamlit’s process did). Harness still records heuristic 4.64/5.  
 **Status:** accepted for the submitted tables; re-run `python scripts/run_eval.py` with `.env` loaded to fill LLM-judge columns.
+
+---
+
+## F16 — Vague recommend defaulted to cha
+
+**Category:** Ambiguous query handling — system guesses instead of clarifying  
+**Query:** `recommend me Khmer food?`  
+**Observed (before fix):** Intent=`recommend`, no category. `rewrite_query()` filled `cha` (`cat_part or 'cha'`), retrieved the cha parent, and answered with a stir-fry pick. A foreigner asking for “Khmer food” never heard that the cookbook has samlor, cha, dessert, and other.  
+**Expected:** Ask which type they want; only retrieve after they say soup / cha / dessert / other (or name a dish).  
+**Root cause:** One-shot engine. Recommend had no required slot; rewrite invented a category so hybrid search always had a query. Chat history was display-only.  
+**Fix:** `DialogueState` + clarify-vs-retrieve policy in `src/core/dialogue.py`. Missing category → grounded question from `src/core/clarify.py`. Short replies (`soup`, `1`, `the first one`) fill the slot. Rewrite no longer defaults to cha.  
+**Evidence:** `tests/test_dialogue.py`; `eval/test_queries_dialogue.json` d01–d04.  
+**Status:** fixed
 
 ---
 

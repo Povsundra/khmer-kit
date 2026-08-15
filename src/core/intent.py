@@ -75,7 +75,10 @@ _PATTERNS: dict[QueryIntent, list[re.Pattern[str]]] = {
             r"\bingredients?\b",
             r"what(?:'s| is) in",
             r"what do i need",
-            r"គ្រឿងផ្សំ",
+            r"what are (?:all )?(?:the )?ingredients?",
+            r"គ្រឿ.?ផ្សំ",
+            r"ត្រូវការអ្វី",
+            r"បញ្ជីគ្រឿ",
         ]
     ],
     "recommend": [
@@ -86,6 +89,8 @@ _PATTERNS: dict[QueryIntent, list[re.Pattern[str]]] = {
             r"which (?:one|dish)",
             r"what should i (?:eat|cook|make)",
             r"don'?t know which",
+            r"i want to eat something",
+            r"what (?:khmer|cambodian) food",
             r"ណែនាំ",
         ]
     ],
@@ -106,6 +111,8 @@ _PATTERNS: dict[QueryIntent, list[re.Pattern[str]]] = {
             r"recipe for",
             r"steps for",
             r"tell me how to",
+            r"tell me (?:the )?steps",
+            r"\bthe steps\b",
             r"របៀបធ្វើ",
             r"របៀបចៀន",
             r"របៀបដាំ",

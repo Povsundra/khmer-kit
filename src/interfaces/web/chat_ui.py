@@ -7,8 +7,10 @@ from typing import Any
 
 import streamlit as st
 
+from src.core.dialogue import DialogueState
 from src.core.engine import AnswerResult
 from src.core.language import QueryLanguage
+from src.interfaces.web.i18n import t
 from src.interfaces.web.recipe_card import load_dish_json, render_recipe_preview
 
 
@@ -23,6 +25,7 @@ def init_session_state() -> None:
         "active_tab": "Chat",
         "ui_lang": "en",
         "messages": [],
+        "dialogue_state": DialogueState(),
     }
     for key, val in defaults.items():
         if key not in st.session_state:
@@ -76,11 +79,11 @@ def render_chat_history(lang: QueryLanguage) -> None:
     messages = st.session_state.messages
     if not messages:
         st.markdown(
-            """
-            <div class="welcome-box">
-                <p><strong>Ask about a recipe or technique</strong></p>
+            f"""
+            <div class="welcome-box khmer">
+                <p><strong>{t("welcome_title", lang)}</strong></p>
                 <p style="font-size:0.85rem;margin-top:0.5rem;">
-                    Select a category and dish in the sidebar, or type a question below.
+                    {t("welcome_body", lang)}
                 </p>
             </div>
             """,
@@ -124,15 +127,37 @@ def last_focus_slug() -> str | None:
     return None
 
 
+def reset_conversation() -> None:
+    """Clear chat bubbles and dialogue slots (sidebar dish can stay)."""
+    st.session_state.messages = []
+    st.session_state.dialogue_state = DialogueState()
+
+
+def last_user_query() -> str | None:
+    """Most recent user turn, used as rewrite context (not the assistant recipe)."""
+    for msg in reversed(st.session_state.get("messages") or []):
+        if msg.get("role") == "user":
+            text = str(msg.get("content") or "").strip()
+            return text or None
+    return None
+
+
 def run_ask(query: str, lang: QueryLanguage | None) -> None:
     from src.core.engine import answer_query
 
+    state = st.session_state.get("dialogue_state")
+    if not isinstance(state, DialogueState):
+        state = DialogueState()
+        st.session_state.dialogue_state = state
+
     try:
-        with st.spinner("Searching the cookbook…"):
+        with st.spinner(t("searching", lang)):
             result = answer_query(
                 query.strip(),
                 lang=lang,
                 focus_slug=last_focus_slug(),
+                prior_query=last_user_query(),
+                state=state,
             )
     except Exception as exc:
         st.error(
@@ -141,6 +166,7 @@ def run_ask(query: str, lang: QueryLanguage | None) -> None:
         )
         return
     append_exchange(query.strip(), result)
+    st.session_state.dialogue_state = result.state
     if result.chunks_used:
         slug = result.chunks_used[0].get("slug")
         if slug and not slug.startswith("_parent"):
