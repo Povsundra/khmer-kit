@@ -14,6 +14,7 @@ TEXT = "#F5EDE3"
 MUTED = "#A89880"
 BORDER = "#3D342C"
 USER_BUBBLE = "#322B23"
+INK = "#1C1814"
 
 CATEGORY_LABELS = {
     "samlor": "Samlor",
@@ -48,19 +49,32 @@ def inject_theme() -> None:
             --muted: {MUTED};
             --border: {BORDER};
             --user-bubble: {USER_BUBBLE};
+            --ink: {INK};
         }}
-        .stApp {{
-            background-color: var(--bg);
-            color: var(--text);
+        .stApp, .stApp [data-testid="stAppViewContainer"],
+        .stApp [data-testid="stMain"], .stApp [data-testid="stMainBlockContainer"] {{
+            background-color: var(--bg) !important;
+            color: var(--text) !important;
             font-family: 'Inter', 'Noto Sans Khmer', system-ui, sans-serif;
         }}
         .khmer {{
             font-family: 'Noto Sans Khmer', 'Inter', sans-serif;
         }}
+        .stApp [data-testid="stMarkdownContainer"] p,
+        .stApp [data-testid="stMarkdownContainer"] li,
+        .stApp [data-testid="stHeading"] *,
+        .stApp [data-testid="stChatMessageContent"] {{
+            color: var(--text) !important;
+        }}
         #MainMenu {{visibility: hidden;}}
         footer {{visibility: hidden;}}
+        /* Header is a full-viewport layer; a solid fill blocks every click. */
         header[data-testid="stHeader"] {{
-            background: var(--bg);
+            background: transparent !important;
+            pointer-events: none;
+        }}
+        header[data-testid="stHeader"] * {{
+            pointer-events: auto;
         }}
         /* View switcher (Chat / Browse / Recipe) must scroll with page content */
         .stApp .main div[data-testid="stRadio"] {{
@@ -68,11 +82,14 @@ def inject_theme() -> None:
             top: auto !important;
             bottom: auto !important;
         }}
-        div[data-testid="stSidebar"] {{
-            background-color: var(--sidebar);
+        div[data-testid="stSidebar"], section[data-testid="stSidebar"] {{
+            background-color: var(--sidebar) !important;
             border-right: 1px solid var(--border);
         }}
-        div[data-testid="stSidebar"] * {{
+        div[data-testid="stSidebar"] p,
+        div[data-testid="stSidebar"] span,
+        div[data-testid="stSidebar"] label,
+        div[data-testid="stSidebar"] li {{
             color: var(--text);
         }}
         .sidebar-brand {{
@@ -87,7 +104,7 @@ def inject_theme() -> None:
         }}
         .sidebar-brand p {{
             font-size: 0.78rem;
-            color: var(--primary);
+            color: var(--primary) !important;
             margin: 0.25rem 0 0 0;
         }}
         .sidebar-section {{
@@ -116,7 +133,7 @@ def inject_theme() -> None:
             padding-top: 1rem;
             border-top: 1px solid var(--border);
         }}
-        .llm-status.connected {{ color: var(--secondary); }}
+        .llm-status.connected {{ color: var(--secondary) !important; }}
         .main-header {{
             display: flex;
             align-items: center;
@@ -168,17 +185,17 @@ def inject_theme() -> None:
         }}
         .tag-source {{
             background: rgba(143, 191, 106, 0.15);
-            color: var(--secondary);
+            color: var(--secondary) !important;
             border: 1px solid rgba(143, 191, 106, 0.3);
         }}
         .tag-intent {{
             background: rgba(212, 162, 76, 0.12);
-            color: var(--primary);
+            color: var(--primary) !important;
             border: 1px solid rgba(212, 162, 76, 0.25);
         }}
         .tag-dish {{
             background: rgba(139, 148, 158, 0.15);
-            color: var(--muted);
+            color: var(--muted) !important;
             border: 1px solid var(--border);
         }}
         .recipe-title {{
@@ -243,10 +260,10 @@ def inject_theme() -> None:
             background: transparent;
         }}
         div[data-testid="stChatMessageContent"] {{
-            background: var(--surface);
+            background: var(--surface) !important;
             border: 1px solid var(--border);
             border-radius: 12px;
-            color: var(--text);
+            color: var(--text) !important;
         }}
         div[data-testid="stChatMessage"]:has([data-testid="chatAvatarIcon-user"])
             [data-testid="stChatMessageContent"] {{
@@ -258,27 +275,79 @@ def inject_theme() -> None:
             border: 1px solid var(--border) !important;
             border-radius: 10px !important;
         }}
+        div[data-testid="stChatInput"] {{
+            background: var(--bg) !important;
+        }}
+        .stButton > button {{
+            background-color: var(--surface) !important;
+            color: var(--text) !important;
+            border: 1px solid var(--border) !important;
+            border-radius: 8px !important;
+            font-weight: 600;
+            white-space: normal;
+            height: auto !important;
+            min-height: 2.4rem;
+            line-height: 1.35;
+        }}
+        .stButton > button:hover {{
+            border-color: var(--primary) !important;
+            color: var(--text) !important;
+        }}
         .stButton > button[kind="primary"] {{
-            background-color: var(--primary);
-            border: none;
+            background-color: var(--primary) !important;
+            color: var(--ink) !important;
+            border: none !important;
             border-radius: 8px;
             font-weight: 600;
         }}
         .stButton > button[kind="primary"]:hover {{
-            background-color: #B8862F;
+            background-color: #B8862F !important;
+            color: var(--ink) !important;
         }}
         div[data-testid="stRadio"] label {{
-            background: var(--surface);
-            border: 1px solid var(--border);
+            background: var(--surface) !important;
+            color: var(--text) !important;
+            border: 1px solid var(--border) !important;
             border-radius: 8px;
-            padding: 0.35rem 0.75rem;
+            padding: 0.45rem 0.75rem;
         }}
         div[data-testid="stRadio"] input {{
             accent-color: var(--primary);
         }}
         div[data-testid="stRadio"] label:has(input:checked) {{
-            background: var(--primary-dim);
-            border-color: var(--primary);
+            background: var(--primary-dim) !important;
+            border-color: var(--primary) !important;
+            color: var(--text) !important;
+        }}
+        div[data-testid="stSelectbox"] > div,
+        div[data-testid="stSelectbox"] div[data-baseweb="select"] > div {{
+            background-color: var(--surface) !important;
+            color: var(--text) !important;
+            border-color: var(--border) !important;
+        }}
+        div[data-testid="stSelectbox"] svg {{
+            fill: var(--text) !important;
+        }}
+        div[data-testid="stCaptionContainer"],
+        div[data-testid="stCaptionContainer"] * {{
+            color: var(--muted) !important;
+        }}
+        @media (max-width: 768px) {{
+            .stButton > button {{
+                font-size: 0.78rem !important;
+                padding: 0.4rem 0.45rem !important;
+            }}
+            div[data-testid="stRadio"] label {{
+                padding: 0.4rem 0.55rem;
+                font-size: 0.8rem;
+            }}
+        }}
+        /* CSS-injection markdown must not sit on top of widgets. */
+        .stApp > .main .block-container > div:first-child:has(style) {{
+            position: absolute;
+            height: 0;
+            overflow: hidden;
+            pointer-events: none;
         }}
         </style>
         """,
